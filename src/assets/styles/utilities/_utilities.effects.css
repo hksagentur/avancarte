@@ -1,0 +1,39 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:EFFECTS
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Kink Effect
+ *
+ * Simulate a kinked corner at a given element.
+ *
+ * @example markup
+ *   <div class="c-summary / u-bg-concrete / u-effect-kink">
+ *     …
+ *   </div>
+ */
+
+.u-effect-kink {
+  --kink-effect-width: var(--size-8);
+  --kink-effect-height: var(--size-16);
+
+  position: relative;
+  clip-path:
+    polygon(
+      100% 0,
+      100% calc(100% - var(--kink-effect-height)),
+      calc(100% - var(--kink-effect-width)) 100%,
+      0 100%,
+      0 0
+    );
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: var(--kink-effect-width);
+    height: var(--kink-effect-height);
+    background-color: var(--kink-effect-color, var(--color-dark-opaque));
+  }
+}

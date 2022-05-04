@@ -1,0 +1,44 @@
+{% macro menu(languages, id="language-menu") %}
+  {% if languages|length %}
+    <ul id="{{ id }}" class="c-choices">
+      {% for key, language in languages %}
+        {{ menu_item(language) }}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro menu_item(language) %}
+  {% set isCurrent = (language.id === lang) %}
+
+  {% set itemClasses = [
+    "c-choices__item",
+    "c-choices__item--active" if isCurrent
+  ] %}
+
+  {% set linkClasses = [
+    "c-choices__link",
+    "c-choices__link--active" if isCurrent
+  ] %}
+
+  <li class="{{ itemClasses|join(' ') }}" lang="{{ language.id }}">
+    <a
+      class="{{ linkClasses|join(' ') }}"
+      href="{{ language.url|url }}"
+      title="{{ language.name }}"
+      hreflang="{{ language.id }}"
+    >
+      <bdi>{{ language.title }}</bdi>
+    </a>
+  </li>
+{% endmacro %}
+
+<nav class="c-language-switcher" aria-labelledby="language-menu-label" role="navigation">
+  <h2 id="language-menu-label" class="c-language-switcher__label" hidden>
+    {{ "Language selection"|trans }}
+  </h2>
+
+  <div class="c-language-switcher__choices">
+    {{ menu(languages) }}
+  </div>
+</nav>

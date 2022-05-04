@@ -1,0 +1,41 @@
+/* -----------------------------------------------------------------------
+ * #SCOPES:RICHTEXT
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Rich Text Formatting
+ *
+ * Sane typographic defaults for text sections.
+ *
+ * @example markup
+ *   <div class="s-rich-text">
+ *      <h2>
+ *        Hello World
+ *      </h2>
+ *      <p>
+ *        Lorem ipsum …
+ *      </p>
+ *   </div>
+ */
+
+.s-rich-text {
+
+  & > :not(:last-child) {
+    margin-bottom: var(--size-4);
+  }
+
+  & a:not([class]) {
+    text-decoration: underline;
+    text-decoration-underline: var(--color-accent);
+    text-decoration-thickness: 0.075em;
+    text-decoration-skip-ink: auto;
+    text-underline-offset: 0.3em;
+    transition: color var(--duration-snappy) var(--easing-standard);
+
+    &:hover,
+    &:focus {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+  }
+}

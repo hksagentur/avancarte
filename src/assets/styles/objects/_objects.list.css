@@ -1,0 +1,40 @@
+/* -----------------------------------------------------------------------
+ * #OBJECTS:LIST
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Unstyled List
+ *
+ * Strip list-like appearance from lists by removing bullets and indentation.
+ *
+ * @example markup
+ *   <ul class="o-list-bare">
+ *     <li>Foo</li>
+ *     <li>Bar</li>
+ *   </ul>
+ */
+
+.o-list-bare {
+  list-style: none;
+  margin-left: 0;
+}
+
+/**
+ * Inline List
+ *
+ * The list-inline object simply displays a list of items in one line.
+ *
+ * @example markup
+ *   <ul class="o-list-inline">
+ *     <li>Foo</li>
+ *     <li>Bar</li>
+ *   </ul>
+ */
+
+.o-list-inline {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4);
+  margin-left: 0;
+}

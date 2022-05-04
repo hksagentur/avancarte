@@ -1,0 +1,33 @@
+{% set stores = sections[lang].stores|default([]) %}
+
+{% if stores|length %}
+  <section class="c-section c-section--stores">
+    <h2 class="s-section__title / u-sr-only">
+      {{ "Online-Shop"|trans }}
+    </h2>
+
+    <div class="o-container / o-grid o-grid--columns-2">
+      {% for item in stores %}
+        <article class="c-summary c-summary--center">
+          <h3 class="c-summary__title">
+            {{ item.title }}
+          </h3>
+
+          <p class="c-summary__excerpt">
+            {{ item.summary }}
+          </p>
+
+          {% if item.more %}
+            <a href="{{ item.more.url|url }}" class="c-button c-button--primary">
+              {{ item.more.label }}
+
+              {% if item.icon %}
+                {% icon item.icon, class=["o-icon", "o-icon--right"] %}
+              {% endif %}
+            </a>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

@@ -1,0 +1,39 @@
+/* -----------------------------------------------------------------------
+ * #OBJECTS:ICONS
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Icon Object
+ *
+ * The icon object normalizes the appearance of svg icons. SVG icons are
+ * generally embedded via a generated icon sprite. Individual icons in the
+ * sprite sheet can be referenced by the unique identifier of the symbol.
+ *
+ * @example markup
+ *   <svg class="o-icon o-icon--mail" width="24" height="24" aria-hidden="true">
+ *     <use xlink:href="/assets/images/icons.svg#icon-mail"></use>
+ *   </svg>
+ */
+
+.o-icon {
+  display: inline-block;
+  vertical-align: -0.125em;
+  width: 1em;
+  height: 1em;
+  fill: currentcolor;
+  stroke: none;
+}
+
+/**
+ * Icon Positions
+ *
+ * Add some spacing between the icon and any following/preceding element.
+ */
+
+.o-icon--left {
+  margin-right: 0.5em;
+}
+
+.o-icon--right {
+  margin-left: 0.5em;
+}

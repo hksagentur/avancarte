@@ -1,0 +1,43 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:META
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Meta
+ *
+ * A list of meta attributes.
+ *
+ * @example markup
+ *   <dl class="c-meta">
+ *     <dt class="c-meta__key">Telephone</dt>
+ *     <dd class="c-meta__value">+49 (0)421 1234-56</dd>
+ *     <dt class="c-meta__key">Fax</dt>
+ *     <dd class="c-meta__value">+49 (0)421 1234-57</dd>
+ *   </dl>
+ */
+
+.c-meta {
+  display: grid;
+  grid-template-columns: max-content auto;
+  column-gap: var(--size-4);
+}
+
+.c-meta__key {
+  font-weight: var(--font-semibold);
+}
+
+.c-meta--inline {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0;
+  margin-left: calc(-1 * var(--size-4));
+  white-space: nowrap;
+
+  & > .c-meta__key {
+    padding-left: var(--size-4);
+  }
+
+  & > .c-meta__value {
+    padding-left: var(--size-2);
+  }
+}

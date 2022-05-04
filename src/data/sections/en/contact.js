@@ -1,0 +1,5 @@
+module.exports = {
+  title: 'Do you have any questions?',
+  tagline: 'Service and consulting',
+  summary: 'Contact us now. We will be pleased to help you.',
+};

@@ -1,0 +1,71 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:SUMMARY
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Summary
+ *
+ * @todo Add description
+ *
+ * @example markup
+ *   <article class="c-summary">
+ *     <h3 class="c-summary__title">
+ *       Present professionally - profit safely.
+ *     </h3>
+ *     <div class="c-summary__excerpt">
+ *       <p>…</p>
+ *     </div>
+ *   </article>
+ */
+
+.c-summary {
+  --summary-content-width: calc(var(--measure-normal) - var(--summary-content-inset));
+  --summary-content-inset: var(--size-8);
+
+  display: grid;
+  grid-template-columns:
+    [full-start]
+    calc(50% - (0.5 * var(--summary-content-width)))
+    [content-start] 1fr [content-end]
+    calc(50% - (0.5 * var(--summary-content-width)))
+    [full-end];
+  column-gap: var(--summary-content-inset);
+  place-items: start;
+  place-content: center;
+  padding-top: var(--summary-content-inset);
+  padding-bottom: var(--summary-content-inset);
+
+  & > * {
+    grid-column: content;
+  }
+
+  & > :not(:last-child) {
+    margin-bottom: var(--size-4);
+  }
+}
+
+.c-summary__title {
+  font-size: var(--scale-1);
+  font-size: var(--fluid-md);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-tight);
+
+  &.u-divide-y {
+    padding-bottom: var(--size-4);
+  }
+}
+
+.c-summary__tagline {
+  margin-bottom: var(--size-2);
+  font-size: var(--scale-xs);
+  font-weight: var(--font-regular);
+  line-height: var(--leading-snug);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+}
+
+.c-summary--center {
+  place-content: center;
+  place-items: center;
+  text-align: center;
+}

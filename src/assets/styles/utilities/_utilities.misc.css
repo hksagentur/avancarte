@@ -1,0 +1,35 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:MISC
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Divider
+ *
+ * Add a horizontal or vertical border between elements.
+ */
+
+.u-divide-y {
+  border-bottom: 1px dashed var(--color-divider);
+  border-image-source: url("../images/border-dashed.svg");
+  border-image-slice: 24;
+  border-image-width: 0 0 24px;
+  border-image-repeat: repeat;
+}
+
+/**
+ * Resize Replaced Elements
+ *
+ * Stretch a replaced element, such as an image or video, to fit the dimensions
+ * of its parent container.
+ */
+
+.u-object-cover {
+  width: 100%;
+  max-width: none;
+
+  @supports (object-fit: cover) {
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+}

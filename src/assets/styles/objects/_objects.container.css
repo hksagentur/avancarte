@@ -1,0 +1,54 @@
+/* -----------------------------------------------------------------------
+ * #OBJECTS:CONTAINER
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Container
+ *
+ * A reusable container that can be used to limit an element’s measure for
+ * readability. The container is centered horizontally, once a given line length
+ * is reached.
+ *
+ * @example markup
+ *   <section>
+ *     <div class="o-container">
+ *       …
+ *     </div>
+ *   </section>
+ */
+
+.o-container {
+  max-width: var(--container-width, 74rem);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--container-margin, var(--size-2));
+  padding-left: var(--container-margin, var(--size-2));
+}
+
+/**
+ * Container Sizes
+ *
+ * Studies suggest that a line length between 55 and 60 characters (including
+ * spaces) is considered optimal in terms of readability. By default the width
+ * of a container is limited to 60 characters per line. You can customize the
+ * width of a container with one of the following modifier classes.
+ *
+ * @example markup
+ *   <header class="o-container o-container--lg">
+ *     <nav aria-label="Site navigation">
+ *       …
+ *     </nav>
+ *   </header>
+ */
+
+.o-container--prose {
+  --container-width: var(--measure-normal);
+}
+
+.o-container--sm {
+  --container-width: 48rem;
+}
+
+.o-container--lg {
+  --container-width: 100rem;
+}

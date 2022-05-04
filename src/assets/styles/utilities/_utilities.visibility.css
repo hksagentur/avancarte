@@ -1,0 +1,55 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:VISIBILITY
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Visibility
+ *
+ * Utilities for controlling the visibility of an element.
+ */
+
+.u-visible\@md,
+.u-visible\@lg,
+.u-visible\@xl {
+  display: none !important;
+}
+
+.u-hidden {
+  display: none !important;
+}
+
+@media (--sm-only) {
+  .u-hidden\@sm {
+    display: none !important;
+  }
+}
+
+@media (--md-up) {
+  .u-visible\@md {
+    display: unset !important;
+  }
+
+  .u-hidden\@md {
+    display: none !important;
+  }
+}
+
+@media (--lg-up) {
+  .u-visible\@lg {
+    display: unset !important;
+  }
+
+  .u-hidden\@lg {
+    display: none !important;
+  }
+}
+
+@media (--xl-up) {
+  .u-visible\@xl {
+    display: unset !important;
+  }
+
+  .u-hidden\@xl {
+    display: none !important;
+  }
+}

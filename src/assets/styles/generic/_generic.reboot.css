@@ -1,0 +1,191 @@
+/* -----------------------------------------------------------------------
+ * #GENERIC:REBOOT
+ * ----------------------------------------------------------------------- */
+
+/* Document
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Establishes the vertical baseline grid and customizes the default `font-size`
+ * and `line-height` used.
+ *
+ * Make CSS Layouts easier by opting for a different box model than the default
+ * content-box.
+ *
+ * @see {@link https://css-tricks.com/?p=175473}
+ */
+
+html {
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: var(--leading-normal);
+  letter-spacing: var(--tracking-wide);
+  background-color: var(--color-light);
+}
+
+* {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+[role="document"] {
+  height: 100%;
+}
+
+/* Flow Content
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Remove global list styling.
+ */
+
+ol,
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/**
+ * Remove default font styling.
+ */
+
+address {
+  font-style: normal;
+}
+
+/* Heading Content
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Reset default styling of headings.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-semibold);
+  font-size: inherit;
+}
+
+/* Phrasing Content
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Remove default styling.
+ */
+
+a {
+  color: currentcolor;
+  text-decoration: none;
+}
+
+/**
+ * Customize font weight of emphasized content.
+ */
+
+strong,
+b {
+  font-weight: var(--font-semibold);
+}
+
+/* Embedded & Interactive Content
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Make elements responsive by default, and remove vertical spacing from inline
+ * elements. Maintain intrinsic aspect ratios when `max-width` is applied.
+ */
+
+img,
+svg,
+canvas,
+video {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+/**
+ * Prevent the `display` property from getting accidentally overridden.
+ */
+
+[hidden] {
+  display: none !important;
+}
+
+/**
+ * Add support for the inert attribute.
+ */
+
+[inert] {
+  pointer-events: none;
+  cursor: default;
+
+  &,
+  & * {
+    user-select: none;
+  }
+}
+
+/* Form-associated Content
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Correct the inheritance and scaling of font size in all browsers.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+}
+
+/**
+ * Remove default styling.
+ */
+
+button {
+  appearance: none;
+  border: 0;
+  color: currentcolor;
+  background: none;
+
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+/**
+ * Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ * on fieldsets.
+ */
+
+fieldset {
+  min-width: 0;
+}

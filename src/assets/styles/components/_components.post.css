@@ -1,0 +1,63 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:POST
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Post
+ *
+ * Display a short teaser for a blog a post.
+ *
+ * @example markup
+ *   <article class="c-post">
+ *     <h3 class="c-post__title">
+ *       AvanShowTime
+ *     </h3>
+ *     <p class="c-post__excerpt">
+ *       …
+ *     </p>
+ *     <a href="…" class="c-post__more / c-more" aria-label="Read more about AvanShowTime">
+ *       Read more
+ *     </a>
+ *     <div class="c-post__thumbnail">
+ *       <img class="c-post__thumbnail-image / u-object-cover" src="…" alt="">
+ *     </div>
+ *   </article>
+ */
+
+.c-post {
+  display: flex;
+  flex-direction: column;
+
+  &:focus-within {
+    outline: 0.25rem solid var(--color-outline);
+    outline-offset: 0.25rem;
+  }
+}
+
+.c-post__title,
+.c-post__thumbnail,
+.c-post__excerpt {
+  margin-bottom: var(--size-4);
+}
+
+.c-post__thumbnail {
+  order: -1;
+  aspect-ratio: 3 / 2;
+}
+
+.c-post__title {
+  color: var(--color-primary-400);
+  font-size: var(--scale-1);
+  font-size: var(--fluid-sm);
+  font-weight: var(--font-semibold);
+}
+
+.c-post__more {
+  margin-top: auto;
+}
+
+.has-js {
+  & .c-post {
+    cursor: pointer;
+  }
+}

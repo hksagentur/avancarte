@@ -1,0 +1,42 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:ACCESSIBILITY
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Assistive Text
+ *
+ * Hides elements visually, but keeps them accessible for screen-readers and
+ * other assistive technologies.
+ *
+ * @see {@link https://snook.ca/s/992 Hiding Content for Accessibility}
+ */
+
+.u-sr-only,
+.u-sr-skip {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.u-sr-skip:active,
+.u-sr-skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  clip-path: none;
+  white-space: normal;
+}
+
+.u-sr-skip:focus {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

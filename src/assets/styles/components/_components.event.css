@@ -1,0 +1,96 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:EVENT
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Event
+ *
+ * @todo Add description
+ *
+ * @example markup
+ *   <article class="c-event">
+ *     <header class="c-event__header">
+ *       <h3 class="c-event__title">
+ *         TrendSet Munich
+ *       </h3>
+ *       <div class="c-event__date-period">
+ *         <time class="c-event__start-date">…</time>
+ *         <span role="separator">&ndash;</span>
+ *         <time class="c-event__start-date">…</time>
+ *       </div>
+ *     </header>
+ *     <footer class="c-event__meta">
+ *       <dl class="c-meta">…</dl>
+ *     </footer>
+ *     <div class="c-event__figure">
+ *       <svg class="c-event__placeholder">…</svg>
+ *     </div>
+ *   </article>
+ */
+
+.c-event {
+  display: grid;
+  grid-template-columns: var(--size-24) auto;
+  grid-template-rows: auto;
+  grid-template-areas: "figure header" "figure meta";
+  align-items: stretch;
+  color: var(--color-text);
+  background-color: var(--color-light);
+}
+
+.c-event__header,
+.c-event__meta {
+  padding: var(--size-2) var(--size-4);
+}
+
+.c-event__header {
+  grid-area: header;
+}
+
+.c-event__title {
+  font-size: var(--scale-1);
+  font-size: var(--fluid-sm);
+  font-weight: var(--font-semibold);
+}
+
+.c-event__date-period {
+  color: var(--color-muted);
+}
+
+.c-event__meta {
+  grid-area: meta;
+}
+
+.c-event__figure {
+  grid-area: figure;
+}
+
+.c-event__placeholder {
+  display: block;
+  width: auto;
+  height: 100%;
+  fill: var(--color-secondary-800);
+}
+
+.c-event__placeholder-day {
+  font-size: var(--scale-6);
+}
+
+.c-event__placeholder-month {
+  font-size: var(--scale-1);
+  font-weight: var(--font-semibold);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+}
+
+.c-event__placeholder-bg {
+  stroke: none;
+
+  &:first-of-type {
+    fill: var(--color-secondary-400);
+  }
+
+  &:last-of-type {
+    fill: var(--color-secondary-50);
+  }
+}

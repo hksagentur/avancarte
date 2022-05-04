@@ -1,0 +1,67 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:SECTION
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Section
+ *
+ * A simple container that can be used to divide your page into visually
+ * distinctiv sections.
+ *
+ * @example markup
+ *   <section class="c-section">
+ *     <div class="c-section__tagline">
+ *       Shoping Solutions
+ *     </div>
+ *     <h1 class="c-section__title">
+ *       Present professionally - profit safely.
+ *     </h1>
+ *     <div class="s-rich-text">
+ *       <p>…</p>
+ *       <ul>…</ul>
+ *       <p>…</p>
+ *     </div>
+ *   </section>
+ */
+
+.c-section {
+  padding-top: var(--size-24);
+  padding-bottom: var(--size-24);
+}
+
+.c-section__title,
+.c-section__heading {
+  margin-bottom: var(--size-6);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-tight);
+}
+
+.c-section__title,
+.c-section__tagline {
+  text-align: center;
+  letter-spacing: var(--tracking-wider);
+}
+
+.c-section__title {
+  font-size: var(--scale-3);
+  font-size: var(--fluid-lg);
+}
+
+.c-section__tagline {
+  margin-bottom: var(--size-2);
+  font-size: var(--scale-sm);
+  font-weight: var(--font-regular);
+  line-height: var(--leading-snug);
+  text-transform: uppercase;
+}
+
+.c-section__heading {
+  font-size: var(--scale-2);
+}
+
+.c-section__content {
+
+  @nest & + & {
+    margin-top: var(--size-24);
+  }
+}

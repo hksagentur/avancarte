@@ -1,0 +1,20 @@
+{% set bookmarks = sections[lang].bookmarks|default([]) %}
+
+{% if bookmarks|length %}
+  <section class="c-section c-section--bookmarks">
+    <h2 class="c-section__title">
+      {{ "What makes us different"|trans }}
+    </h2>
+
+    <div class="o-container / o-grid o-grid--columns-3">
+      {% for item in bookmarks %}
+        <a href="{{ item.url|url }}" class="c-tile / u-effect-kink">
+          <span class="c-tile__title">
+            {{ item.title }}
+          </span>
+          {% icon item.icon, class=["c-tile__icon"] %}
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

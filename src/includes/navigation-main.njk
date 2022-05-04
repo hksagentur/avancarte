@@ -1,0 +1,89 @@
+{%- set links = collections.all|tagged_with(lang)|eleventyNavigation -%}
+
+{% macro menu(items, id="site-navigation", depth=0) %}
+  {% set isSubmenu = (depth > 0) %}
+
+  {% if items|length %}
+    <ul id="{{ id }}" class="{{ 'c-site-nav__submenu' if isSubmenu else 'c-site-nav__menu' }}" data-component="disclosure-menu">
+      {% for item in items %}
+        {{ menu_item(item, depth) }}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro menu_item(item, depth=0) %}
+  {% set hasChildren = (item.children.length > 0) %}
+
+  {% set isSubmenu = (depth > 0) %}
+  {% set isCurrent = (page.url !== false) and (item.url == page.url) %}
+  {% set isAncestor = (page.url !== false) and (item.url != "/") and (item.url in page.url) %}
+
+  {% set namespace = "c-site-nav__submenu-" if isSubmenu else "c-site-nav__menu-" %}
+
+  {% set itemClasses = [
+    namespace ~ "item",
+    namespace ~ "item--active" if (isCurrent or isAncestor),
+    namespace ~ "item--has-children" if (hasChildren)
+  ] %}
+
+  {% set linkClasses = [
+    namespace ~ "link",
+    namespace ~ "link--active" if (isCurrent or isAncestor)
+  ] %}
+
+  <li class="{{ itemClasses|join(' ') }}">
+    <a
+      href="{{ item.url|url }}"
+      class="{{ linkClasses|join(' ') }}"
+      {% if isCurrent %} aria-current="page"{% endif %}
+    >
+      {{ item.title }}
+    </a>
+
+    {% if hasChildren %}
+      {{ menu_toggle(item) }}
+      {{ menu(item.children, "menu-" ~ item.key, depth + 1) }}
+    {% endif %}
+  </li>
+{% endmacro %}
+
+{% macro menu_toggle(item) %}
+  <button
+    type="button"
+    class="c-site-nav__submenu-toggle"
+    aria-label="{{ 'Show sub items for :topic'|trans({topic: item.title}) }}"
+    aria-controls="{{ 'menu-' ~ item.key }}"
+    aria-expanded="false"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" focusable="false">
+      <polyline points="1,1 6,5 11,1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+{% endmacro %}
+
+<nav class="c-site-nav" aria-labelledby="site-navigation-label" role="navigation">
+  <h2 id="site-navigation-label" class="c-site-nav__label" hidden>
+    {{ "Site navigation"|trans }}
+  </h2>
+
+  <button
+    type="button"
+    class="c-site-nav__menu-toggle"
+    aria-label="{{ 'Toggle site navigation'|trans }}"
+    aria-controls="site-navigation"
+    aria-expanded="false"
+    data-component="disclosure-button"
+  >
+    <span class="u-sr-only">
+      {{ "Menu"|trans }}
+    </span>
+    <span class="c-site-nav__menu-icon">
+      <span class="c-site-nav__menu-icon-bar"></span>
+      <span class="c-site-nav__menu-icon-bar"></span>
+      <span class="c-site-nav__menu-icon-bar"></span>
+    </span>
+  </button>
+
+  {{ menu(links) }}
+</nav>

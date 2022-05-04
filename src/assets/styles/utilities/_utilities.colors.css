@@ -1,0 +1,65 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:COLORS
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Text Colors
+ *
+ * Make some theme colors available as utility classes to customize the text
+ * color of an element.
+ *
+ * @example markup
+ *   <section class="c-section / u-text-primary">
+ *     …
+ *   </section>
+ */
+
+.u-text-primary {
+  color: var(--color-primary-400);
+}
+
+.u-text-secondary {
+  color: var(--color-secondary-400);
+}
+
+.u-text-muted {
+  color: var(--color-muted);
+}
+
+/**
+ * Background Colors
+ *
+ * Make some theme colors available as utility classes to customize the
+ * background color of an element.
+ *
+ * @example markup
+ *   <section class="c-section / u-bg-merino">
+ *     …
+ *   </section>
+ */
+
+.u-bg-primary {
+  background-color: var(--color-primary-50);
+}
+
+.u-bg-secondary {
+  background-color: var(--color-secondary-50);
+}
+
+.u-bg-merino {
+  background-color: var(--color-merino);
+}
+
+.u-bg-concrete {
+  --concrete-pattern-width: 412px;
+  --concrete-pattern-height: 349px;
+
+  background-color: var(--color-concrete);
+  background-size: var(--concrete-pattern-width) var(--concrete-pattern-height);
+  background-repeat: repeat;
+  background-image:
+    image-set(
+      url("../images/pattern-concrete.png") 1x,
+      url("../images/pattern-concrete@2x.png") 2x
+    );
+}

@@ -1,0 +1,26 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:ANIMATIONS
+ * ----------------------------------------------------------------------- */
+
+/**
+ * User Preference: Reduced motion
+ *
+ * @see {@link https://github.com/mozdevs/cssremedy/issues/11 What's best…}
+ *
+ * 1. Immediately jump any animation to the end point.
+ * 2. Remove any transitions.
+ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    background-attachment: initial !important;
+    transition-delay: 0s !important;
+    transition-duration: 0s !important;
+    animation-duration: 1ms !important;
+    animation-delay: -1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

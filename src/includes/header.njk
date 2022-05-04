@@ -1,0 +1,23 @@
+<header class="o-landmark o-landmark--banner / c-header" role="banner">
+  <div class="c-header__inner / o-container">
+    <a href="/" class="c-header__logo" title="{{ 'Go to homepage'|trans }}" rel="home">
+      {%
+        svg "/assets/images/logo.svg",
+          class="c-site-logo",
+          role="img",
+          ariaLabel="Logo :name, go to homepage"|trans({name: organization.name})
+      %}
+    </a>
+
+    <div class="c-header__nav-primary">
+      {% include "navigation-main.njk" %}
+    </div>
+
+    <div class="c-header__nav-secondary">
+      <a href="#" class="c-button c-button--secondary / u-visible@md">
+        {{ "Retailer Shop"|trans }} {% icon "user", class=["o-icon", "o-icon--right"] %}
+      </a>
+      {% include "navigation-language.njk" %}
+    </div>
+  </div>
+</header>

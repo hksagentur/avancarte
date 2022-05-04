@@ -1,0 +1,36 @@
+<footer class="o-landmark o-landmark--footer / c-footer" role="contentinfo">
+  <div class="c-footer__inner / o-container">
+    <div class="c-footer__item">
+      <address class="c-footer__address / p-author h-card">
+        <a href="{{ organization.url|url }}" class="p-name p-org u-url" tabindex="-1">
+          {{ organization.legalName }}
+        </a>
+        <br>
+        <span class="p-street-address">
+          {{ organization.address.streetAddress }}
+        </span>
+        <br>
+        <span class="p-postal-code">
+          {{ organization.address.postalCode }}
+        </span>
+        <span class="p-locality">
+          {{ organization.address.locality }}
+        </span>
+        <span role="separator">
+          ,
+        </span>
+        <span class="p-country">
+          {{ organization.address.addressCountry }}
+        </span>
+      </address>
+    </div>
+
+    <div class="c-footer__item">
+      {% include "navigation-social.njk" %}
+    </div>
+
+    <div class="c-footer__item">
+      {% include "navigation-legal.njk" %}
+    </div>
+  </div>
+</footer>

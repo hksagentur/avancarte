@@ -1,0 +1,25 @@
+{% extends "./base.njk" %}
+
+{% block content %}
+  {%- if cover and not slides %}
+    {% include "cover.njk" %}
+  {%- endif %}
+
+  <div class="c-section c-section--intro / u-bg-merino">
+    {%- if tagline and not cover %}
+      <div class="c-section__tagline">
+        {{ tagline }}
+      </div>
+    {%- endif %}
+
+    {%- if title and not cover %}
+      <h1 class="c-section__title / p-name">
+        {{ title }}
+      </h1>
+    {%- endif %}
+
+    <div class="s-rich-text / o-container o-container--prose">
+      {{ content | safe }}
+    </div>
+  </div>
+{% endblock %}

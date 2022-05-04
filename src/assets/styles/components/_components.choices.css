@@ -1,0 +1,52 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:CHOICES
+ * ----------------------------------------------------------------------- */
+
+/**
+ * List of Choices
+ *
+ * A list of related options a user has to choose from. Currently selected
+ * options are highlighted from the remainder.
+ *
+ * @example markup
+ *   <ul class="c-choices">
+ *     <li class="c-choices__item c-choices__item--active">
+ *       <a href="/de/" class="c-choices__link c-choices__link--active">
+ *         Deutsch
+ *       </a>
+ *     </li>
+ *     <li class="c-choices__item">
+ *       <a href="/de/" class="c-choices__link">
+ *         Deutsch
+ *       </a>
+ *     </li>
+ *   </ul>
+ */
+
+.c-choices {
+  --choices-active-color: var(--color-primary-400);
+  --choices-inactive-color: var(--color-muted);
+  --choices-gutter-size: var(--size-1);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(-1 * var(--choices-gutter-size));
+  margin-left: calc(-1 * var(--choices-gutter-size));
+}
+
+.c-choices__item {
+  margin-top: var(--choices-gutter-size);
+  margin-left: var(--choices-gutter-size);
+  color: var(--choices-inactive-color);
+
+  &:not(:first-child) {
+    border-left: 1px solid var(--choices-inactive-color);
+    padding-left: var(--choices-gutter-size);
+  }
+}
+
+.c-choices__item--active {
+  color: var(--choices-active-color);
+}

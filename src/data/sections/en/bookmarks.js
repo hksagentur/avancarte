@@ -1,0 +1,17 @@
+module.exports = [
+  {
+    title: 'Change of product range',
+    icon: 'pen-station',
+    url: '#'
+  },
+  {
+    title: 'Publisher',
+    icon: 'telecommunicator',
+    url: '#'
+  },
+  {
+    title: 'Merchandising',
+    icon: 'postcard',
+    url: '#'
+  }
+];

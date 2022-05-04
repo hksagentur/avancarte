@@ -1,0 +1,274 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:SITENAV
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Site Navigation
+ *
+ * The site navigation contains links to the main pages of a website.
+ *
+ * @example markup
+ *   <nav class="c-site-nav" role="navigation>
+ *     <button class="c-site-nav__menu-toggle">
+ *       <span class="u-sr-only">
+ *         Toggle Navigation
+ *       </span>
+ *       <span class="c-site-nav__menu-icon">
+ *         …
+ *       </span>
+ *     </button>
+ *     <ul class="c-site-nav__menu">
+ *       <li class="c-site-nav__menu-item">
+ *         <a href="/" class="c-site-nav__menu-link" rel="home">
+ *           Home
+ *         </a>
+ *       </li>
+ *       <li class="c-site-nav__menu-item c-site-nav__menu-item--has-children">
+ *         <a href="/about/" class="c-site-nav__menu-link">
+ *           About
+ *         </a>
+ *         <ul class="c-site-nav__submenu">
+ *           <li class="c-site-nav__submenu-item">
+ *             <a href="/about/philosophy/" class="c-site-nav__submenu-link">
+ *               Philosophy
+ *             </a>
+ *           </li>
+ *           <li class="c-site-nav__submenu-item">
+ *             <a href="/about/team/" class="c-site-nav__submenu-link">
+ *               Team
+ *             </a>
+ *           </li>
+ *         </ul>
+ *       </li>
+ *     </ul>
+ *   </nav>
+ */
+
+.c-site-nav {
+  position: relative;
+}
+
+.c-site-nav__menu-item,
+.c-site-nav__submenu-item {
+  position: relative;
+  white-space: nowrap;
+}
+
+.c-site-nav__menu-link {
+  font-weight: var(--font-semibold);
+}
+
+.c-site-nav__menu-link--active,
+.c-site-nav__submenu-link--active {
+  color: var(--color-primary-400);
+}
+
+.c-site-nav__menu-link,
+.c-site-nav__submenu-link {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: var(--size-2);
+  padding-bottom: var(--size-2);
+  font-size: var(--scale-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  white-space: normal;
+  transition: color var(--duration-standard) linear;
+
+  &:hover,
+  &:focus {
+    color: var(--color-primary-300);
+  }
+}
+
+.c-site-nav__menu-toggle,
+.c-site-nav__submenu-toggle {
+  display: block;
+
+  @nest .no-js & {
+    display: none;
+  }
+}
+
+.c-site-nav__menu-toggle {
+  padding: var(--size-2);
+  color: var(--color-light);
+  background: var(--color-primary-400);
+  cursor: pointer;
+}
+
+.c-site-nav__submenu-toggle {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 2.75em;
+    height: 2.75em;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.c-site-nav__menu-icon {
+  --menu-icon-width: 1.875em;
+  --menu-icon-height: 1.125em;
+  --menu-icon-thickness: 0.125em;
+
+  position: relative;
+  display: block;
+  width: var(--menu-icon-width);
+  height: var(--menu-icon-height);
+
+  & > span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: var(--menu-icon-thickness);
+    margin-top: calc(var(--menu-icon-thickness) / -2);
+    background-color: currentcolor;
+    transition:
+      top 0.1s 0.125s ease-in-out,
+      transform 0.1s linear;
+
+    &:nth-child(1) {
+      top: 0;
+    }
+
+    &:nth-child(2) {
+      top: 50%;
+    }
+
+    &:nth-child(3) {
+      top: 100%;
+    }
+
+    @nest [aria-expanded="true"] & {
+      transition:
+        top 0.1s ease-in-out,
+        transform 0.1s 0.125s linear;
+    }
+
+    @nest [aria-expanded="true"] &:nth-child(1) {
+      top: 50%;
+      transform: translateX(0) rotate(-45deg);
+    }
+
+    @nest [aria-expanded="true"] &:nth-child(2) {
+      top: 50%;
+      transform: translateX(0) rotate(45deg);
+    }
+
+    @nest [aria-expanded="true"] &:nth-child(3) {
+      top: 50%;
+      transform: translateX(0) rotate(-45deg);
+    }
+  }
+}
+
+/**
+ * Site Navigation: Dropdown Menu
+ *
+ * Display the site navigation in a dropdown menu on devices with a narrow
+ * viewport.
+ */
+
+@media (--sm-down) {
+  .c-site-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .c-site-nav__menu,
+  .c-site-nav__submenu {
+    display: flex;
+    flex-direction: column;
+
+    @nest .has-js &:not(.is-active) {
+      display: none;
+    }
+  }
+
+  .c-site-nav__menu {
+    padding: var(--size-2) var(--size-4);
+    color: var(--color-neutral-800);
+    background-color: var(--color-primary-50);
+  }
+
+  .c-site-nav__menu-toggle {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    margin-bottom: var(--size-4);
+
+    @nest .no-js & {
+      display: none;
+    }
+  }
+}
+
+/**
+ * Site Navigation: Navigation Bar
+ *
+ * Display the site navigation as a navigation bar for devices with a wider
+ * viewports.
+ */
+
+@media (--md-up) {
+  .c-site-nav {
+    display: block;
+  }
+
+  .c-site-nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: var(--size-4);
+  }
+
+  .c-site-nav__menu-item {
+    position: relative;
+  }
+
+  .c-site-nav__menu-item--active {
+    border-bottom: 1px solid var(--color-primary-400);
+  }
+
+  .c-site-nav__menu-toggle {
+    display: none;
+  }
+
+  .c-site-nav__submenu {
+    display: flex;
+    flex-direction: column;
+
+    @nest .has-js & {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      z-index: var(--layer-dropdown);
+      min-width: 100%;
+      padding: var(--size-2) var(--size-4);
+      border-top: 1px solid var(--color-primary-400);
+      color: var(--color-text);
+      background-color: var(--color-light);
+      box-shadow: var(--elevation-2);
+      transform: translateX(-50%);
+    }
+
+    @nest .has-js &:not(.is-active) {
+      display: none;
+    }
+  }
+}

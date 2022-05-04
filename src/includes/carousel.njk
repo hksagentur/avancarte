@@ -1,0 +1,79 @@
+<section class="c-carousel" aria-roledescription="{{ 'Carousel'|trans }}" aria-labelledby="carousel-label">
+  <h2 id="carousel-label" class="c-carousel__title" hidden>
+    {{ "Currently on AvanCarte"|trans }}
+  </h2>
+
+  <div class="c-carousel__inner / swiper" data-component="carousel">
+    {% block navigation %}
+      <button type="button" class="c-carousel__pause-button / swiper-button-pause" aria-controls="carousel">
+        <span class="u-sr-only">
+            {{ "Toggle automatic slide rotation"|trans }}
+        </span>
+        {% icon "pause", class=["swiper-icon-pause"] %}
+        {% icon "play", class=["swiper-icon-play"] %}
+      </button>
+
+      <button type="button" class="c-carousel__prev-button / swiper-button-prev" aria-controls="carousel">
+        <span class="u-sr-only">
+            {{ "Previous Slide"|trans }}
+        </span>
+      </button>
+
+      <button type="button" class="c-carousel__next-button / swiper-button-next" aria-controls="carousel">
+        <span class="u-sr-only">
+            {{ "Next Slide"|trans }}
+        </span>
+      </button>
+    {% endblock %}
+
+    {% block items %}
+      <div id="carousel" class="c-carousel__items / swiper-wrapper">
+        {% for item in slides %}
+          {% block item %}
+            <article
+              class="c-carousel__item / c-cover / swiper-slide"
+              aria-roledescription="{{ 'Slide'|trans }}"
+              aria-label="{{ ':x of :total: :title'|trans({x: loop.index, total: loop.length, title: item.title}) }}"
+              aria-current="{{ 'true' if loop.first else 'false' }}"
+              aria-posinset="{{ loop.index }}"
+              aria-setsize="{{ loop.length }}"
+              role="group"
+            >
+              {% if item.image %}
+                <div class="c-cover__media">
+                  <img
+                    class="c-cover__media-image / u-object-cover"
+                    src="{{ item.image.url }}"
+                    alt="{{ item.image.alt }}"
+                    loading="{{ 'lazy' if loop.first else 'eager' }}"
+                    fetchpriority="{{ 'high' if loop.first else 'low' }}"
+                  >
+                </div>
+              {% endif %}
+
+              <div class="c-cover__content / u-bg-concrete / u-effect-kink">
+                <h3 class="c-cover__title / u-divide-y">
+                  {{ item.title }}
+                </h3>
+
+                <p class="c-cover__summary">
+                  {{ item.summary }}
+                </p>
+
+                {% if item.more %}
+                  <a href="{{ item.more.url }}" class="c-more"{% if item.more.alt %} aria-label="{{ item.more.alt|format(item.title) }}"{% endif %}>
+                    {{ item.more.label }}
+                  </a>
+                {% endif %}
+              </div>
+            </article>
+          {% endblock %}
+        {% endfor %}
+      </div>
+    {% endblock %}
+
+    {% block pagination %}
+      <div class="c-carousel__pagination / swiper-pagination"></div>
+    {% endblock %}
+  </div>
+</section>

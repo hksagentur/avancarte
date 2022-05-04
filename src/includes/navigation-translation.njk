@@ -1,0 +1,49 @@
+{% macro menu(translations, language) %}
+  {% if translations|length %}
+    <ul id="translation-menu" class="c-dropdown__menu" role="menu">
+      {% for translation in translations %}
+        {{ menu_item(translation, language) }}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro menu_item(translation, language) %}
+  {% set isCurrent = (translation.data.language.id == language.id) %}
+
+  {% set itemClasses = [
+    "c-dropdown__menu-item",
+    "c-dropdown__menu-item--active" if isCurrent
+  ] %}
+
+  {% set linkClasses = [
+    "c-dropdown__menu-link",
+    "c-dropdown__menu-link--active" if isCurrent
+  ] %}
+
+  <li class="{{ itemClasses|join(' ') }}" lang="{{ translation.data.language.id }}">
+    <a
+      class="{{ linkClasses|join(' ') }}"
+      href="{{ translation.url|url }}"
+      hreflang="{{ translation.data.language.id }}"
+      {% if isCurrent %} aria-current="page"{% endif %}
+    >
+      <bdi>{{ translation.data.language.name }}</bdi>
+    </a>
+  </li>
+{% endmacro %}
+
+<div class="c-dropdown" data-component="dropdown">
+  <button
+    type="button"
+    class="c-dropdown__toggle-button / c-button"
+    aria-expanded="false"
+    aria-controls="translation-menu"
+    aria-label="{{ 'Current language is :language. Choose your preferred language.'|trans({language: language.name}) }}"
+    data-component="disclosure-button"
+  >
+    {{ language.name }}
+  </button>
+
+  {{ menu(translations, language) }}
+</div>

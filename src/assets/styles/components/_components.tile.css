@@ -1,0 +1,85 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:TILE
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Tile
+ *
+ * Metro-like tiles for visually appealing bookmarks.
+ *
+ * @example markup
+ *   <a href="…" class="c-tile">
+ *     <span class="c-tile__title">
+ *       Merchandising
+ *     </span>
+ *     <svg class="c-tile__icon">
+ *       <use href="/assets/images/icons.svg#icon-merch"/>
+ *     </svg>
+ *   </a>
+ */
+
+.c-tile {
+  --tile-text-color: var(--color-neutral-50);
+  --tile-accent-color: var(--color-accent);
+  --tile-active-color: var(--color-primary-400);
+  --tile-background-color: var(--color-primary-800);
+  --kink-effect-color: var(--color-light-opaque);
+
+  display: inline-flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--size-8);
+  color: var(--tile-text-color);
+  background-color: var(--tile-background-color);
+  transition: background var(--duration-snappy) var(--easing-standard);
+  aspect-ratio: 1 / 1;
+
+  &:hover,
+  &:focus {
+    background-color: var(--tile-active-color);
+  }
+}
+
+.c-tile__title {
+  margin-top: var(--size-4);
+  font-size: var(--scale-2);
+  font-weight: var(--font-semibold);
+  white-space: nowrap;
+  overflow-wrap: break-word;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    vertical-align: baseline;
+    width: 1ex;
+    height: 1ex;
+    border-right: 0.15em solid currentcolor;
+    border-top: 0.15em solid currentcolor;
+    margin-left: 0.3em;
+    transform: rotate(45deg);
+    transition: transform var(--duration-snappy) var(--easing-standard);
+
+    @nest .c-tile:is(:hover, :focus) & {
+      transform: translate3d(80%, 0, 0) scale(1.25) rotate(45deg);
+    }
+  }
+}
+
+.c-tile__icon {
+  display: block;
+  width: auto;
+  height: 60%;
+  min-height: 8em;
+  margin: auto;
+  fill: none;
+  stroke: var(--tile-accent-color);
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform var(--duration-snappy) var(--easing-standard);
+
+  @nest .c-tile:is(:hover, :focus) & {
+    transform: scale(1.15);
+  }
+}

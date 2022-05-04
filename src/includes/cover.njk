@@ -1,0 +1,16 @@
+<div class="c-cover">
+  <div class="c-cover__media">
+    <img
+      class="c-cover__media-image / u-object-cover"
+      src="{{ cover.url|default(cover) }}"
+      alt="{{ cover.alt }}"
+      loading="lazy"
+      fetchpriority="high"
+    >
+  </div>
+  <div class="c-cover__content / u-bg-concrete / u-effect-kink">
+    <h1 class="c-cover__title / p-name">
+      {{ cover.title|default(title) }}
+    </h1>
+  </div>
+</div>

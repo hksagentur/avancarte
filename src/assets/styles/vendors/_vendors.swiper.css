@@ -1,0 +1,200 @@
+/* -----------------------------------------------------------------------
+ * #VENDORS:SWIPER
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Swiper
+ *
+ * Swiper is the most modern free mobile touch slider with hardware accelerated
+ * transitions and amazing native behavior.
+ *
+ * @see {@link https://swiperjs.com/swiper-api#parameters}
+ */
+
+@import "swiper/swiper.min.css";
+
+/* Slider
+ * ----------------------------------------------------------------------- */
+
+.swiper {
+  --swiper-theme-color: var(--color-primary-400);
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: auto;
+
+  & img {
+    user-select: none;
+  }
+}
+
+/* Controls
+ * ----------------------------------------------------------------------- */
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-button-pause,
+.swiper-pagination-bullets {
+  position: absolute;
+
+  @media (--sm-down) {
+    position: absolute;
+    top: var(--size-2);
+    bottom: auto;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-button-pause {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--swiper-navigation-size, 2rem);
+  height: var(--swiper-navigation-size, 2rem);
+  padding: var(--size-2);
+  margin: 0;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  background-color: var(--color-light);
+  cursor: pointer;
+  z-index: var(--swiper-navigation-layer, 10);
+
+  &.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: none;
+  }
+}
+
+.swiper-button-prev {
+  bottom: var(--swiper-navigation-offset, var(--size-2));
+  right:
+    calc(
+      var(--swiper-navigation-size, 2rem) +
+      var(--swiper-navigation-offset, var(--size-2)) +
+      var(--swiper-navigation-gap, var(--size-2))
+    );
+
+  &::after {
+    content: "prev";
+    font-family: swiper-icons; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  }
+}
+
+.swiper-button-next {
+  bottom: var(--swiper-navigation-offset, var(--size-2));
+  right: var(--swiper-navigation-offset, var(--size-2));
+
+  &::after {
+    content: "next";
+    font-family: swiper-icons; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  }
+}
+
+.swiper-button-pause {
+  top: var(--swiper-navigation-offset, var(--size-2));
+  left: var(--swiper-navigation-offset, var(--size-2));
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    transform-origin: left bottom;
+
+    @nest .swiper-initialized & {
+      display: block;
+      animation: var(--swiper-autoplay-delay, 3s) linear infinite swiper-progress;
+    }
+
+    @nest .swiper-transitioning &, .swiper-paused & {
+      display: none;
+      animation: none;
+    }
+  }
+}
+
+.swiper-pagination-bullets {
+  position: absolute;
+  left: 50%;
+  bottom: var(--swiper-pagination-bullet-offset, var(--size-2));
+  text-align: center;
+  transition: opacity var(--duration-noticeable);
+  z-index: var(--swiper-pagination-layer, 10);
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  vertical-align: middle;
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 0.675em));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 0.675em));
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 0.25em);
+  border-radius: 50%;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+  background: var(--swiper-pagination-bullet-inactive-color, #fff);
+  cursor: pointer;
+
+  &.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    border: 1px solid var(--swiper-pagination-color, #fff);
+    background: transparent;
+  }
+}
+
+.no-js {
+  & .swiper-wrapper {
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  & .swiper-slide {
+    scroll-snap-align: start;
+  }
+
+  & .swiper-button-prev,
+  & .swiper-button-next,
+  & .swiper-button-pause {
+    display: none;
+  }
+}
+
+/* Icons
+ * ----------------------------------------------------------------------- */
+
+.swiper-icon-play,
+.swiper-icon-pause {
+  display: none;
+  width: 1em;
+  height: 1em;
+  fill: currentcolor;
+  stroke: none;
+}
+
+.swiper-paused .swiper-icon-play,
+.swiper:not(.swiper-paused) .swiper-icon-pause {
+  display: block;
+}
+
+/* Animations
+ * ----------------------------------------------------------------------- */
+
+@keyframes swiper-progress {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(100%);
+  }
+}

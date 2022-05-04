@@ -1,0 +1,45 @@
+/* -----------------------------------------------------------------------
+ * #UTILITIES:TEXT
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Text Sizes
+ *
+ * Utilities for controlling the font size of an element.
+ */
+
+.u-text-xs {
+  font-size: var(--scale-xs);
+}
+
+.u-text-sm {
+  font-size: var(--scale-sm);
+}
+
+.u-text-base {
+  font-size: var(--scale-0);
+}
+
+.u-text-lg {
+  font-size: var(--scale-1);
+}
+
+.u-text-xl {
+  font-size: var(--scale-2);
+}
+
+.u-text-2xl {
+  font-size: var(--scale-3);
+}
+
+.u-text-3xl {
+  font-size: var(--scale-4);
+}
+
+.u-text-4xl {
+  font-size: var(--scale-5);
+}
+
+.u-text-5xl {
+  font-size: var(--scale-6);
+}

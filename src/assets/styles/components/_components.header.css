@@ -1,0 +1,72 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:HEADER
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Site Header
+ *
+ * Header of the site, typically holding site navigation and branding.
+ *
+ * @example markup
+ *   <header class="c-header" role="banner">
+ *     <div class="c-header__inner">
+ *       <a href="c-header__logo">
+ *         <svg>…</svg>
+ *       </a>
+ *       <div class="c-header__primary-nav">
+ *         <nav>…</nav>
+ *       </div>
+ *       <div class="c-header__secondary-nav">
+ *         <nav>…</nav>
+ *       </div>
+ *     </div>
+ *   </header>
+ */
+
+.c-header {
+  --header-text-color: var(--color-text);
+  --header-background-color: var(--color-light);
+
+  padding-top: var(--size-4);
+  padding-bottom: var(--size-4);
+  color: var(--header-text-color);
+  background-color: var(--header-background-color);
+
+  &.is-stuck {
+    box-shadow: var(--elevation-3);
+  }
+}
+
+.c-header__inner {
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-template-areas:
+    "logo topbar"
+    "navbar navbar";
+  gap: var(--size-2) var(--size-8);
+  align-items: start;
+  justify-content: stretch;
+
+  @media (--md-up) {
+    grid-template-areas:
+      "logo topbar"
+      "logo navbar";
+  }
+}
+
+.c-header__logo {
+  grid-area: logo;
+}
+
+.c-header__nav-primary {
+  grid-area: navbar;
+}
+
+.c-header__nav-secondary {
+  grid-area: topbar;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--size-4);
+  font-size: var(--scale-sm);
+}

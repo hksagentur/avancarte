@@ -1,0 +1,44 @@
+{% set links = collections.legal|default([])|tagged_with(lang) %}
+
+{% macro menu(items, id="legal-information") %}
+  {% if items|length %}
+    <ul id="{{ id }}" class="c-menu__content">
+      {% for item in items %}
+        {{ menu_item(item) }}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro menu_item(item) %}
+  {% set isCurrent = (page.url !== false) and (item.url == page.url) %}
+  {% set isAncestor = (page.url !== false) and (item.url != "/") and (item.url in page.url) %}
+
+  {% set itemClasses = [
+    "c-menu__item",
+    "c-menu__item--active" if (isCurrent or isAncestor)
+  ] %}
+
+  {% set linkClasses = [
+    "c-menu__link",
+    "c-menu__link--active" if (isCurrent or isAncestor)
+  ] %}
+
+  <li class="{{ itemClasses|join(' ') }}">
+    <a
+      href="{{ item.url|url }}"
+      class="{{ linkClasses|join(' ') }}"
+      {% if isCurrent %} aria-current="page"{% endif %}
+    >
+      {{ item.data.title }}
+    </a>
+  </li>
+{% endmacro %}
+
+<nav class="c-menu c-menu--compact" aria-labelledby="legal-information-label" role="navigation">
+  <h2 id="legal-information-label" class="c-menu__label" hidden>
+    {{ "Legal information"|trans }}
+  </h2>
+
+  {{ menu(links) }}
+</nav>

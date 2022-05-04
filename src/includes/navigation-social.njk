@@ -1,0 +1,30 @@
+{% set links = links|default(organization.sameAs) %}
+
+{% macro menu(items) %}
+  {% if items|length %}
+    <ul id="social-navigation" class="c-social-nav__menu / o-list-inline">
+      {% for id, item in items %}
+        {{ menu_item(id, item) }}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro menu_item(id, item) %}
+  <li class="c-social-nav__menu-item">
+    <a href="{{ item.url|url }}" class="c-social-nav__menu-link">
+      {% icon id, class=["c-social-nav__menu-icon"] %}
+      <span class="u-sr-only">
+        {{ id|title }}
+      </span>
+    </a>
+  </li>
+{% endmacro %}
+
+<nav class="c-social-nav" aria-labelledby="social-navigation-label" role="navigation">
+  <h2 id="social-navigation-label" class="c-social-nav__label">
+    {{ "Our social media channels"|trans }}
+  </h2>
+
+  {{ menu(links) }}
+</nav>

@@ -1,0 +1,40 @@
+{% set section = sections[lang].contact %}
+
+{% if section %}
+  <section class="o-grid o-grid--flush o-grid--columns-2">
+    <figure class="c-figure">
+      <img
+        class="c-figure__content / u-object-cover"
+        src="/assets/media/placeholder-04.jpg"
+        alt=""
+      >
+    </figure>
+
+    <div class="c-summary / u-bg-concrete">
+      <div class="c-summary__tagline">
+        {{ section.tagline }}
+      </div>
+
+      <h2 class="c-summary__title / u-divide-y">
+        {{ section.title }}
+      </h2>
+
+      <p class="c-summary__excerpt">
+        {{ section.summary }}
+      </p>
+
+      <ul class="o-list-inline">
+        <li>
+          <a href="mailto:{{ organization.email|obfuscate|safe }}" class="c-more">
+            {{ organization.email|obfuscate|safe }}
+          </a>
+        </li>
+        <li>
+          <a href="tel:{{ organization.telephone|tel }}" class="c-more">
+            {{ organization.telephone }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+{% endif %}

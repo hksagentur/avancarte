@@ -1,0 +1,72 @@
+/* -----------------------------------------------------------------------
+ * #OBJECTS:GRID
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Grid
+ *
+ * Arrange all child elements of a container in a responsive grid.
+ *
+ * @see {@link https://every-layout.dev/layouts/grid/ The Grid}
+ *
+ * @example markup
+ *   <div class="o-grid">
+ *     <div></div>
+ *     <div></div>
+ *     <div></div>
+ *   </div>
+ */
+
+.o-grid {
+  --grid-column-threshold: var(--size-64);
+  --grid-gutter-size: var(--size-8);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(var(--grid-column-threshold), 100%), 1fr));
+  gap: var(--grid-gutter-size);
+}
+
+/**
+ * Gutter Size
+ *
+ * Customize the size of the gap between the individual elements of the grid.
+ */
+
+.o-grid--sm {
+  --grid-gutter-size: var(--size-4);
+}
+
+.o-grid--lg {
+  --grid-gutter-size: var(--size-16);
+}
+
+.o-grid--flush {
+  --grid-gutter-size: 0%;
+}
+
+/**
+ * Column Limit
+ *
+ * Limit the maximum number of columns in the responsive grid.
+ */
+
+.o-grid--columns-2,
+.o-grid--columns-3,
+.o-grid--columns-4 {
+  --grid-gutter-total: (var(--grid-gutter-size) * (var(--grid-column-count, 1) - 1));
+  --grid-column-width: calc((100% - var(--grid-gutter-total)) / var(--grid-column-count, 1));
+
+  grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-column-threshold), var(--grid-column-width)), 1fr));
+}
+
+.o-grid--columns-2 {
+  --grid-column-count: 2;
+}
+
+.o-grid--columns-3 {
+  --grid-column-count: 3;
+}
+
+.o-grid--columns-4 {
+  --grid-column-count: 4;
+}

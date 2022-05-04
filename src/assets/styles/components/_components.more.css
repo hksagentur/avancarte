@@ -1,0 +1,53 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:MORE
+ * ----------------------------------------------------------------------- */
+
+/**
+ * More Link
+ *
+ * A special type of link to drive visitors into reading more details about an
+ * article or piece of content.
+ *
+ * @example markup
+ *   <a href="#" class="c-more" aria-label="Read more about CSS">
+ *     Read more
+ *   </a>
+ */
+
+.c-more {
+  --more-line-thickness: 0.075em;
+  --more-line-offset: 0.3em;
+
+  color: var(--color-primary-400);
+  text-decoration: underline;
+  text-decoration-thickness: var(--more-line-thickness);
+  text-decoration-skip-ink: auto;
+  text-underline-offset: var(--more-line-offset);
+
+  &:hover,
+  &:focus {
+    color: var(--color-primary-300);
+  }
+
+  &:active {
+    color: var(--color-primary-500);
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    vertical-align: baseline;
+    width: 1ex;
+    height: 1ex;
+    border-right: var(--more-line-thickness) solid currentcolor;
+    border-top: var(--more-line-thickness) solid currentcolor;
+    margin-left: var(--more-line-offset);
+    transform: rotate(45deg);
+    transition: transform var(--duration-snappy) var(--easing-standard);
+  }
+
+  &:hover::after,
+  &:focus::after {
+    transform: translate3d(80%, 0, 0) scale(1.25) rotate(45deg);
+  }
+}

@@ -1,0 +1,118 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:COVER
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Cover
+ *
+ * The cover component typically places an image or video prominently on the
+ * page to help set the tone and mood for the current display.
+ *
+ * @example markup
+ *   <div class="c-cover">
+ *     <div class="c-cover__media">
+ *       <img src="…" class="u-object-cover">
+ *     </div>
+ *     <div class="c-cover__content">
+ *       <h3 class="c-cover__title">
+ *         Hello World!
+ *       </h3>
+ *       <p class="c-cover__summary">
+ *         …
+ *       </p>
+ *     </div>
+ *   </div>
+ */
+
+.c-cover {
+  --cover-text-color: var(--color-text);
+  --cover-accent-color: var(--color-accent);
+  --cover-content-color: var(--color-concrete);
+  --cover-background-color: var(--dominant-color, var(--color-merino));
+
+  position: relative;
+  width: 100%;
+  color: var(--cover-text-color);
+  background-color: var(--cover-background-color);
+}
+
+.c-cover__content {
+  position: relative;
+  padding: var(--size-8);
+  background-color: var(--cover-content-color);
+
+  & > :not(:last-child) {
+    margin-bottom: var(--size-4);
+  }
+}
+
+.c-cover__media {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-cover__title {
+  font-size: var(--scale-3);
+  font-size: var(--fluid-lg);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-tight);
+
+  &.u-divide-y {
+    padding-bottom: var(--size-4);
+  }
+}
+
+/**
+ * Cover Caption
+ *
+ * Display the content of the cover below the image on devices with a
+ * narrow viewport.
+ */
+
+@media (--sm-down) {
+  .c-cover {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-cover__media {
+    aspect-ratio: 4 / 3;
+  }
+
+  .c-cover__content {
+    flex-grow: 1;
+  }
+}
+
+/**
+ * Cover Overlay
+ *
+ * Display the content of the cover as an overlay on devices with a
+ * wider viewport.
+ */
+
+@media (--md-up) {
+  .c-cover {
+    --cover-content-width: calc(74rem - var(--cover-content-gutter));
+    --cover-content-gutter: var(--size-2);
+
+    display: grid;
+    grid-template-rows: [full-start] 4fr [content-start] 5fr [content-end] 3fr [full-end];
+    grid-template-columns:
+      [full-start]
+      calc(50vw - (0.5 * var(--cover-content-width)))
+      [content-start] repeat(2, 1fr) [content-end marginalia-start] repeat(3, 1fr) [marginalia-end]
+      calc(50vw - (0.5 * var(--cover-content-width)))
+      [full-end];
+    column-gap: var(--cover-content-gutter);
+    aspect-ratio: 21 / 9;
+  }
+
+  .c-cover__media {
+    grid-area: full;
+  }
+
+  .c-cover__content {
+    grid-area: content;
+  }
+}
