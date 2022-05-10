@@ -4,10 +4,12 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {%- for item in collections.sitemap %}
-    <url>
-      <loc>{{ item.url|url|absolute_url }}</loc>
-      <lastmod>{{ item.data.modified|default(item.date)|iso8601 }}</lastmod>
-    </url>
+  {%- for item in collections.all %}
+    {% if item.url and item.data.sitemap %}
+      <url>
+        <loc>{{ item.url|url|absolute_url }}</loc>
+        <lastmod>{{ item.data.modified|default(item.date)|iso8601 }}</lastmod>
+      </url>
+    {% endif %}
   {%- endfor %}
 </urlset>

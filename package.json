@@ -42,15 +42,16 @@
   },
   "scripts": {
     "start": "run-s --silent clean sprite serve",
-    "clean": "rimraf dist",
-    "build": "run-s --silent clean sprite build:production",
-    "build:development": "eleventy",
-    "build:production": "cross-env NODE_ENV=production eleventy",
-    "sprite": "svg-sprite --dest dist/assets --symbol --symbol-dest images --symbol-sprite icons.svg src/assets/icons/*.svg",
-    "serve": "eleventy --serve",
+    "build": "run-s --silent clean sprite eleventy",
+    "serve": "run-p --silent serve:*",
+    "serve:eleventy": "eleventy --serve",
+    "serve:cms": "cross-env PORT=3000 netlify-cms-proxy-server",
     "lint": "run-s --silent lint:*",
     "lint:scripts": "eslint .",
-    "lint:styles": "stylelint 'src/assets/styles/**/*.css'"
+    "lint:styles": "stylelint 'src/assets/styles/**/*.css'",
+    "clean": "rimraf dist",
+    "eleventy": "cross-env NODE_ENV=production eleventy",
+    "sprite": "svg-sprite --dest dist/assets --symbol --symbol-dest images --symbol-sprite icons.svg src/assets/icons/*.svg"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -71,9 +72,11 @@
     "dotenv": "^16.0.0",
     "dynamic-import-polyfill": "^0.1.1",
     "html-minifier": "^4.0.0",
+    "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "luxon": "^2.3.1",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.13",
     "postcss-calc": "^8.2.4",
     "postcss-color-functional-notation": "^4.2.2",
     "postcss-custom-media": "^8.0.0",
@@ -84,6 +87,7 @@
     "postcss-inset": "^1.0.0",
     "postcss-load-config": "^3.1.4",
     "postcss-nesting": "^10.1.4",
+    "postcss-place": "^7.0.4",
     "postcss-url": "^10.1.3",
     "rimraf": "^3.0.2",
     "rollup": "^2.70.1",
@@ -101,8 +105,7 @@
     "eslint-plugin-jsdoc": "^38.1.6",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "postcss": "^8.4.13",
-    "postcss-place": "^7.0.4",
+    "netlify-cms-proxy-server": "^1.3.24",
     "stylelint": "^14.6.1",
     "stylelint-config-standard": "^25.0.0"
   }

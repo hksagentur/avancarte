@@ -1,8 +1,9 @@
 const pluginNavigation = require('@11ty/eleventy-navigation');
 
+const {format} = require('node:util');
 const {config} = require('dotenv');
+const {load} = require('js-yaml');
 const {sortBy} = require('lodash');
-const {format} = require('util');
 
 /**
  * @param { import('@11ty/eleventy/src/UserConfig') } eleventy
@@ -25,12 +26,11 @@ module.exports = function (eleventy) {
   eleventy.addPassthroughCopy('src/assets/images');
   eleventy.addPassthroughCopy('src/assets/media');
 
+  eleventy.addPassthroughCopy({'netlify/cms': 'admin'});
+
   // Watch Targets
   eleventy.addWatchTarget('src/assets/styles');
   eleventy.addWatchTarget('src/assets/scripts');
-
-  // Collections
-  eleventy.addCollection('sitemap', require('./eleventy/collections/sitemap'));
 
   // Filters
   eleventy.addFilter('format', format);
@@ -65,12 +65,15 @@ module.exports = function (eleventy) {
   eleventy.addShortcode('icon', require('./eleventy/shortcodes/icon'));
   eleventy.addShortcode('image', require('./eleventy/shortcodes/image'));
 
-  // Template Formats
+  // Transforms
+  eleventy.addTransform('minify-html', require('./eleventy/transforms/minify-html'));
+
+  // Custom Template Formats
   eleventy.addExtension('bundle.css', require('./eleventy/extensions/postcss'));
   eleventy.addExtension('bundle.js', require('./eleventy/extensions/rollup'));
 
-  // Transforms
-  eleventy.addTransform('minify-html', require('./eleventy/transforms/minify-html'));
+  // Custom Data Formats
+  eleventy.addDataExtension('yml', (content) => load(content));
 
   return {
     dir: {

@@ -1,0 +1,173 @@
+locale: de
+
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend:
+  url: 'http://localhost:3000/api/v1'
+
+media_folder: src/assets/media
+public_folder: /assets/media
+
+editor:
+  preview: false
+
+collections:
+  -
+    name: post
+    label: Beiträge
+    label_singular: Beitrag
+    folder: src/content/de/posts
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: '/aktuelles/{{slug}}'
+    create: true
+    delete: true
+    fields:
+      -
+        name: title
+        label: Titel
+        widget: string
+      -
+        name: description
+        label: Beschreibung
+        widget: text
+        required: false
+      -
+        name: body
+        label: Inhalt
+        widget: markdown
+      -
+        name: cover
+        label: Kopfbild
+        widget: file
+        required: false
+        allow_multiple: false
+  -
+    name: event
+    label: Veranstaltungen
+    label_singular: Veranstaltung
+    folder: src/content/de/events
+    slug: '{{fields.startDate}}-{{slug}}'
+    create: true
+    delete: true
+    fields:
+      -
+        name: title
+        label: Titel
+        widget: string
+      -
+        name: startDate
+        label: Anfangsdatum
+        widget: datetime
+        format: 'YYYY-MM-DD'
+        date_format: true
+        time_format: false
+      -
+        name: endDate
+        label: Enddatum
+        widget: datetime
+        format: 'YYYY-MM-DD'
+        date_format: true
+        time_format: false
+      -
+        name: description
+        label: Beschreibung
+        widget: text
+        required: false
+      -
+        name: body
+        label: Inhalt
+        widget: markdown
+      -
+        name: location
+        label: Standort
+        widget: string
+        required: false
+      -
+        name: stand
+        label: Stand
+        widget: string
+        required: false
+  -
+    name: settings
+    label: Einstellungen
+    files:
+      -
+        name: organization
+        label: Unternehmen
+        file: src/data/organization.yml
+        fields:
+          -
+            name: name
+            label: Name
+            widget: string
+          -
+            name: legalName
+            label: Rechtlicher Name
+            widget: string
+          -
+            name: address
+            label: Adresse
+            widget: object
+            collapsed: true
+            summary: '{{fields.streetAddress}}, {{fields.postalCode}} {{fields.locality}}'
+            fields:
+              -
+                name: streetAddress
+                label: Straße und Hausnummer
+                widget: string
+              -
+                name: postalCode
+                label: Postleitzahl
+                widget: string
+              -
+                name: locality
+                label: Ort
+                widget: string
+              -
+                name: addressCountry
+                label: Land
+                widget: select
+                options:
+                  -
+                    label: Deutschland
+                    value: DE
+                  -
+                    label: Österreich
+                    value: AT
+                  -
+                    label: Schweiz
+                    value: CH
+          -
+            name: telephone
+            label: Telefon
+            widget: string
+          -
+            name: fax
+            label: Fax
+            widget: string
+          -
+            name: email
+            label: E-Mail
+            widget: string
+          -
+            name: url
+            label: Website
+            widget: string
+          -
+            name: vatId
+            label: Umsatzsteuer-ID
+            widget: string
+          -
+            name: localCourt
+            label: Registergericht
+            widget: string
+          -
+            name: commercialRegisterNumber
+            label: Registernummer
+            widget: string
+          -
+            name: managers
+            label: Geschäftsführer
+            widget: list
