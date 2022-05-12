@@ -1,7 +1,8 @@
 locale: de
 
 backend:
-  name: git-gateway
+  name: github
+  repo: hksagentur/avancarte
   branch: main
 
 local_backend:
