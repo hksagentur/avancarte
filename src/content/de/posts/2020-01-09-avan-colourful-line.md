@@ -1,5 +1,5 @@
 ---
-title: Avan Colourful line
+title: Avan Colourful Line
 ---
 ## Avan Colourful line
 
