@@ -4,11 +4,11 @@ backend:
   name: git-gateway
   branch: main
   commit_messages:
-    create: 'cms: add content @{{author-name}}'
-    update: 'cms: update content @{{author-name}}'
-    delete: 'cms: delete content @{{author-name}}'
-    uploadMedia: 'cms: upload media @{{author-name}}'
-    deleteMedia: 'cms: delete media @{{author-name}}'
+    create: 'cms: add content'
+    update: 'cms: update content'
+    delete: 'cms: delete content'
+    uploadMedia: 'cms: add media'
+    deleteMedia: 'cms: delete media'
 
 local_backend:
   url: 'http://localhost:3000/api/v1'
