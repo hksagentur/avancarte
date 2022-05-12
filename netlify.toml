@@ -5,6 +5,10 @@
 [build.environment]
   NODE_VERSION = "16.14"
 
+[context.production.environment]
+  URL = "https://avancarte.netlify.app"
+  TZ = "Europe/Berlin"
+
 [[redirects]]
   from = "*"
   to = "/404"
