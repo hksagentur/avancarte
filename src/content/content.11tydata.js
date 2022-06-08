@@ -22,7 +22,7 @@ module.exports = {
       }
     },
     language({languages, lang}) {
-      return languages.find?.((language) => language.id === lang);
+      return languages?.[lang];
     },
     translations({collections, page, language, translationKey}) {
       return collections.all.filter(({fileSlug, data}) => {
