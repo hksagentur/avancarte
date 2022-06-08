@@ -2,7 +2,7 @@
 
 <div class="c-section c-section--contact-form">
   <div class="o-container">
-    <form method="POST" action="{{ form.confirmationPage }}" netlify netlify-honeypot="website">
+    <form method="POST" action="{{ form.confirmationPage }}" name="contact" netlify netlify-honeypot="website">
         <div>
             <label for="cf-type">
               {{ "Contact form for …"|trans }}
@@ -122,7 +122,6 @@
           </button>
         </div>
 
-        <input type="hidden" name="form-name" value="contact">
         <input type="hidden" name="locale" value="{{ locale }}">
     </form>
   </div>
