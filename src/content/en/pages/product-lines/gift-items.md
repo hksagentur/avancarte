@@ -1,6 +1,7 @@
 ---
 title: Small gifts for happy moments
 tagline: Gift items
+cover: /assets/media/adobestock-99649200.jpg
 menu: Gift items
 parent: product-lines
 order: 3

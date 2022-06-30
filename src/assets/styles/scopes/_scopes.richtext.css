@@ -38,4 +38,34 @@
       text-decoration: none;
     }
   }
+
+  & ul:not([class]),
+  & ol:not([class]) {
+    list-style-position: outside;
+    padding-left: 1.5em;
+  }
+
+  & ul:not([class]) {
+    list-style-type: disc;
+  }
+
+  & ol:not([class]) {
+    list-style-type: decimal;
+  }
+
+  & li:not([class]) {
+    margin-bottom: var(--size-4);
+    padding-left: 0.5em;
+
+    &::marker {
+      color: var(--color-accent);
+    }
+  }
+
+  & ul:not([class]) ul,
+  & ul:not([class]) ol,
+  & ol:not([class]) ul,
+  & ol:not([class]) ol {
+    margin-top: var(--size-4);
+  }
 }

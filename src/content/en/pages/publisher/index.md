@@ -1,6 +1,7 @@
 ---
 title: The best the market has to offer
 tagline: Publisher
+cover: /assets/media/adobestock-99649200.jpg
 menu: Publisher
 order: 2
 translationKey: publisher

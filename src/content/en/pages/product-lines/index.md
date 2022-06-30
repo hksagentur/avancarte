@@ -1,5 +1,6 @@
 ---
 title: Product Lines & Collections
+cover: /assets/media/adobestock-99649200.jpg
 menu: Product Lines
 order: 1
 translationKey: product-lines

@@ -1,6 +1,7 @@
 ---
 title: Turnover that keeps turning
 tagline: Displays
+cover: /assets/media/adobestock-99649200.jpg
 menu: Displays
 parent: point-of-sale
 order: 1

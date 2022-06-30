@@ -18,7 +18,7 @@ module.exports = function (eleventy) {
   // Layouts
   eleventy.addLayoutAlias('base', 'base.njk');
   eleventy.addLayoutAlias('post', 'post.njk');
-  eleventy.addLayoutAlias('event', 'event.njk');
+  eleventy.addLayoutAlias('event', 'page.njk');
   eleventy.addLayoutAlias('page', 'page.njk');
 
   // Passthrough Copies

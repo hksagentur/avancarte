@@ -5,14 +5,18 @@
     {% include "cover.njk" %}
   {%- endif %}
 
-  <div class="c-section c-section--intro / u-bg-merino">
-    {%- if tagline and not cover %}
+  <div class="c-section c-section--intro / {{ 'u-bg-merino' if isHomepage else 'u-bg-white' }}">
+    {%- if tagline %}
       <div class="c-section__tagline">
         {{ tagline }}
       </div>
     {%- endif %}
 
-    {%- if title and not cover %}
+    {%- if cover.title and not slides %}
+      <h2 class="c-section__title">
+        {{ title }}
+      </h2>
+    {%- else %}
       <h1 class="c-section__title / p-name">
         {{ title }}
       </h1>

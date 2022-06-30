@@ -108,6 +108,10 @@
     aspect-ratio: 21 / 9;
   }
 
+  .c-cover--compact {
+    aspect-ratio: 32 / 9;
+  }
+
   .c-cover__media {
     grid-area: full;
   }

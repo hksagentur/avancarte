@@ -1,6 +1,7 @@
 ---
 title: Präsentation der Ware ist so wichtig wie die Ware selbst!
 tagline: Point Of Sale
+cover: /assets/media/adobestock-99649200.jpg
 menu: Point Of Sale
 order: 3
 translationKey: point-of-sale

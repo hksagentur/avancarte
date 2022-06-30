@@ -5,4 +5,7 @@ module.exports = {
   ],
   draft: false,
   sitemap: true,
+  includes: [
+    'section-contact'
+  ]
 };

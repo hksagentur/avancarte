@@ -22,14 +22,14 @@
   {% set namespace = "c-site-nav__submenu-" if isSubmenu else "c-site-nav__menu-" %}
 
   {% set itemClasses = [
-    namespace ~ "item",
-    namespace ~ "item--active" if (isCurrent or isAncestor),
-    namespace ~ "item--has-children" if (hasChildren)
+    namespace + "item",
+    namespace + "item--active" if (isCurrent or isAncestor),
+    namespace + "item--has-children" if (hasChildren)
   ] %}
 
   {% set linkClasses = [
-    namespace ~ "link",
-    namespace ~ "link--active" if (isCurrent or isAncestor)
+    namespace + "link",
+    namespace + "link--active" if (isCurrent or isAncestor)
   ] %}
 
   <li class="{{ itemClasses|join(' ') }}">

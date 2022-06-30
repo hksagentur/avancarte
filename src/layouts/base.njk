@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="s-{{ layout }} h-entry no-js" lang="{{ lang|default('en') }}">
+<html class="{{ 's-home' if isHomepage else 's-' + layout }} h-entry no-js" lang="{{ lang|default('en') }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,9 +48,7 @@
     {%- endblock %}
 
     {%- for template in includes %}
-      {%- block section %}
-        {% include template ~ ".njk" %}
-      {%- endblock %}
+      {% include template + ".njk" %}
     {%- endfor %}
   </main>
 

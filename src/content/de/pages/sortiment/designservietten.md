@@ -1,6 +1,7 @@
 ---
 title: Ganz schön sauber!
 tagline: Designservietten
+cover: /assets/media/adobestock-99649200c.jpg
 menu: Designservietten
 parent: sortiment
 order: 2

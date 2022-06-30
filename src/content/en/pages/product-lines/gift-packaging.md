@@ -1,6 +1,7 @@
 ---
 title: Hands-on anticipation
 tagline: Gift packaging
+cover: /assets/media/adobestock-99649200.jpg
 menu: Gift packaging
 parent: product-lines
 order: 1

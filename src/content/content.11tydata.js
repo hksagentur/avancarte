@@ -11,6 +11,9 @@ module.exports = {
   images: [],
   videos: [],
   eleventyComputed: {
+    isHomepage({page, language}) {
+      return page.url === language.url;
+    },
     eleventyNavigation({page, menu, parent, order}) {
       if (menu) {
         return {

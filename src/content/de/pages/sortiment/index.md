@@ -1,6 +1,7 @@
 ---
 title: Schöne Momente noch schöner machen
 tagline: Sortiment
+cover: /assets/media/adobestock-99649200.jpg
 menu: Sortiment
 order: 1
 translationKey: product-lines

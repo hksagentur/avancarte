@@ -1,12 +1,12 @@
 ---
-title: Perfekte Wertschätzung zu gesellschaftlichen Anlässen
+title: Per­fekte Wert­schätzung zu ge­sellschaft­lichen Anlässen
 tagline: Unternehmen
 cover: /assets/media/adobestock-99649200.jpg
 menu: Unternehmen
 order: 0
 translationKey: company
 ---
-Wir helfen Menschen mit unseren Artikeln, untereinander ihre perfekte Wertschätzung zu gesellschaftlichen Anlässen auszudrücken und sich gegenseitig mit Worten und Geschenken eine Freude zu bereiten. 
+Wir helfen Menschen mit unseren Artikeln, untereinander ihre perfekte Wertschätzung zu gesellschaftlichen Anlässen auszudrücken und sich gegenseitig mit Worten und Geschenken eine Freude zu bereiten.
 
 Als eines der führenden Unternehmen im deutschsprachigen Raum für Grußkarten, Geschenkverpackungen und Designservietten bieten wir das ideale Angebot für jeden Wunsch.
 

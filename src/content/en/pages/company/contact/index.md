@@ -1,5 +1,6 @@
 ---
 title: Questions? We’re here for you.
+cover: /assets/media/adobestock-99649200.jpg
 menu: Contact
 parent: company
 order: 3

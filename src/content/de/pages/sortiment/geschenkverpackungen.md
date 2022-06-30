@@ -1,6 +1,7 @@
 ---
 title: Steigern Sie die Vorfreude auf Ihr Geschenk mit der perfekten Verpackung!
 tagline: Geschenkverpackungen
+cover: /assets/media/adobestock-99649200.jpg
 menu: Geschenkverpackungen
 parent: sortiment
 order: 1

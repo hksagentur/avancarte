@@ -39,7 +39,7 @@ slides:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
       url: #
-includes:
+override:includes:
   - section-services
   - section-bookmarks
   - section-newsroom

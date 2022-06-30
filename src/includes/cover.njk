@@ -1,4 +1,4 @@
-<div class="c-cover">
+<div class="c-cover{{ ' c-cover--compact' if not cover.title }}">
   <div class="c-cover__media">
     <img
       class="c-cover__media-image / u-object-cover"
@@ -8,9 +8,11 @@
       fetchpriority="high"
     >
   </div>
-  <div class="c-cover__content / u-bg-concrete / u-effect-kink">
-    <h1 class="c-cover__title / p-name">
-      {{ cover.title|default(title) }}
-    </h1>
-  </div>
+  {% if cover.title %}
+    <div class="c-cover__content / u-bg-concrete / u-effect-kink">
+      <h1 class="c-cover__title / p-name">
+        {{ cover.title }}
+      </h1>
+    </div>
+  {% endif %}
 </div>

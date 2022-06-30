@@ -1,6 +1,7 @@
 ---
 title: Furniture for any space
 menu: Furniture
+cover: /assets/media/adobestock-99649200.jpg
 parent: point-of-sale
 order: 0
 translationKey: furniture

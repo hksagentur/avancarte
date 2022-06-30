@@ -1,5 +1,6 @@
 ---
 title: Greeting cards
+cover: /assets/media/adobestock-99649200.jpg
 menu: Greeting cards
 parent: product-lines
 order: 0

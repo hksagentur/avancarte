@@ -1,8 +1,9 @@
 ---
 title: All the best for your business!
 tagline: Greeting cards and gift packaging for the retail trade
+cover: /assets/media/adobestock-99649200.jpg
 permalink: /en/
-includes:
+override:includes:
   - section-services
   - section-bookmarks
   - section-newsroom

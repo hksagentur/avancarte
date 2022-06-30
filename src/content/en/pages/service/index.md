@@ -1,6 +1,7 @@
 ---
 title: Perfect service. Individual assistance.
 tagline: Service
+cover: /assets/media/adobestock-99649200.jpg
 menu: Service
 order: 4
 translationKey: service
