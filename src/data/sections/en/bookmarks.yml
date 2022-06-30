@@ -1,12 +1,12 @@
 -
-  title: Change of product range
+  title: Product Lines
   icon: pen-station
-  url: '#'
+  url: '/product-lines/'
 -
   title: Publisher
   icon: telecommunicator
-  url: '#'
+  url: '/publisher/'
 -
   title: Merchandising
   icon: postcard
-  url: '#'
+  url: '/service/merchandising/'

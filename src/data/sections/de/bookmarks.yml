@@ -1,12 +1,12 @@
 -
-  title: Sortimentswechsel
+  title: Sortiment
   icon: pen-station
-  url: '#'
+  url: '/sortiment/'
 -
   title: Verlag
   icon: telecommunicator
-  url: '#'
+  url: '/verlag/'
 -
   title: Merchandising
   icon: postcard
-  url: '#'
+  url: '/service/merchandising/'
