@@ -5,6 +5,26 @@ cover: /assets/media/adobestock-99649200.jpg
 menu: Unternehmen
 order: 0
 translationKey: company
+highlights:
+  -
+    title: Unser Vertrieb
+    summary: >
+      Unser Vertrieb erfolgt über unsere eigene Außendienstorganisation mit
+      über 50 Bezirksleitern und Servicekräften in ganz Deutschland. 
+
+      Außerdem haben unsere Kunden rund um die Uhr die Möglichkeit, über
+      unseren Online-Shop zu bestellen.
+  -
+    title: Unsere Kunden
+    summary: >
+      Wir beliefern in Deutschland den Einzelhandel in den verschiedensten
+      Branchen. Dazu gehören zum Beispiel PBS-Facheinzelhandel, Buchhandel,
+      Geschenkboutiquen, Fachhandel der Kauf- und Warenhäuser, Tabak-
+      Zeitschriften-Geschäfte, Gartencenter, Lebensmitteleinzelhandel und
+      Postagenturen.
+override:includes:
+  - section-stores
+  - section-contact
 ---
 Wir helfen Menschen mit unseren Artikeln, untereinander ihre perfekte Wertschätzung zu gesellschaftlichen Anlässen auszudrücken und sich gegenseitig mit Worten und Geschenken eine Freude zu bereiten.
 

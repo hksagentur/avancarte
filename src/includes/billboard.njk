@@ -1,0 +1,31 @@
+<div class="c-billboard{{ ' c-billboard--flip@md' if loop.index % 2 == 0 }} / u-bg-concrete">
+  <div class="c-summary">
+    <h3 class="c-summary__title / u-divide-y">
+      {{ item.title }}
+    </h3>
+
+    <div class="s-rich-text">
+      <p>
+        {{ item.summary|striptags|nl2br|safe }}
+      </p>
+    </div>
+
+    {% if item.more %}
+      <a
+        href="{{ item.more.url }}"
+        class="c-more"
+        {% if item.more.alt %} aria-label="{{ item.more.alt|format(item.title) }}"{% endif %}
+      >
+        {{ item.more.label }}
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="c-poster">
+    <img
+      class="c-poster__image / u-object-cover"
+      src="{{ item.image.url|default(image)|default('/assets/media/adobestock-99649200.jpg') }}"
+      alt="{{ item.image.alt }}"
+    >
+  </div>
+</div>

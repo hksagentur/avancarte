@@ -26,4 +26,8 @@
       {{ content | safe }}
     </div>
   </div>
+
+  {% for item in highlights %}
+    {% include "billboard.njk" %}
+  {% endfor %}
 {% endblock %}
