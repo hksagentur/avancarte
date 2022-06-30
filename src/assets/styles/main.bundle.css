@@ -72,6 +72,7 @@
 @import "components/_components.meta.css";
 @import "components/_components.summary.css";
 @import "components/_components.tile.css";
+@import "components/_components.billboard.css";
 @import "components/_components.post.css";
 @import "components/_components.event.css";
 @import "components/_components.choices.css";

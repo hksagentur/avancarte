@@ -20,7 +20,7 @@
 
 .c-summary {
   --summary-content-width: calc(var(--measure-normal) - var(--summary-content-inset));
-  --summary-content-inset: var(--size-8);
+  --summary-content-inset: var(--size-16);
 
   display: grid;
   grid-template-columns:

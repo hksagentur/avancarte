@@ -1,0 +1,66 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:BILLBOARD
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Summary
+ *
+ * @todo Add description
+ *
+ * @example markup
+ *   <article class="c-billboard">
+ *     <div class="c-billboard__content">
+ *        <h3 class="c-billboard__title">
+ *          Present professionally - profit safely.
+ *        </h3>
+ *        <div class="c-billboard__excerpt">
+ *           <p>…</p>
+ *        </div>
+ *     </div>
+ *     <div class="c-billboard__media">
+ *       <img src="…" class="c-billboard__media-image">
+ *     </div>
+ *   </article>
+ */
+
+.c-billboard {
+  display: flex;
+
+  & > * {
+    flex-basis: 50%;
+  }
+}
+
+/**
+ * Vertical Stack
+ *
+ * Display the content of the billboard above the image on devices with a
+ * narrow viewport.
+ */
+
+ @media (--sm-down) {
+  .c-billboard {
+    flex-direction: column;
+  }
+
+  .c-billboard--flip\@sm {
+    flex-direction: column-reverse;
+  }
+}
+
+/**
+ * Horizontal Stack
+ *
+ * Display the content of the billboard next to the image on devices with a
+ * wider viewport.
+ */
+
+@media (--md-up) {
+  .c-billboard {
+    flex-direction: row;
+  }
+
+  .c-billboard--flip\@md {
+    flex-direction: row-reverse;
+  }
+}

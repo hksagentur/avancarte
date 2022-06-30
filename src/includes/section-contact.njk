@@ -1,16 +1,8 @@
 {% set section = sections[lang].contact %}
 
 {% if section %}
-  <section class="o-grid o-grid--flush o-grid--columns-2">
-    <figure class="c-figure">
-      <img
-        class="c-figure__content / u-object-cover"
-        src="/assets/media/placeholder-04.jpg"
-        alt=""
-      >
-    </figure>
-
-    <div class="c-summary / u-bg-concrete">
+  <section class="c-billboard c-billboard--flip@md / u-bg-concrete">
+    <div class="c-summary">
       <div class="c-summary__tagline">
         {{ section.tagline }}
       </div>
@@ -19,9 +11,11 @@
         {{ section.title }}
       </h2>
 
-      <p class="c-summary__excerpt">
-        {{ section.summary }}
-      </p>
+      <div class="c-summary__excerpt / s-rich-text">
+        <p>
+          {{ section.summary|striptags|escape|nl2br|safe }}
+        </p>
+      </div>
 
       <ul class="o-list-inline">
         <li>
@@ -35,6 +29,14 @@
           </a>
         </li>
       </ul>
+    </div>
+
+    <div class="c-poster">
+      <img
+        class="c-poster__image / u-object-cover"
+        src="/assets/media/placeholder-04.jpg"
+        alt=""
+      >
     </div>
   </section>
 {% endif %}
