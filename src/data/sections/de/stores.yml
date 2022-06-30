@@ -5,7 +5,7 @@
   icon: user
   more:
     label: Zum Händler-Shop
-    url: '#'
+    url: 'http://shop.avancarte.de/'
 -
   title: Shop für Jedermann
   summary: Bestellen Sie wann Sie wollen! Unser Online-Shop ist rund um die Uhr für
@@ -13,4 +13,4 @@
   icon: cart
   more:
     label: Zum Online-Shop
-    url: '#'
+    url: 'https://www.avancarte-shop.de/'

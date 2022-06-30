@@ -4,11 +4,11 @@
   icon: user
   more:
     label: Retailer Store
-    url: '#'
+    url: 'http://shop.avancarte.de/'
 -
   title: Store for everyone
   summary: Order whenever you want! Our online store is available for you 24/7!
   icon: cart
   more:
     label: Online Store
-    url: '#'
+    url: 'https://www.avancarte-shop.de/'
