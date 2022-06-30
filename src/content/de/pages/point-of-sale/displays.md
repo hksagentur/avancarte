@@ -1,0 +1,13 @@
+---
+title: Umsatz der sich dreht!
+tagline: Displays
+menu: Displays
+parent: point-of-sale
+order: 1
+translationKey: displays
+---
+Jeder kennt Drehdisplays für Kartenserien. Vor allem unsere ellipsenförmigen Drahtdisplays gefallen jedem. Ob BigSquare, Midi, B6 oder DIN Lang: für alle Formate gibt es die richtigen Displays für eine perfekte Präsentation, die Ihre Kunden an die Drehständer lockt. 
+
+Aber auch für alle anderen Warengruppen stellen wir Displays zur Verfügung, die zum Impulskauf einladen.
+
+Für saisonale Ereignisse und vorübergehende Aktionsplatzierungen setzen wir Displays aus Pappe ein. Diese werden aus nachhaltigen Rohstoffen produziert und entlasten durch den wegfallende Transportvorgänge die Umwelt. Nutzen Sie unsere Pappdisplays für ein Feuerwerk an Impulsen auf Ihrer Aktionsfläche.

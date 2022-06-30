@@ -1,6 +1,7 @@
 ---
 title: Beiprogramm
 menu: Beiprogramm
-parent: Sortiment
+parent: sortiment
 order: 3
+translationKey: gift-items
 ---

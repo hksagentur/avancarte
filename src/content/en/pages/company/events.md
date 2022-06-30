@@ -1,5 +1,6 @@
 ---
-title: Events
+title: Exhibiting on your behalf
+tagline: Events
 menu: Events
 parent: company
 order: 2

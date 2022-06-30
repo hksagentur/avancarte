@@ -85,6 +85,7 @@ collections:
         name: body
         label: Inhalt
         widget: markdown
+        required: false
       -
         name: location
         label: Standort

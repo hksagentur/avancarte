@@ -1,5 +1,5 @@
 ---
-title: Alles Gute für Ihr Geschäft
+title: Alles Gute für Ihr Geschäft!
 tagline: Verlags-, Handles- und Serviceunternehmen
 permalink: /
 slides:
@@ -46,12 +46,8 @@ includes:
   - section-stores
   - section-contact
 ---
-<p>
-  Unsere Sortimente machen schöne Momente noch schöner - und sagen in Wort und
-  Bild, was Ihre Kunden zum Ausdruck bringen wollen.
-</p>
+Seit 1974 bietet AvanCarte dem Einzelhandel einen Komplettservice im Bereich Grußkarten, Geschenkverpackungen und Designservietten an. Wir sind eines der führenden Verlags-, Handels- und Serviceunternehmen der Branche.
 
-<p>
-  Schöne Produkte, individuelle Kollektionen, gute Umsatzmöglichkeiten: Mit
-  AvanCarte haben Sie gute Karten für Ihren Erfolg.
-</p>
+Unsere Sortimente machen schöne Momente noch schöner – und sagen in Wort und Bild, was Ihre Kunden zum Ausdruck bringen wollen.
+
+Schöne Produkte, individuelle Kollektionen, gute Umsatzmöglichkeiten: Mit AvanCarte haben Sie gute Karten für Ihren Erfolg.

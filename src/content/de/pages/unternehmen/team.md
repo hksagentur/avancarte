@@ -1,5 +1,6 @@
 ---
-title: Team
+title: Unser Team. Rundum professionell.
+tagline: Team
 menu: Team
 parent: unternehmen
 order: 0
