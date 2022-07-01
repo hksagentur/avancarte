@@ -1,0 +1,18 @@
+{% set employees = employees|default(collections.employee|default([])) %}
+{% set modifier = cycler("u-bg-merino", "u-bg-light") %}
+
+{% if employees|length %}
+  {% for type, items in employees|groupby("data.group") %}
+    <div class="c-section c-section--team / {{ modifier.next() }}">
+      <h2 class="c-section__title / u-sr-only">
+        {{ type }}
+      </h2>
+
+      <div class="o-container / o-grid o-grid--columns-3">
+        {% for employee in items|sort_by("data.lastname") %}
+          {% include "employee.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}

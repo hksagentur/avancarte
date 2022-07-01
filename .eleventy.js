@@ -19,6 +19,7 @@ module.exports = function (eleventy) {
 
   // Layouts
   eleventy.addLayoutAlias('event', 'post.njk');
+  eleventy.addLayoutAlias('employee', 'post.njk');
   eleventy.addLayoutAlias('job', 'post.njk');
 
   // Passthrough Copies

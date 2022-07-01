@@ -54,3 +54,25 @@
     object-position: 50% 50%;
   }
 }
+
+/**
+ * Aspect Ratio
+ *
+ * A set of utility classes to enforce a specifc aspect ratio on an element.
+ */
+
+.u-image-3\:2,
+.u-image-16\:9 {
+  @supports (object-fit: cover) {
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+}
+
+.u-image-3\:2 {
+  aspect-ratio: 3 / 2;
+}
+
+.u-image-16\:9 {
+  aspect-ratio: 16 / 9;
+}

@@ -1,0 +1,19 @@
+<article class="c-box / h-card">
+  <img
+    src="{{ employee.data.photo|url }}"
+    class="u-photo / u-gap-below / u-image-3:2"
+    alt=""
+  >
+
+  <h3>
+    <a href="mailto:{{ employee.data.email|obfuscate|safe }}" class="p-name / u-email">
+      {{ employee.data.title|obfuscate|safe }}
+    </a>
+  </h3>
+
+  {% if employee.data.role %}
+    <div class="p-role">
+      {{ employee.data.role }}
+    </div>
+  {% endif %}
+</article>

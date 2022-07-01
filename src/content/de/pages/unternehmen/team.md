@@ -5,4 +5,7 @@ menu: Team
 parent: unternehmen
 order: 0
 translationKey: team
+override:includes:
+  - team
+  - contact
 ---
