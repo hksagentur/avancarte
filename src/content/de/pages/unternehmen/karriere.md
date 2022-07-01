@@ -7,7 +7,9 @@ parent: unternehmen
 order: 1
 translationKey: career
 ---
-Wir sind ein mittelständisches Unternehmen, das sich seit 50 Jahren kontinuierlich entwickelt und Marktanteile gewinnt. Dies konnte uns nur durch gute Mitarbeiter gelingen, die großenteils seit vielen Jahren bei uns arbeiten.
+<p class="u-text-lead">
+  Wir sind ein mittelständisches Unternehmen, das sich seit 50 Jahren kontinuierlich entwickelt und Marktanteile gewinnt. Dies konnte uns nur durch gute Mitarbeiter gelingen, die großenteils seit vielen Jahren bei uns arbeiten.
+</p>
 
 Die Geschäftsführer sind Mitinhaber und auch die übrigen Gesellschafter dem familiengeprägten Unternehmen seit vielen Jahren verbunden.
 

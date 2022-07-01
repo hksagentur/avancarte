@@ -3,6 +3,16 @@
  * ----------------------------------------------------------------------- */
 
 /**
+ * Lead Paragraph
+ *
+ * Utilities for styling the introduction of a text.
+ */
+
+.u-text-lead {
+  font-size: var(--fluid-sm);
+}
+
+/**
  * Text Sizes
  *
  * Utilities for controlling the font size of an element.

@@ -1,10 +1,13 @@
-<div class="c-billboard{{ ' c-billboard--flip@md' if loop.index % 2 == 0 }} / u-bg-concrete">
+{% set even = loop.index % 2 == 0 %}
+{% set words = item.summary|wordcount %}
+
+<div class="c-billboard{{ ' c-billboard--flip@md' if even }} / u-bg-concrete">
   <div class="c-story">
     <h3 class="c-story__title / u-divide-y">
       {{ item.title }}
     </h3>
 
-    <div class="c-story__excerpt / s-rich-text">
+    <div class="c-story__excerpt / s-rich-text{{ ' s-rich-text--long' if words > 80 }}">
       {{ item.summary|markdown|safe }}
     </div>
 

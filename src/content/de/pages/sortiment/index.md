@@ -16,4 +16,4 @@ Bei AvanCarte dreht sich alles um ein Ziel: Wir wollen ein Lächeln ins Gesicht 
 - Partyartikel
 - Sticker
 
-Alle Kollektionen können Sie über unser [Team](/unternehmen/team/) oder in unserem [Online-Shop](https://www.avancarte-shop.de/) individuell aussuchen und bestellen. Wenn Sie möchten, stehen wir Ihnen vor Ort mit einem umfassenden Service rund um Ihre Grußkarten und Geschenkverpackungen zur Seite. Sprechen Sie uns an!
+Alle Kollektionen können Sie über unser [Team](/unternehmen/team/) oder in unserem [Online-Shop](https://www.avancarte-shop.de/) individuell aussuchen und bestellen. Wenn Sie möchten, stehen wir Ihnen vor Ort mit einem umfassenden Service rund um Ihre Gruß­karten und Geschenk­ver­packungen zur Seite. Sprechen Sie uns an!

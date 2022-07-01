@@ -31,14 +31,13 @@
 
 .c-section__title,
 .c-section__heading {
-  margin-bottom: var(--size-6);
   font-weight: var(--font-semibold);
   line-height: var(--leading-tight);
 }
 
 .c-section__title,
 .c-section__tagline {
-  max-width: 64rem;
+  max-width: 40rem;
   padding-left: var(--size-2);
   padding-right: var(--size-2);
   margin-left: auto;
@@ -48,6 +47,7 @@
 }
 
 .c-section__title {
+  margin-bottom: var(--size-8);
   font-size: var(--scale-3);
   font-size: var(--fluid-lg);
 }
@@ -61,6 +61,7 @@
 }
 
 .c-section__heading {
+  margin-bottom: var(--size-4);
   font-size: var(--scale-2);
 }
 

@@ -39,6 +39,14 @@
     }
   }
 
+  & h2:not([class]) {
+    font-size: var(--fluid-md);
+  }
+
+  & h3:not([class]) {
+    font-size: var(--fluid-sm);
+  }
+
   & ul:not([class]),
   & ol:not([class]) {
     list-style-position: outside;
