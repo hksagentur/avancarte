@@ -1,20 +1,18 @@
-{% set section = sections[lang].contact %}
+{% set item = sections[lang].contact %}
 
-{% if section %}
+{% if item %}
   <section class="c-billboard c-billboard--flip@md / u-bg-concrete">
-    <div class="c-summary">
-      <div class="c-summary__tagline">
-        {{ section.tagline }}
+    <div class="c-story">
+      <div class="c-story__tagline">
+        {{ item.tagline }}
       </div>
 
-      <h2 class="c-summary__title / u-divide-y">
-        {{ section.title }}
+      <h2 class="c-story__title / u-divide-y">
+        {{ item.title }}
       </h2>
 
-      <div class="c-summary__excerpt / s-rich-text">
-        <p>
-          {{ section.summary|striptags|escape|nl2br|safe }}
-        </p>
+      <div class="c-story__excerpt / s-rich-text">
+        {{ item.summary|markdown|safe }}
       </div>
 
       <ul class="o-list-inline">

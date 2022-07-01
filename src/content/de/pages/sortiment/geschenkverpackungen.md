@@ -9,4 +9,4 @@ translationKey: gift-packaging
 ---
 AvanCarte präsentiert Ihnen ein breites Sortiment aus farbenfrohen, hochwertig gestalteten Papieren, Bändern, Taschen und Schachteln, das einen besonderen Moment perfekt macht. Stöbern Sie – und lassen Sie sich überraschen.
 
-Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich für unseren Onlineshop registrieren. Herzlich willkommen!
+Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich für unseren [Onlineshop](https://www.avancarte-shop.de/) registrieren. Herzlich willkommen!

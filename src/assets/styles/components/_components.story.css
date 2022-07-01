@@ -1,15 +1,15 @@
 /* -----------------------------------------------------------------------
- * #COMPONENTS:SUMMARY
+ * #COMPONENTS:STORY
  * ----------------------------------------------------------------------- */
 
 /**
- * Summary
+ * Story
  *
- * @todo Add description
+ * A generic piece of content.
  *
  * @example markup
- *   <article class="c-summary">
- *     <h3 class="c-summary__title">
+ *   <article class="c-story">
+ *     <h3 class="c-story__title">
  *       Present professionally - profit safely.
  *     </h3>
  *     <div class="s-rich-text">
@@ -18,22 +18,22 @@
  *   </article>
  */
 
-.c-summary {
-  --summary-content-width: calc(var(--measure-normal) - var(--summary-content-inset));
-  --summary-content-inset: var(--size-16);
+.c-story {
+  --story-content-width: calc(var(--measure-normal) - var(--story-content-inset));
+  --story-content-inset: var(--size-16);
 
   display: grid;
   grid-template-columns:
     [full-start]
-    calc(50% - (0.5 * var(--summary-content-width)))
+    calc(50% - (0.5 * var(--story-content-width)))
     [content-start] 1fr [content-end]
-    calc(50% - (0.5 * var(--summary-content-width)))
+    calc(50% - (0.5 * var(--story-content-width)))
     [full-end];
-  column-gap: var(--summary-content-inset);
+  column-gap: var(--story-content-inset);
   place-items: start;
   place-content: center;
-  padding-top: var(--summary-content-inset);
-  padding-bottom: var(--summary-content-inset);
+  padding-top: var(--story-content-inset);
+  padding-bottom: var(--story-content-inset);
 
   & > * {
     grid-column: content;
@@ -44,7 +44,7 @@
   }
 }
 
-.c-summary__title {
+.c-story__title {
   font-size: var(--scale-1);
   font-size: var(--fluid-md);
   font-weight: var(--font-semibold);
@@ -55,7 +55,7 @@
   }
 }
 
-.c-summary__tagline {
+.c-story__tagline {
   margin-bottom: var(--size-2);
   font-size: var(--scale-xs);
   font-weight: var(--font-regular);
@@ -64,7 +64,7 @@
   letter-spacing: var(--tracking-wider);
 }
 
-.c-summary--center {
+.c-story--center {
   place-content: center;
   place-items: center;
   text-align: center;

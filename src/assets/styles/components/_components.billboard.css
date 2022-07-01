@@ -3,24 +3,25 @@
  * ----------------------------------------------------------------------- */
 
 /**
- * Summary
+ * Billboard
  *
- * @todo Add description
+ * A large advertising structure used to present a figure next to a short
+ * description.
  *
  * @example markup
- *   <article class="c-billboard">
- *     <div class="c-billboard__content">
- *        <h3 class="c-billboard__title">
+ *   <section class="c-billboard">
+ *     <div class="c-story">
+ *        <h3 class="c-story__title">
  *          Present professionally - profit safely.
  *        </h3>
- *        <div class="c-billboard__excerpt">
+ *        <div class="c-story__excerpt">
  *           <p>…</p>
  *        </div>
  *     </div>
- *     <div class="c-billboard__media">
- *       <img src="…" class="c-billboard__media-image">
+ *     <div class="c-poster">
+ *       <img src="…" class="c-poster__image">
  *     </div>
- *   </article>
+ *   </section>
  */
 
 .c-billboard {

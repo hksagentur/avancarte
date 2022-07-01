@@ -1,5 +1,6 @@
-const pluginNavigation = require('@11ty/eleventy-navigation');
+const EleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 
+const {EleventyRenderPlugin} = require('@11ty/eleventy');
 const {format} = require('node:util');
 const {config} = require('dotenv');
 const {load} = require('js-yaml');
@@ -13,7 +14,8 @@ module.exports = function (eleventy) {
   config();
 
   // Plugins
-  eleventy.addPlugin(pluginNavigation);
+  eleventy.addPlugin(EleventyRenderPlugin);
+  eleventy.addPlugin(EleventyNavigationPlugin);
 
   // Layouts
   eleventy.addLayoutAlias('base', 'base.njk');
@@ -46,6 +48,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('iso8601', require('./eleventy/filters/iso8601'));
   eleventy.addFilter('json_attribute', require('./eleventy/filters/json-attribute'));
   eleventy.addFilter('json', require('./eleventy/filters/json'));
+  eleventy.addFilter('markdown', require('./eleventy/filters/markdown'));
   eleventy.addFilter('merge', require('./eleventy/filters/merge'));
   eleventy.addFilter('obfuscate', require('./eleventy/filters/obfuscate'));
   eleventy.addFilter('pluck', require('./eleventy/filters/pluck'));

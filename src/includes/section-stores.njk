@@ -8,14 +8,14 @@
 
     <div class="o-container / o-grid o-grid--columns-2">
       {% for item in stores %}
-        <article class="c-summary c-summary--center">
-          <h3 class="c-summary__title">
+        <article class="c-story c-story--center">
+          <h3 class="c-story__title">
             {{ item.title }}
           </h3>
 
-          <p class="c-summary__excerpt">
-            {{ item.summary }}
-          </p>
+          <div class="c-story__excerpt / s-rich-text">
+            {{ item.summary|markdown|safe }}
+          </div>
 
           {% if item.more %}
             <a href="{{ item.more.url|url }}" class="c-button c-button--primary">

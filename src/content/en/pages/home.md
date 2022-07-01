@@ -3,12 +3,12 @@ title: All the best for your business!
 tagline: Greeting cards and gift packaging for the retail trade
 cover: /assets/media/adobestock-99649200.jpg
 permalink: /en/
-override:includes:
-  - section-services
-  - section-bookmarks
-  - section-newsroom
-  - section-stores
-  - section-contact
+override:attachments:
+  - services
+  - bookmarks
+  - newsroom
+  - stores
+  - contact
 ---
 AvanCarte has been providing the retail trade with complete service for greeting cards and gift packaging since 1974. We are one of the leading publishing, trading and service companies in the sector.
 

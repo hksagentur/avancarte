@@ -47,8 +47,8 @@
       {{ content|safe }}
     {%- endblock %}
 
-    {%- for template in includes %}
-      {% include template + ".njk" %}
+    {%- for template in attachments %}
+      {% include "section-" + template + ".njk" %}
     {%- endfor %}
   </main>
 

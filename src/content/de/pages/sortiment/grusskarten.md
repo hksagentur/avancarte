@@ -5,6 +5,30 @@ menu: Grußkarten
 parent: sortiment
 order: 0
 translationKey: greeting-cards
+highlights:
+  -
+    title: Für jeden Anlass
+    summary: |
+      Sie bekommen bei uns Karten zu über 100 Anlässen, perfekt und
+      übersichtlich präsentiert in unseren Kartenwänden mit entsprechenden
+      Hinweisschildern.
+
+      Die Anlässe sind das Spiegelbild unserer kulturellen Gewohnheiten und
+      unterscheiden sich je nach Region und Lage. Wir sind überall gut
+      aufgestellt: Ob Plattdeutsch im Norden oder Priesterweihe in der
+      katholischen Region: bei uns finden Sie alles!
+  -
+    title: "Drehen sich schnell: Design­servietten für Dreh­displays"
+    summary: |
+      Kunden kaufen nicht nur nach Bedarf. Oft lassen sie sich von attraktiven Motivserien zum Kauf anregen. Licht- und Soundeffekte, individuelles Design, interessante Materialien, aktuelle Trends und Motive von lustig über künstlerisch bis exklusiv schaffen zusätzliche Impulse:
+
+      - Von AvanCarte-Designern konzipiert und gestaltet
+      - Mit abgestimmten Drehdisplays für eine optimale Präsentation am POS
+      - Ausgewählte Themen von Comic bis chic und von handgemacht bis 
+        hochveredelt
+override:attachments:
+  - stores
+  - contact
 ---
 Seit 1974 überbringen unsere Grußkarten Glückwünsche, sagen liebe Worte und leisten Beistand. Praktisch jeder Anlass, viele Stile und Formate: Wählen Sie aus Tausenden von Karten die Richtigen für Ihre Kollektion aus. Wir helfen Ihnen dabei!
 

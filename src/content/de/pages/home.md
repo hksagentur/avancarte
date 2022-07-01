@@ -5,7 +5,7 @@ permalink: /
 slides:
   -
     title: Kleine Geste, mit großer Bedeutung
-    summary: >
+    summary: |
       Unsere Sortimente machen schöne Momente noch schöner - und sagen in Wort
       und Bild, was Ihre Kunden zum Ausdruck bringen wollen.
     image:
@@ -18,7 +18,7 @@ slides:
   -
     title: Die kleinen Dinge genießen, sie machen das Leben wunderbar
     url: #
-    summary: >
+    summary: |
       Bei uns bleiben keine Wünsche offen.
     image:
       url: /assets/media/adobestock-99649200b.jpg
@@ -29,7 +29,7 @@ slides:
       url: #
   -
     title: Alles aus einer Hand, seit 1974
-    summary: >
+    summary: |
       AvanCarte bietet dem Einzelhandel einen Komplettservice im Bereich
       Grußkarten und Geschenkverpackungen an.
     image:
@@ -39,12 +39,12 @@ slides:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
       url: #
-override:includes:
-  - section-services
-  - section-bookmarks
-  - section-newsroom
-  - section-stores
-  - section-contact
+override:attachments:
+  - services
+  - bookmarks
+  - newsroom
+  - stores
+  - contact
 ---
 Seit 1974 bietet AvanCarte dem Einzelhandel einen Komplettservice im Bereich Grußkarten, Geschenkverpackungen und Designservietten an. Wir sind eines der führenden Verlags-, Handels- und Serviceunternehmen der Branche.
 

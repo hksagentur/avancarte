@@ -1,13 +1,11 @@
 <div class="c-billboard{{ ' c-billboard--flip@md' if loop.index % 2 == 0 }} / u-bg-concrete">
-  <div class="c-summary">
-    <h3 class="c-summary__title / u-divide-y">
+  <div class="c-story">
+    <h3 class="c-story__title / u-divide-y">
       {{ item.title }}
     </h3>
 
-    <div class="s-rich-text">
-      <p>
-        {{ item.summary|striptags|nl2br|safe }}
-      </p>
+    <div class="c-story__excerpt / s-rich-text">
+      {{ item.summary|markdown|safe }}
     </div>
 
     {% if item.more %}
