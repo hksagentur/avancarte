@@ -7,7 +7,8 @@ order: 4
 translationKey: service
 highlights:
   -
-    title: Online – 24/7 Verfügbarkeit – jederzeit von überall
+    tagline: Online
+    title: 24/7 Verfügbarkeit – jederzeit von überall
     summary: |
       Egal ob Sie Grußkarten, Geschenkverpackungen, Designservietten oder unser
       Beiprogramm benötigen. Nutzen Sie unseren Onlineshop rund um die Uhr. Er
@@ -15,13 +16,15 @@ highlights:
       und wir übermitteln Ihnen das Passwort. Ihre Bestellung ist unverzüglich
       versandfertig.
   -
-    title: Kollektionsverkauf – Attraktives Programm und begeisterte Käufer
+    tagline: Kollektionsverkauf
+    title: Attraktives Programm und begeisterte Käufer
     summary: |
       Unser großes Außendienstteam ist schnell vor Ort und führt Sie durch
       unsere Kollektion. Treffen Sie selbst Ihre individuelle Auswahl. Wir
       passen auf, dass Sie nichts übersehen.
   -
-    title: easyCarte System® – Die einfache Vielfalt
+    tagline: easyCarte System®
+    title: Die einfache Vielfalt
     summary: |
       Stellen Sie sich vor, Sie müssen sich um nichts kümmern. Die Ware läuft
       „wie von selbst“. Unmöglich? Mit unserem easyCarteSystem ist das ganz
@@ -39,7 +42,8 @@ highlights:
       - kein aufwändiges Aussuchen aus Kollektionen mehr 
       - laufende Kontrolle durch unsere IT und unsere Kundenberater
   -
-    title: Fullservice – Sie stellen die Fläche – wir machen den Rest
+    tagline: Fullservice
+    title: Sie stellen die Fläche – wir machen den Rest
     summary: |
       Auf der Basis des easyCarte System® übernehmen wir das Rackjobbing. Wir
       bestellen und verräumen die Ware und Sie kassieren nur noch. Ihre
@@ -50,7 +54,7 @@ highlights:
 
       Erfahren Sie mehr über unsere **Einrichtungsberatung** und unser **Visual
       Merchandising**.
-override:attachments:
+override:includes:
   - stores
   - contact
 ---

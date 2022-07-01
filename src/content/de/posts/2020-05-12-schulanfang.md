@@ -1,8 +1,6 @@
 ---
-title: Schulanfang
+title: Endlich Schule!
 ---
-## Endlich Schule!
-
 Freuen Sie sich auf viele Neuigkeiten zum Schulanfang.
 
 Sie erhalten:

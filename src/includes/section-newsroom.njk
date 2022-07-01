@@ -1,8 +1,55 @@
-<section class="c-section c-section--newsroom / u-bg-concrete">
-  <h2 class="c-section__title">
-    {{ "Newsroom"|trans }}
-  </h2>
+{% set newsroom = sections[lang].newsroom %}
 
-  {% include "section-posts.njk" %}
-  {% include "section-events.njk" %}
-</section>
+{% set formatShort = newsroom.events.formatShort|default("LL/dd") %}
+{% set formatLong = newsroom.events.formatLong|default("LL/dd/yyyy") %}
+
+{% set posts = posts|default(collections.post|default([])|tagged_with(lang)|reverse)|take(newsroom.posts.limit) %}
+{% set events = events|default(collections.event|default([])|tagged_with(lang)|upcoming)|take(newsroom.events.limit) %}
+
+{% if posts|length or events|length %}
+  <section class="c-section c-section--newsroom / u-bg-concrete">
+    <h2 class="c-section__title">
+      {{ "Newsroom"|trans }}
+    </h2>
+
+    {% if posts|length %}
+      <section class="c-feed / o-container / h-feed">
+        <header class="c-feed__header">
+          <h3 class="c-feed__title / p-name">
+            {{ "Latest News"|trans }}
+          </h3>
+
+          <a href="{{ newsroom.posts.more.url }}" class="c-more">
+            {{ newsroom.posts.more.label }}
+          </a>
+        </header>
+
+        <div class="o-grid o-grid--columns-4">
+          {% for post in posts %}
+            {% include "post.njk" %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if events|length %}
+      <section class="c-feed / o-container">
+        <header class="c-feed__header">
+          <h3 class="c-feed__title">
+            {{ "Events"|trans }}
+          </h3>
+
+          <a href="{{ newsroom.events.more.url }}" class="c-more">
+            {{ newsroom.events.more.label }}
+          </a>
+        </header>
+
+        <div class="o-grid o-grid--columns-3">
+          {% for event in events %}
+            {% include "event.njk" %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  </section>
+{% endif %}

@@ -1,8 +1,6 @@
 ---
 title: AvanMaxxi
 ---
-## AvanMaxxi
-
 MAXXImale Freude zum Verschenken!
 
 Ein Geburtstag kommt wieder mal viel zu spontan und für die anstehende Hochzeit fehlt auch noch die passende

@@ -1,8 +1,6 @@
 ---
 title: Umwelt - Naturdisplay
 ---
-## Umwelt - Naturdisplay
-
 Sie finden in diesem nachhaltigen Display:
 
 - Unsere Grußkartenserie „AvanSymphonie“ unverpackt und mit umweltfreundlichen Kraftpackumschlägen

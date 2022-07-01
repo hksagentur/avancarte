@@ -50,6 +50,8 @@
   margin-bottom: var(--size-8);
   font-size: var(--scale-3);
   font-size: var(--fluid-lg);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-tight);
 }
 
 .c-section__tagline {
@@ -60,14 +62,20 @@
   text-transform: uppercase;
 }
 
-.c-section__heading {
-  margin-bottom: var(--size-4);
-  font-size: var(--scale-2);
-}
-
 .c-section__content {
 
   @nest & + & {
     margin-top: var(--size-24);
   }
+}
+
+.c-section__content-header {
+
+}
+
+.c-section__content-label {
+  margin-bottom: var(--size-4);
+  font-size: var(--scale-2);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-tight);
 }

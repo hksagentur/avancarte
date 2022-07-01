@@ -1,8 +1,6 @@
 ---
 title: AvanShowTime
 ---
-## AvanShowTime
-
 It´s SHOW TIME!
 
 Mit diesen fröhlichen Pop-Up-Karten erleben die Beschenkten eine echte Show: Die Karten verwandeln sich vor ihren Augen zu einem 3D-Kunstwerk.

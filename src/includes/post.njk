@@ -1,0 +1,25 @@
+<article class="c-post / h-entry" data-component="card">
+  <h4 class="c-post__title / p-name">
+    {{ post.data.title }}
+  </h4>
+
+  <p class="c-post__excerpt / p-summary">
+    {{ post.templateContent|striptags|truncate(64) }}
+  </p>
+
+  <a
+    href="{{ post.url|url }}"
+    class="c-post__more / c-more / u-url"
+    aria-label="{{ 'Read more about “:title”'|trans({title: post.data.title}) }}"
+  >
+    {{ "Read more"|trans }}
+  </a>
+
+  <div class="c-post__thumbnail">
+    <img
+      class="c-post__thumbnail-image / u-object-cover"
+      src="{{ post.data.cover.url|default(post.data.cover) }}"
+      alt="{{ post.data.cover.alt }}"
+    >
+  </div>
+</article>

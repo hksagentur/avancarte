@@ -1,0 +1,88 @@
+{% set startDate = event.data.startDate|default(event.date) %}
+{% set endDate = event.data.endDate|default(startDate) %}
+
+{% set hasMeta = event.data.location or event.data.stand %}
+
+<article class="c-event{{ ' c-event--meta-missing' if not hasMeta }} / h-event">
+  <header class="c-event__header / u-divide-y">
+    <h4 class="c-event__title / p-name">
+      {{ event.data.title }}
+    </h4>
+
+    <div class="c-event__date-period">
+      <span class="u-sr-only">
+        {{ "Date Period"|trans }}
+      </span>
+      {% if startDate|same_day(endDate) %}
+        <time class="c-event__start-date / dt-start" datetime="{{ startDate|iso8601 }}">
+          {{ startDate|date }}
+        </time>
+      {% else %}
+        <time class="c-event__start-date / dt-start" datetime="{{ startDate|iso8601 }}">
+          {{ startDate|date(formatShort|default("LL/dd")) }}
+        </time>
+        <span role="separator">
+          &ndash;
+        </span>
+        <time class="c-event__end-date / dt-end" datetime="{{ endDate|iso8601 }}">
+          {{ endDate|date(formatLong|default("LL/dd/yyyy")) }}
+        </time>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if hasMeta %}
+    <footer class="c-event__meta">
+      <dl class="c-event__location / c-meta c-meta--inline">
+        {% if event.data.location %}
+          <dt class="c-meta__key">
+            {{ "Location"|trans }}
+          </dt>
+          <dd class="c-meta__value">
+            <span class="p-location">
+              {{ event.data.location }}
+            </span>
+          </dd>
+        {% endif %}
+
+        {% if event.data.stand %}
+          <dt class="c-meta__key">
+              {{ "Stand"|trans }}
+          </dt>
+          <dd class="c-meta__value">
+            {{ event.data.stand }}
+          </dd>
+        {% endif %}
+      </dl>
+    </footer>
+  {% endif %}
+
+  <div class="c-event__figure">
+    {% if event.data.image %}
+      <img
+        class="c-event__thumbnail / u-object-cover"
+        src="{{ event.data.image.url|default(event.data.image) }}"
+        alt="{{ event.data.image.alt }}"
+      >
+    {% else %}
+      <svg
+        class="c-event__placeholder"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+        aria-hidden="true"
+      >
+        <rect class="c-event__placeholder-bg" y="68%" width="100%" height="32%" />
+        <rect class="c-event__placeholder-bg" width="100%" height="68%" />
+        <g class="c-event__placeholder-date" text-anchor="middle" dominant-baseline="central">
+          <text class="c-event__placeholder-month" x="50%" y="84%">
+            {{ startDate|date("LLL") }}
+          </text>
+          <text class="c-event__placeholder-day" x="50%" y="34%">
+            {{ startDate|date("dd") }}
+          </text>
+        </g>
+      </svg>
+    {% endif %}
+  </div>
+</article>

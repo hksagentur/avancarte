@@ -27,7 +27,7 @@ highlights:
     summary: |
       Der Export erfolgt insbesondere in alle deutschsprachigen Nachbarländer.
       Der Vertrieb läuft dort jeweils über ausgesuchte Distributoren.
-override:attachments:
+override:includes:
   - stores
   - contact
 ---

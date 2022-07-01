@@ -26,7 +26,7 @@ highlights:
       - Mit abgestimmten Drehdisplays für eine optimale Präsentation am POS
       - Ausgewählte Themen von Comic bis chic und von handgemacht bis 
         hochveredelt
-override:attachments:
+override:includes:
   - stores
   - contact
 ---

@@ -1,30 +1,32 @@
 {% extends "./base.njk" %}
 
-{% block content %}
-  {%- if cover and not slides %}
-    {% include "cover.njk" %}
-  {%- endif %}
-
+{% block main %}
   <div class="c-section c-section--intro{{ ' / u-bg-merino' if isHomepage }}">
-    {%- if tagline %}
-      <div class="c-section__tagline">
-        {{ tagline }}
+    {% block tagline %}
+      {%- if tagline %}
+        <div class="c-section__tagline">
+          {{ tagline }}
+        </div>
+      {%- endif %}
+    {% endblock %}
+
+    {% block heading %}
+      {%- if cover.title and not slides %}
+        <h2 class="c-section__title">
+          {{ title }}
+        </h2>
+      {%- else %}
+        <h1 class="c-section__title / p-name">
+          {{ title }}
+        </h1>
+      {%- endif %}
+    {% endblock %}
+
+    {% block content %}
+      <div class="s-rich-text / o-container o-container--prose">
+        {{ content|safe }}
       </div>
-    {%- endif %}
-
-    {%- if cover.title and not slides %}
-      <h2 class="c-section__title">
-        {{ title }}
-      </h2>
-    {%- else %}
-      <h1 class="c-section__title / p-name">
-        {{ title }}
-      </h1>
-    {%- endif %}
-
-    <div class="s-rich-text / o-container o-container--prose">
-      {{ content | safe }}
-    </div>
+    {% endblock %}
   </div>
 
   {% for item in highlights %}

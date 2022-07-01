@@ -1,0 +1,27 @@
+{% extends "./base.njk" %}
+
+{% block main %}
+  <div class="c-section c-section--intro / u-bg-concrete">
+    {% block heading %}
+      {%- if cover.title %}
+        <h2 class="c-section__title">
+          {{ title }}
+        </h2>
+      {%- else %}
+        <h1 class="c-section__title / p-name">
+          {{ title }}
+        </h1>
+      {%- endif %}
+    {% endblock %}
+
+    {% block content %}
+      <div class="o-container">
+        <div class="o-grid o-grid--columns-3">
+          {%- for post in collections.post|tagged_with(lang)|reverse %}
+            {% include "post.njk" %}
+          {%- endfor %}
+        </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock %}

@@ -43,12 +43,18 @@
   {%- endblock %}
 
   <main id="main" class="o-landmark o-landmark--main / e-content" role="main">
-    {%- block content %}
+    {%- block cover %}
+      {%- if cover %}
+        {% include "cover.njk" %}
+      {%- endif %}
+    {%- endblock %}
+
+    {%- block main %}
       {{ content|safe }}
     {%- endblock %}
 
-    {%- for template in attachments %}
-      {% include "section-" + template + ".njk" %}
+    {%- for template in includes %}
+      {% include "section-" + template + ".njk" ignore missing %}
     {%- endfor %}
   </main>
 

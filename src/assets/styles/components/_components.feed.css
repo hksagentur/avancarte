@@ -1,0 +1,45 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:FEED
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Feed
+ *
+ * @todo Add description
+ *
+ * @example markup
+ *   <section class="c-feed">
+ *     <header class="c-feed__header">
+ *       <h2 class="c-feed__title">
+ *         Latest News
+ *       </h2>
+ *       <a href="/news/" class="c-feed__more>
+ *         Show all
+ *       </a>
+ *     </header>
+ *     <div class="o-grid">
+ *       …
+ *     </div>
+ *   </section>
+ */
+
+.c-feed {
+  position: relative;
+
+  @nest & + & {
+    margin-top: var(--size-24);
+  }
+}
+
+.c-feed__header {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--size-4);
+}
+
+.c-feed__title {
+  margin-bottom: var(--size-4);
+  font-size: var(--scale-2);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-tight);
+}

@@ -1,0 +1,12 @@
+posts:
+  limit: 4
+  more:
+    label: 'Show all News'
+    url: '/news/'
+events:
+  limit: 3
+  formatShort: LL/dd
+  formatLong: LL/dd/yyyy
+  more:
+    label: 'Show all Events'
+    url: '/company/events/'

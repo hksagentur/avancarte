@@ -5,7 +5,7 @@ menu: Contact
 parent: company
 order: 3
 translationKey: contact
-override:attachments:
+override:includes:
   - form
 ---
 Are you interested in our offer or do you have some information for us? If

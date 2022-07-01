@@ -27,7 +27,7 @@ highlights:
     summary: |
       Von Kerzen, Luftschlangen und Konfetti bis hin zu bunten Luftballons
       finden Sie hier alles, was Sie für ein gelungenes Fest benötigen.
-override:attachments:
+override:includes:
   - stores
   - contact
 ---

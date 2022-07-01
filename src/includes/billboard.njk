@@ -3,6 +3,12 @@
 
 <div class="c-billboard{{ ' c-billboard--flip@md' if even }} / u-bg-concrete">
   <div class="c-story">
+    {% if item.tagline %}
+      <div class="c-story__tagline">
+        {{ item.tagline }}
+      </div>
+    {% endif %}
+
     <h3 class="c-story__title / u-divide-y">
       {{ item.title }}
     </h3>

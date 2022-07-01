@@ -39,7 +39,7 @@ slides:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
       url: #
-override:attachments:
+override:includes:
   - services
   - bookmarks
   - newsroom

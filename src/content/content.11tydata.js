@@ -10,6 +10,9 @@ module.exports = {
   tags: [],
   images: [],
   videos: [],
+  includes: [
+    'contact'
+  ],
   eleventyComputed: {
     eleventyNavigation({page, menu, parent, order}) {
       if (menu) {
