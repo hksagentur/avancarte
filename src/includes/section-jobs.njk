@@ -1,0 +1,15 @@
+{% set jobs = jobs|default(collections.job|default([])|tagged_with(lang)|reverse) %}
+
+{% if jobs|length %}
+  <section class="c-section c-section--jobs / u-bg-merino">
+    <h2 class="c-section__title">
+      {{ "Open Positions"|trans }}
+    </h2>
+
+    <div class="o-container / o-grid o-grid--columns-3">
+      {% for job in jobs %}
+        {% include "job.njk" %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

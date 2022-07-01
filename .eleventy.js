@@ -18,10 +18,8 @@ module.exports = function (eleventy) {
   eleventy.addPlugin(EleventyNavigationPlugin);
 
   // Layouts
-  eleventy.addLayoutAlias('base', 'base.njk');
-  eleventy.addLayoutAlias('post', 'post.njk');
-  eleventy.addLayoutAlias('event', 'page.njk');
-  eleventy.addLayoutAlias('page', 'page.njk');
+  eleventy.addLayoutAlias('event', 'post.njk');
+  eleventy.addLayoutAlias('job', 'post.njk');
 
   // Passthrough Copies
   eleventy.addPassthroughCopy('src/assets/fonts');

@@ -1,0 +1,23 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:BOX
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Box
+ *
+ * @todo Add description
+ *
+ * @example markup
+ *   <div class="c-box">
+ *     <h3>…</h3>
+ *     <p>…</p>
+ *   </div>
+ */
+
+.c-box {
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-4);
+  color: var(--color-text);
+  background-color: var(--color-light);
+}

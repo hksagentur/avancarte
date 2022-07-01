@@ -17,6 +17,27 @@
 }
 
 /**
+ * Spacing Utilities
+ *
+ * A set of utility classe to increase the spacing between elements.
+ */
+
+.u-space-between {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: var(--gap-size, var(--size-4));
+}
+
+.u-gap-above {
+  margin-top: var(--gap-size, var(--size-4));
+}
+
+.u-gap-below {
+  margin-bottom: var(--gap-size, var(--size-4));
+}
+
+/**
  * Resize Replaced Elements
  *
  * Stretch a replaced element, such as an image or video, to fit the dimensions

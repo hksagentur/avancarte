@@ -1,0 +1,32 @@
+<article class="c-box">
+  <h3>
+    {{ job.data.title }}
+  </h3>
+
+  <p>
+    {{ job.templateContent|striptags|truncate(64) }}
+  </p>
+
+  <footer class="u-space-between u-gap-above">
+    {% if job.data.download %}
+      <a
+        href="{{ job.data.download|url }}"
+        class="c-button"
+        aria-label="{{ 'Download PDF for “:title”'|trans({title: job.data.title}) }}"
+        download
+      >
+        {{ "Download PDF"|trans }}
+      </a>
+    {% endif %}
+
+    {% if job.data.url %}
+      <a
+        href="{{ job.data.url|url }}"
+        class="c-more"
+        aria-label="{{ 'View details for “:title”'|trans({title: job.data.title}) }}"
+      >
+        {{ "View Details"|trans }}
+      </a>
+    {% endif %}
+  </footer>
+</article>

@@ -6,6 +6,9 @@ menu: Karriere
 parent: unternehmen
 order: 1
 translationKey: career
+override:includes:
+  - jobs
+  - contact
 ---
 <p class="u-text-lead">
   Wir sind ein mittelständisches Unternehmen, das sich seit 50 Jahren kontinuierlich entwickelt und Marktanteile gewinnt. Dies konnte uns nur durch gute Mitarbeiter gelingen, die großenteils seit vielen Jahren bei uns arbeiten.
