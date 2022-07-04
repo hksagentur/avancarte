@@ -1,0 +1,7 @@
+<a href="{{ attachment.url|url }}" download>
+  {{ ":title (:type, :size)"|trans({
+    title: attachment.title,
+    type: attachment.url|file_extension|upper,
+    size: attachment.url|file_size
+  }) }}
+</a>

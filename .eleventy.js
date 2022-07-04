@@ -44,6 +44,8 @@ module.exports = function (eleventy) {
   eleventy.addFilter('date', require('./eleventy/filters/date'));
   eleventy.addFilter('dump', require('./eleventy/filters/dump'));
   eleventy.addFilter('excerpt', require('./eleventy/filters/excerpt'));
+  eleventy.addFilter('file_extension', require('./eleventy/filters/file-extension'));
+  eleventy.addFilter('file_size', require('./eleventy/filters/file-size'));
   eleventy.addFilter('iso8601', require('./eleventy/filters/iso8601'));
   eleventy.addFilter('json_attribute', require('./eleventy/filters/json-attribute'));
   eleventy.addFilter('json', require('./eleventy/filters/json'));

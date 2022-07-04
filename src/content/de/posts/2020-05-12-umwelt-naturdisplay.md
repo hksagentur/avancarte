@@ -1,5 +1,9 @@
 ---
 title: Umwelt - Naturdisplay
+attachments:
+  -
+    title: Back to Nature
+    url: /assets/media/flyer-umwelt-naturdisplay.pdf
 ---
 Sie finden in diesem nachhaltigen Display:
 

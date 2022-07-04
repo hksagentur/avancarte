@@ -16,7 +16,6 @@
 
 .o-list-bare {
   list-style: none;
-  margin-left: 0;
 }
 
 /**
@@ -36,5 +35,4 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--size-4);
-  margin-left: 0;
 }

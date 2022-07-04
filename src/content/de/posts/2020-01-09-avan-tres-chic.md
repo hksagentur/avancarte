@@ -1,5 +1,9 @@
 ---
 title: AvanTrésChic
+attachments:
+  -
+    title: AvanTrésChic
+    url: /assets/media/flyer-avan-tres-chic.pdf
 ---
 Mit dieser stilvollen Kartenserie schaff en Sie einen glanzvollen Moment in Ihrem Geschäft.
 

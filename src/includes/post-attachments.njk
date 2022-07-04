@@ -1,0 +1,15 @@
+{% if attachments|length %}
+  <div class="c-box / u-bg-merino">
+    <h2 class="c-box__title">
+      {{ "Downloads"|trans }}
+    </h2>
+
+    <ul>
+      {% for attachment in attachments %}
+        <li>
+          {% include "post-attachment.njk" %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

@@ -10,6 +10,7 @@ module.exports = {
   tags: [],
   images: [],
   videos: [],
+  attachments: [],
   includes: [
     'contact'
   ],

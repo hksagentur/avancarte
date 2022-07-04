@@ -3,6 +3,12 @@
 {% block content %}
   <div class="s-rich-text / o-container o-container--prose">
     {{ content|safe }}
+
+    {% block attachments %}
+      {% if attachments|length %}
+        {% include "post-attachments.njk" %}
+      {% endif %}
+    {% endblock %}
   </div>
 {% endblock %}
 

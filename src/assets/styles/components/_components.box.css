@@ -21,3 +21,10 @@
   color: var(--color-text);
   background-color: var(--color-light);
 }
+
+.c-box__title {
+  margin-bottom: var(--size-2);
+  font-size: var(--fluid-sm);
+  line-height: var(--leading-snug);
+  font-weight: var(--font-semibold);
+}

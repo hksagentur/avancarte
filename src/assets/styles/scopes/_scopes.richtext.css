@@ -76,4 +76,16 @@
   & ol:not([class]) ol {
     margin-top: var(--size-4);
   }
+
+  & blockquote:not([class]):not(:first-child),
+  & figure:not([class]):not(:first-child),
+  & .c-box:not(:first-child) {
+    margin-top: var(--size-8);
+  }
+
+  & blockquote:not([class]):not(:last-child),
+  & figure:not([class]):not(:last-child),
+  & .c-box:not(:last-child) {
+    margin-bottom: var(--size-8);
+  }
 }

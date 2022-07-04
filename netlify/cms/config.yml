@@ -46,9 +46,30 @@ collections:
       -
         name: cover
         label: Kopfbild
-        widget: file
+        widget: image
         required: false
         allow_multiple: false
+      -
+        name: attachments
+        label: Anhänge
+        widget: list
+        required: false
+        summary: '{{fields.title}} ({{fields.url}})'
+        max: 5
+        fields:
+          -
+            name: url
+            label: Datei
+            widget: file
+          -
+            name: title
+            label: Titel
+            widget: string
+          -
+            name: summary
+            label: Beschreibung
+            widget: text
+            required: false
   -
     name: event
     label: Veranstaltungen
