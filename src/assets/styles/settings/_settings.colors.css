@@ -70,7 +70,7 @@
 
   --color-text: var(--color-neutral-800);
   --color-accent: var(--color-secondary-400);
-  --color-outline: var(--color-secondary-400);
+  --color-outline: var(--color-primary-400);
   --color-muted: var(--color-neutral-500);
   --color-divider: var(--color-secondary-400);
 }

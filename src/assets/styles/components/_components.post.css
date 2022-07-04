@@ -29,7 +29,7 @@
   flex-direction: column;
 
   &:focus-within {
-    outline: 0.25rem solid var(--color-outline);
+    outline: var(--focus-outline);
     outline-offset: 0.25rem;
   }
 }

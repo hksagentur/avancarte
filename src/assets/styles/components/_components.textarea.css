@@ -1,0 +1,20 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:TEXTAREA
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Textarea
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <textarea class="c-textarea" name="message" cols="60" rows="5"></textarea>
+ */
+
+.c-textarea {
+  @extend .c-input;
+
+  display: block;
+  width: 100%;
+  resize: vertical;
+}

@@ -2,18 +2,18 @@
  * TABLE OF CONTENTS
  *
  * Settings ---------------- Global variables
- *   Breakpoints ........... Media queries
- *   Typography ............ Type scale
- *   Colors ................ Color palette
- *   Layout ................ Spacing and sizing scale
- *   Animation ............. Consistency accross motions
- *   Elevation ............. Illusion of depth
- *   Layers ................ Consistent layering
- *   Misc .................. Miscellaneous settings
+ *   Breakpoints ........... Media queries.
+ *   Typography ............ Type scale.
+ *   Colors ................ Color palette.
+ *   Layout ................ Spacing and sizing scale.
+ *   Animation ............. Consistency accross motions.
+ *   Elevation ............. Illusion of depth.
+ *   Layers ................ Consistent layering.
+ *   Misc .................. Miscellaneous settings.
  *
  * Generic ----------------- Ground-zero styles
- *   Fonts ................. Custom web fonts
- *   Reboot ................ Opinionated reset of browser styles
+ *   Fonts ................. Custom web fonts.
+ *   Reboot ................ Opinionated reset of browser styles.
  *
  * Objects ----------------- Cosmetic-free design patterns
  *   Container ............. Limit an elements width.
@@ -23,17 +23,37 @@
  *   Header ................ Header of a website.
  *   Footer ................ Information repeated at the end of each page.
  *   Site Navigation ....... Main navigation of the website.
+ *   Cover .................
+ *   Section ...............
+ *   Button ................
+ *   More ..................
+ *   Meta .................
+ *   Box ..................
+ *   Tile .................
+ *   Billboard ............
+ *   Story ................
+ *   Feed .................
+ *   Post .................
+ *   Event ................
+ *   Choices ..............
  *
  * Scopes ------------------ Styled UI sections
  *   Rich Text ............. Sane typographic defaults for text sections.
  *
+ * Vendors ----------------- 3rd party styles
+ *   Swiper ................
+ *
  * Utilities --------------- Helpers and overwrites
  *   Accessibility ......... Utilities for screen-readers.
  *   Animation ............. Utilities to animate elements.
+ *   Colors ................
+ *   Effects ...............
  *   Text .................. Utilities to change the appearance of text.
+ *   Visibility ............
+ *   Misc ..................
  */
 
-/* Settings
+ /* Settings
  * ----------------------------------------------------------------------- */
 
 @import "settings/_settings.breakpoints.css";
@@ -72,11 +92,11 @@
 @import "components/_components.meta.css";
 @import "components/_components.box.css";
 @import "components/_components.tile.css";
+@import "components/_components.billboard.css";
 @import "components/_components.story.css";
 @import "components/_components.feed.css";
 @import "components/_components.post.css";
 @import "components/_components.event.css";
-@import "components/_components.billboard.css";
 @import "components/_components.choices.css";
 
 /* Scopes

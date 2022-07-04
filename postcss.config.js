@@ -9,6 +9,7 @@ const postcssUrl = require('postcss-url');
 const postcssCustomMedia = require('postcss-custom-media');
 const postcssCustomProperties = require('postcss-custom-properties');
 const postcssNesting = require('postcss-nesting');
+const postcssExtend = require('postcss-extend-rule');
 const postcssCalc = require('postcss-calc');
 const postcssGap = require('postcss-gap-properties');
 const postcssInset = require('postcss-inset');
@@ -53,6 +54,7 @@ const configurePlugins = (env = 'legacy') => ([
   }),
   postcssCustomMedia(),
   postcssIsPseudoClass(),
+  postcssExtend(),
   postcssNesting(),
   postcssCalc(),
   postcssGap(),

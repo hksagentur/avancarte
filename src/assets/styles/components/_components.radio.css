@@ -1,0 +1,119 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:RADIO
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Radio Grouo
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <fieldset class="c-radio-group">
+ *     <legend class="c-radio-group__label">
+ *       Favorit Ice Cream
+ *     </legend>
+ *     <label class="c-radio">
+ *       <input type="radio" name="ice-cream" class="c-radio__input">
+ *       <span class="c-radio__label">
+ *         Vanilla
+ *       </span>
+ *     </label>
+ *     <label class="c-radio">
+ *       <input type="radio" name="ice-cream" class="c-radio__input">
+ *       <span class="c-radio__label">
+ *         Strawberry
+ *       </span>
+ *     </label>
+ *     <label class="c-radio">
+ *       <input type="radio" name="ice-cream" class="c-radio__input">
+ *       <span class="c-radio__label">
+ *         Chocolate
+ *       </span>
+ *     </label>
+ *   </div>
+ */
+
+.c-radio-group {
+  @extend .c-field-group;
+}
+
+.c-radio-group__label {
+  @extend .c-label;
+}
+
+/**
+ * Radio Button
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <label class="c-radio">
+ *     <input type="radio" name="ice-cream" class="c-radio__input">
+ *     <span class="c-radio__label">
+ *       Chocolate
+ *     </span>
+ *   </label>
+ */
+
+@supports (appearance: none) {
+
+  .c-radio {
+    --radio-size: var(--size-6);
+    --radio-gutter: var(--size-2);
+
+    display: flex;
+    gap: var(--radio-gutter);
+
+    &:not(:first-child) {
+      margin-top: var(--radio-gutter);
+    }
+  }
+
+  .c-radio__input {
+    position: relative;
+    width: var(--radio-size);
+    height: var(--radio-size);
+    border: 2px solid var(--control-border-color);
+    border-radius: 50%;
+    background: var(--control-background-color);
+    appearance: none;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: var(--control-highlight-color);
+      opacity: 0;
+      transform: scale(0);
+      transition:
+        transform var(--duration-snappy) var(--easing-decelerate),
+        opacity var(--duration-snappy) linear;
+    }
+
+    &:checked {
+      border-color: var(--control-highlight-color);
+
+      &::after {
+        opacity: 1;
+        transform: scale(0.5);
+      }
+    }
+
+    &:focus {
+      outline: var(--focus-outline);
+    }
+
+    @nest .c-radio:hover &:checked::after {
+      transform: scale(0.6);
+    }
+
+    @nest .c-radio:hover &:not(:checked) {
+      border-color: var(--control-border-color-hover);
+    }
+  }
+}

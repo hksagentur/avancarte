@@ -1,0 +1,45 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:SELECT
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Select Box
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <div class="c-field">
+ *     <label class="c-label" for="ice-cream">
+ *       Favorit Ice Cream
+ *     </label>
+ *     <select id="ice-cream" name="ice-cream" class="c-select">
+ *       <option>Vanilla</option>
+ *       <option>Strawberry</option>
+ *       <option>Chocolate</option>
+ *     </select>
+ *   </div>
+ */
+
+.c-select {
+  @extend .c-input;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+
+  &[multiple] {
+    height: auto;
+    padding: 0;
+
+    & > option {
+      padding: var(--size-2);
+    }
+  }
+
+  &:not([multiple]) {
+    padding-right: 3em;
+    background-image: url("../images/select-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 3em 0.5625em;
+  }
+}

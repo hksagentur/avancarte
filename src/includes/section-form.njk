@@ -1,128 +1,138 @@
 {% set form = sections[lang].form %}
 
 <div class="c-section c-section--contact-form / u-bg-merino">
-  <div class="o-container">
-    <form method="POST" action="{{ form.confirmationPage }}" name="contact" netlify netlify-honeypot="website">
-        <div>
-            <label for="cf-type">
-              {{ "Contact form for …"|trans }}
-            </label>
-            <select id="cf-type" name="type" required>
-              <option value="" selected="selected">
-                {{ "- Select -"|trans }}
-              </option>
-              <option value="customer">
-                {{ "Customers & Interested Parties"|trans }}
-              </option>
-              <option value="supplier">
-                {{ "Suppliers"|trans }}
-              </option>
-              <option value="designer">
-                {{ "Designers & Publishers"|trans }}
-              </option>
-            </select>
-        </div>
+  <form class="c-form c-form--contact / o-container o-container--prose" method="POST" action="{{ form.confirmationPage }}" name="contact" netlify netlify-honeypot="website">
+      <fieldset class="c-radio-group">
+        <legend class="c-radio-group__label">
+          {{ "Contact form for …"|trans }}
+        </legend>
 
-        <div>
-            <label for="ct-industry">
-              {{ "Field/Company"|trans }}
-            </label>
-            <input type="text" id="ct-industry" name="industry" size="60" maxlength="128" autocomplete="organization" required>
-        </div>
+        <label class="c-radio">
+          <input type="radio" name="type" value="customer" class="c-radio__input">
+          <span class="c-radio__label">
+            {{ "Customers & Interested Parties"|trans }}
+          </span>
+        </label>
 
-        <div>
-            <label for="ct-customer-number">
-              {{ "Customer no. (if available)"|trans }}
-            </label>
-            <input type="text" id="ct-customer-number" name="customer-number" size="60" maxlength="128">
-        </div>
+        <label class="c-radio">
+          <input type="radio" name="type" value="supplier" class="c-radio__input">
+          <span class="c-radio__label">
+            {{ "Suppliers"|trans }}
+          </span>
+        </label>
 
-        <div>
-            <label for="ct-name">
-              {{ "Name"|trans }}
-            </label>
-            <input type="text" id="ct-name" name="name" size="60" maxlength="256" autocomplete="name" required>
-        </div>
+        <label class="c-radio">
+          <input type="radio" name="type" value="publisher" class="c-radio__input">
+          <span class="c-radio__label">
+            {{ "Designers & Publishers"|trans }}
+          </span>
+        </label>
+      </fieldset>
 
-        <div>
-          <label for="ct-website">
-            {{ "Leave this field empty if you’re human"|trans }}
+      <div class="c-field">
+          <label class="c-label" for="ct-industry">
+            {{ "Field/Company"|trans }}
           </label>
-          <input type="text" id="ct-website" name="website" site="60" maxlength="128" autocomplete="off">
-        </div>
+          <input type="text" id="ct-industry" name="industry" class="c-input" size="40" maxlength="128" autocomplete="organization" required>
+      </div>
 
-        <fieldset>
-          <legend>
-            {{ "Address"|trans }}
-          </legend>
+      <div class="c-field">
+          <label class="c-label" for="ct-name">
+            {{ "Name"|trans }}
+          </label>
+          <input type="text" id="ct-name" name="name" class="c-input" size="40" maxlength="256" autocomplete="name" required>
+      </div>
 
-          <div>
-              <label for="ct-street-address">
-                {{ "Street Address"|trans }}
-              </label>
-              <input type="text" id="ct-street-address" name="street-address" size="60" maxlength="128" autocomplete="address-line3" required>
-          </div>
-          <div>
-              <label for="ct-postal-code">
-                {{ "Postal Code"|trans }}
-              </label>
-              <input type="text" id="ct-postal-code" name="postal-code" size="60" maxlength="128" autocomplete="postal-code" required>
-          </div>
-          <div>
-              <label for="ct-locality">
-                {{ "Locality"|trans }}
-              </label>
-              <input type="text" id="ct-locality" name="locality" size="60" maxlength="128" autocomplete="address-line2" required>
-          </div>
-        </fieldset>
+      <div class="c-field">
+          <label class="c-label" for="ct-customer-number">
+            {{ "Customer no. (if available)"|trans }}
+          </label>
+          <input type="text" id="ct-customer-number" name="customer-number" class="c-input" size="20" maxlength="128">
+      </div>
 
-        <fieldset>
-          <legend>
-            {{ "Contact Information"|trans }}
-          </legend>
+      <div class="c-field c-field--extra">
+        <label class="c-label" for="ct-website">
+          {{ "Leave this field empty if you’re human"|trans }}
+        </label>
+        <input type="text" id="ct-website" name="website" class="c-input" size="60" maxlength="128" autocomplete="off">
+      </div>
 
-          <div>
-              <label for="ct-telephone">
-                {{ "Telephone"|trans }}
-              </label>
-              <input type="text" id="ct-telephone" name="telephone" size="60" maxlength="128" autocomplete="tel" required>
-          </div>
+      <fieldset class="c-field-group">
+        <legend class="c-field-group__label">
+          {{ "Address"|trans }}
+        </legend>
 
-          <div>
-              <label for="ct-fax">
-                {{ "Telefax (optional)"|trans }}
-              </label>
-              <input type="text" id="ct-fax" name="fax" size="60" maxlength="128">
-          </div>
-          <div>
-              <label for="ct-email">
-                {{ "E-Mail"|trans }}
-              </label>
-              <input type="email" id="ct-email" name="email" size="60" autocomplete="email" required>
-          </div>
-        </fieldset>
-
-        <div>
-            <label for="ct-message">
-              {{ "Message (optional)"|trans }}
+        <div class="c-field">
+            <label class="c-label" for="ct-street-address">
+              {{ "Street Address"|trans }}
             </label>
-            <textarea id="ct-message" name="message" cols="60" rows="5"></textarea>
-        </div>
-        <div>
-            <label>
-              <input type="checkbox" id="ct-sales-representative" name="sales-representative" value="1">
-              <span>
-                {{ "I would like to have a meeting with your responsible sales representative"|trans }}
-              </span>
-            </label>
-        </div>
-        <div>
-          <button type="submit">
-            {{ "Submit Request"|trans }}
-          </button>
+            <input type="text" id="ct-street-address" name="street-address" class="c-input" size="40" maxlength="128" autocomplete="address-line3" required>
         </div>
 
-        <input type="hidden" name="locale" value="{{ locale }}">
-    </form>
-  </div>
+        <div class="c-field">
+            <label class="c-label" for="ct-postal-code">
+              {{ "Postal Code"|trans }}
+            </label>
+            <input type="text" id="ct-postal-code" name="postal-code" class="c-input" size="20" maxlength="128" autocomplete="postal-code" required>
+        </div>
+
+        <div class="c-field">
+            <label class="c-label" for="ct-locality">
+              {{ "Locality"|trans }}
+            </label>
+            <input type="text" id="ct-locality" name="locality" class="c-input" size="20" maxlength="128" autocomplete="address-line2" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="c-field-group">
+        <legend class="c-field-group__label">
+          {{ "Contact Information"|trans }}
+        </legend>
+
+        <div class="c-field">
+            <label class="c-label" for="ct-telephone">
+              {{ "Telephone"|trans }}
+            </label>
+            <input type="text" id="ct-telephone" name="telephone" class="c-input" size="20" maxlength="128" autocomplete="tel" placeholder="+49 421 123456" required>
+        </div>
+
+        <div class="c-field">
+            <label class="c-label" for="ct-fax">
+              {{ "Telefax (optional)"|trans }}
+            </label>
+            <input type="text" id="ct-fax" name="fax" class="c-input" size="20" maxlength="128" placeholder="+49 421 123456">
+        </div>
+
+        <div class="c-field">
+            <label class="c-label" for="ct-email">
+              {{ "E-Mail"|trans }}
+            </label>
+            <input type="email" id="ct-email" name="email" class="c-input" size="20" autocomplete="email" placeholder="inbox@example.org" required>
+        </div>
+      </fieldset>
+
+      <div class="c-field">
+          <label class="c-label" for="ct-message">
+            {{ "Message (optional)"|trans }}
+          </label>
+          <textarea id="ct-message" name="message" class="c-textarea" cols="60" rows="5"></textarea>
+      </div>
+
+      <div class="c-field">
+          <label class="c-checkbox">
+            <input type="checkbox" id="ct-sales-representative" name="sales-representative" class="c-checkbox__input" value="1">
+            <span class="c-checkbox__label">
+              {{ "I would like to have a meeting with your responsible sales representative"|trans }}
+            </span>
+          </label>
+      </div>
+
+      <div class="c-form__actions">
+        <button type="submit" class="c-button c-button--primary c-button--lg">
+          {{ "Submit Request"|trans }}
+        </button>
+      </div>
+
+      <input type="hidden" name="locale" value="{{ locale }}">
+  </form>
 </div>

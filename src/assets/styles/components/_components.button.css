@@ -37,3 +37,11 @@
   user-select: none;
   appearance: none;
 }
+
+.c-button--lg {
+  font-size: 0.875em;
+}
+
+.c-button--xl {
+  font-size: 1em;
+}

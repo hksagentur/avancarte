@@ -1,0 +1,34 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:FORM
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Form
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <form class="c-form" method="POST" action="">
+ *     <fieldset class="c-field-group">
+ *       …
+ *     </fieldset>
+ *     <div class="c-form__actions">
+ *       <button type="submit" class="c-button c-button--primary">
+ *         Submit Contact Form
+ *       </button>
+ *     </div>
+ *   </form>
+ */
+
+.c-form {
+  display: block;
+}
+
+.c-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--size-4);
+  margin: var(--size-16) calc(-1 * var(--size-4)) 0;
+  border-top: 1px solid var(--color-neutral-300);
+  border-bottom: 1px solid var(--color-neutral-300);
+}

@@ -1,0 +1,74 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:CHECKBOX
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Checkbox
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <label class="c-checkbox">
+ *     <input type="checkbox" name="terms" class="c-checkbox__input">
+ *     <span class="c-checkbox__label">
+ *       I accept the terms.
+ *     </span>
+ *   </label>
+ */
+
+@supports (appearance: none) {
+
+  .c-checkbox {
+    --checkbox-size: var(--size-6);
+    --checkbox-gutter: var(--size-2);
+
+    display: flex;
+    gap: var(--checkbox-gutter);
+  }
+
+  .c-checkbox__input {
+    position: relative;
+    width: var(--checkbox-size);
+    height: var(--checkbox-size);
+    border: 2px solid var(--control-border-color);
+    border-radius: 0.125rem;
+    background: var(--control-background-color);
+    appearance: none;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+      width: 0.375em;
+      height: 0.75em;
+      border: 0.125em solid var(--control-background-color);
+      border-top: 0;
+      border-left: 0;
+      opacity: 0;
+      transform: translate(-50%, -50%) rotate(45deg);
+      transition:
+        transform var(--duration-snappy) var(--easing-decelerate),
+        opacity var(--duration-snappy) linear;
+    }
+
+    &:checked {
+      border-color: var(--control-highlight-color);
+      background-color: var(--control-highlight-color);
+
+      &::after {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+    }
+
+    &:focus {
+      outline: var(--focus-outline);
+    }
+
+    @nest .c-checkbox:hover &:not(:checked) {
+      border-color: var(--control-border-color-hover);
+    }
+  }
+}

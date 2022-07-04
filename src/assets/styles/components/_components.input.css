@@ -1,0 +1,40 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:INPUT
+ * ----------------------------------------------------------------------- */
+
+.c-input {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: var(--size-2);
+  border: 2px solid var(--control-border-color);
+  border-radius: 0.125rem;
+  color: var(--control-text-color);
+  font: inherit;
+  background: var(--control-background-color);
+  box-shadow: inset 0 0.0625em 0.125em var(--color-dark-opaque);
+  appearance: none;
+
+  &:active {
+    border-color: var(--control-border-color-focus);
+  }
+
+  &:hover {
+    border-color: var(--control-border-color-hover);
+  }
+
+  &:focus {
+    outline: var(--focus-outline);
+    box-shadow: none;
+  }
+
+  &.error {
+    border-color: var(--control-border-color-error);
+  }
+
+  &[disabled] {
+    color: var(--control-text-color-disabled);
+    border-color: var(--control-border-color-disabled);
+    background-color: var(--control-background-color-disabled, #f2f2f3);
+    box-shadow: none;
+  }
+}

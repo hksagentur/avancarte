@@ -1,0 +1,27 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:LABEL
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Label
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <div class="c-field">
+ *     <label class="c-label" for="street">
+ *       Street Address
+ *     </label>
+ *     <input type="text" id="street" name="street" class="c-input">
+ *   </div>
+ *
+ */
+
+.c-label {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: var(--size-2);
+  font-size: 1em;
+  line-height: var(--leading-snug);
+}

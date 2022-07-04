@@ -1,0 +1,81 @@
+/* -----------------------------------------------------------------------
+ * #COMPONENTS:FIELD
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Field Group
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <fieldset class="c-field-group">
+ *     <legend class="c-field-group__label">
+ *       Address
+ *     </legend>
+ *     <div class="c-field">
+ *       <label class="c-label" for="street">
+ *         Street Address
+ *       </label>
+ *       <input type="text" id="street" name="street" class="c-input">
+ *     </div>
+ *     <div class="c-field">
+ *       <label class="c-label" for="postal-code">
+ *         Postal Code
+ *       </label>
+ *       <input type="text" id="postal-code" name="postal-code" class="c-input">
+ *     </div>
+ *     <div class="c-field">
+ *       <label class="c-label" for="locality">
+ *         Locality
+ *       </label>
+ *       <input type="text" id="locality" name="locality" class="c-input">
+ *     </div>
+ *   </fieldset>
+ */
+
+.c-field-group {
+  padding: var(--size-4);
+  margin: calc(-1 * var(--size-4));
+  border-radius: 0.125rem;
+  background-color: var(--color-light-opaque);
+
+  &:not(:first-child) {
+    margin-top: var(--size-8);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: var(--size-8);
+  }
+}
+
+.c-field-group__label {
+  margin-bottom: var(--size-2);
+  font-size: var(--fluid-sm);
+  font-weight: var(--font-semibold);
+}
+
+/**
+ * Field
+ *
+ * @todo: Add description
+ *
+ * @example markup
+ *   <div class="c-field">
+ *     <label class="c-label" for="street">
+ *       Street Address
+ *     </label>
+ *     <input type="text" id="street" name="street" class="c-input">
+ *   </div>
+ *
+ */
+
+.c-field {
+
+  &:not(:last-child) {
+    margin-bottom: var(--size-4);
+  }
+}
+
+.c-field--extra {
+  display: none;
+}

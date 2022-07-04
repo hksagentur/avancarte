@@ -187,5 +187,18 @@ button {
  */
 
 fieldset {
+  overflow: hidden;
   min-width: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+
+  & + * {
+    clear: left;
+  }
 }

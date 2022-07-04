@@ -81,6 +81,7 @@
     "postcss-color-functional-notation": "^4.2.2",
     "postcss-custom-media": "^8.0.0",
     "postcss-custom-properties": "^12.1.6",
+    "postcss-extend-rule": "^4.0.0",
     "postcss-gap-properties": "^3.0.3",
     "postcss-image-set-function": "^4.0.6",
     "postcss-import": "^14.1.0",

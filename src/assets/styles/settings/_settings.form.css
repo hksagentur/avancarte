@@ -1,0 +1,24 @@
+/* -----------------------------------------------------------------------
+ * #SETTINGS:FORM
+ * ----------------------------------------------------------------------- */
+
+/**
+ * Form Settings
+ *
+ * A collection of properties which control the appearance of various form
+ * elements.
+ */
+
+:root {
+  --control-text-color: var(--color-text, hsl(235 17% 16%));
+  --control-text-color-disabled: var(--color-muted, rgb(84 85 86 / 0.6));
+  --control-highlight-color: var(--color-accent, hsl(225 100% 39%));
+  --control-shadow-color: var(--color-dark-opaque, rgb(0 0 0 / 0.4));
+  --control-background-color: var(--color-light, hsl(0 0% 100%));
+  --control-background-color-disabled: var(--color-neutral-50, hsl(240 5% 95%));
+  --control-border-color: var(--color-border, hsl(220 5% 57%));
+  --control-border-color-focus: var(--color-accent, hsl(225 100% 40%));
+  --control-border-color-hover: var(--color-border-active, hsl(235 15% 15%));
+  --control-border-color-disabled: var(--color-border-muted, hsl(235 5% 75%));
+  --control-border-color-error: var(--color-error, hsl(0 75% 50%));
+}

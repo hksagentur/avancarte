@@ -1,0 +1,34 @@
+/**
+ * TABLE OF CONTENTS
+ *
+ * Settings ---------------- Global variables
+ *   Form .................. Form related settings.
+ *
+ * Components -------------- Styled UI components
+ *   Form .................. Style variations for forms.
+ *   Field ................. Wrapper for form controls.
+ *   Label ................. Caption of a form control.
+ *   Input ................. Text input control.
+ *   Textarea .............. Multi-line text control.
+ *   Select ................ Menu of options.
+ *   Radio ................. Set of related options.
+ *   Checkbox .............. Grant for aggreement.
+ */
+
+/* Settings
+ * ----------------------------------------------------------------------- */
+
+@import "settings/_settings.form.css";
+
+
+/* Components
+ * ----------------------------------------------------------------------- */
+
+@import "components/_components.form.css";
+@import "components/_components.field.css";
+@import "components/_components.label.css";
+@import "components/_components.input.css";
+@import "components/_components.textarea.css";
+@import "components/_components.select.css";
+@import "components/_components.checkbox.css";
+@import "components/_components.radio.css";
