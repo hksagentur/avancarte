@@ -5,5 +5,5 @@ lastname: Garbrecht
 role: Geschäftsführer
 email: henry.garbrecht@avancarte.de
 photo: /assets/media/henry-garbrecht.jpg
-group: Geschäftsführung
+group: 1-Geschäftsführung
 ---

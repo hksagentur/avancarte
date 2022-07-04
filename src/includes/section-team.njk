@@ -2,10 +2,12 @@
 {% set modifier = cycler("u-bg-merino", "u-bg-light") %}
 
 {% if employees|length %}
-  {% for type, items in employees|groupby("data.group") %}
+  {% for key, items in employees|groupby("data.group")|dictsort %}
+    {% set employee = items|first %}
+
     <div class="c-section c-section--team / {{ modifier.next() }}">
       <h2 class="c-section__title / u-sr-only">
-        {{ type }}
+        {{ employee.data.groupName }}
       </h2>
 
       <div class="o-container / o-grid o-grid--columns-3">

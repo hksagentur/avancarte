@@ -5,5 +5,5 @@ lastname: Wicklein
 role: Regionalleiter Süd
 email: reiner.wicklein@avancarte.de
 photo: /assets/media/reiner-wicklein.jpg
-group: Leitung
+group: 2-Leitung
 ---

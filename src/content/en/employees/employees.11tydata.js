@@ -6,7 +6,7 @@ module.exports = {
   permalink: false,
   draft: false,
   sitemap: false,
-  group: '9-Fachkraft',
+  group: '9-Professional',
   eleventyComputed: {
     groupName({group}) {
       return group?.split('-').pop();

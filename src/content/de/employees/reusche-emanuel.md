@@ -5,5 +5,5 @@ lastname: Reusche
 role: Stellvertretung Lagerleitung
 email: emanuel.reusche@avancarte.de
 photo: /assets/media/emanuel-reusche.jpg
-group: Leitung
+group: 2-Leitung
 ---

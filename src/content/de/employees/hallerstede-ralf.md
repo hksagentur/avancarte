@@ -5,5 +5,5 @@ lastname: Hallerstede
 role: Regionalleiter Nord
 email: ralf.hallerstede@avancarte.de
 photo: /assets/media/ralf-hallerstede.jpg
-group: Leitung
+group: 2-Leitung
 ---

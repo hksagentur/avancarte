@@ -5,5 +5,5 @@ lastname: Froelich
 role: Berater Ladenbau
 email: rainer.froelich@avancarte.de
 photo: /assets/media/rainer-froelich.gif
-group: Leitung
+group: 2-Leitung
 ---
