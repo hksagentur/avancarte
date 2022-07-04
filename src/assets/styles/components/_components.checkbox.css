@@ -17,7 +17,6 @@
  */
 
 @supports (appearance: none) {
-
   .c-checkbox {
     --checkbox-size: var(--size-6);
     --checkbox-gutter: var(--size-2);
@@ -36,7 +35,7 @@
     appearance: none;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 50%;
       left: 50%;

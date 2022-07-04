@@ -61,21 +61,3 @@
   line-height: var(--leading-snug);
   text-transform: uppercase;
 }
-
-.c-section__content {
-
-  @nest & + & {
-    margin-top: var(--size-24);
-  }
-}
-
-.c-section__content-header {
-
-}
-
-.c-section__content-label {
-  margin-bottom: var(--size-4);
-  font-size: var(--scale-2);
-  font-weight: var(--font-semibold);
-  line-height: var(--leading-tight);
-}

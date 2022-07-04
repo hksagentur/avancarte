@@ -96,7 +96,6 @@
 }
 
 .c-event--meta-missing {
-
   & > .c-event__header {
     border-bottom: 0;
     border-image: none;

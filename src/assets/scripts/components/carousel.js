@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import Swiper, {Autoplay, Navigation, Pagination} from 'swiper';
 import {inert} from '../utilities/dom.js';
 

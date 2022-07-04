@@ -23,7 +23,7 @@ const SELECTOR_FOCUSABLE = `
  * @param {Element} context The element to start searching from.
  * @returns {?Element}
  */
- export function $(selector, context = document) {
+export function $(selector, context = document) {
   return context.querySelector(selector);
 }
 
@@ -43,7 +43,7 @@ export function $$(selector, context = document) {
  *
  * @param {FocusEvent} event
  */
- export function preventFocus(event) {
+export function preventFocus(event) {
   event.preventDefault();
 
   if (event.relatedTarget) {

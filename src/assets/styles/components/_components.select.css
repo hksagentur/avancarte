@@ -22,6 +22,7 @@
 
 .c-select {
   @extend .c-input;
+
   display: inline-block;
   vertical-align: top;
   cursor: pointer;

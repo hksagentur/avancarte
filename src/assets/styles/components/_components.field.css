@@ -70,7 +70,6 @@
  */
 
 .c-field {
-
   &:not(:last-child) {
     margin-bottom: var(--size-4);
   }

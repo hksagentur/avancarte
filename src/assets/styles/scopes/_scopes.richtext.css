@@ -19,7 +19,6 @@
  */
 
 .s-rich-text {
-
   & > :not(:last-child) {
     margin-bottom: var(--size-4);
   }

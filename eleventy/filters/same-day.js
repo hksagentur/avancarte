@@ -8,8 +8,8 @@ const { DateTime } = require('luxon');
  */
 function parseDate(date) {
   return (date instanceof Date)
-     ? DateTime.fromJSDate(date)
-     : DateTime.fromISO(date);
+    ? DateTime.fromJSDate(date)
+    : DateTime.fromISO(date);
 }
 
 /**

@@ -56,7 +56,6 @@
  */
 
 @supports (appearance: none) {
-
   .c-radio {
     --radio-size: var(--size-6);
     --radio-gutter: var(--size-2);
@@ -79,7 +78,7 @@
     appearance: none;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;

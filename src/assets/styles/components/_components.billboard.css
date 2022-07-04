@@ -39,7 +39,7 @@
  * narrow viewport.
  */
 
- @media (--sm-down) {
+@media (--sm-down) {
   .c-billboard {
     flex-direction: column;
   }

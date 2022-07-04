@@ -10,8 +10,8 @@ const renderer = new markdownIt({
  * @param {string} content The markdown content to render.
  * @returns {string}
  */
- function markdown(content) {
-  return renderer.render(content)
+function markdown(content) {
+  return renderer.render(content);
 }
 
 module.exports = markdown;
