@@ -66,6 +66,7 @@ module.exports = function (eleventy) {
 
   // Shortcodes
   eleventy.addAsyncShortcode('svg', require('./eleventy/shortcodes/svg'));
+  eleventy.addPairedShortcode('box', require('./eleventy/shortcodes/box'));
   eleventy.addShortcode('icon', require('./eleventy/shortcodes/icon'));
   eleventy.addShortcode('image', require('./eleventy/shortcodes/image'));
 

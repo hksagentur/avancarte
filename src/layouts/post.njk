@@ -5,9 +5,7 @@
     {{ content|safe }}
 
     {% block attachments %}
-      {% if attachments|length %}
-        {% include "post-attachments.njk" %}
-      {% endif %}
+      {% include "post-attachments.njk" %}
     {% endblock %}
   </div>
 {% endblock %}

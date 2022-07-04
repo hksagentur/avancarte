@@ -14,3 +14,7 @@ Mit langjähriger Planungserfahrung und regionalem Wissen erstellen wir Ihnen si
 Unsere Projektabteilung koordiniert das Aufbauteam und die Termine. Am Einrichtungstag bauen wir selbst auf und richten alles ein.
 
 Nach der Einrichtung erfolgt die Beratung vor Ort durch unseren Außendienst.
+
+{% box "Downloads" %}
+- [EAN-Nummern (XLS, 72 KB)](/assets/media/ean-codes.xls)
+{% endbox %}

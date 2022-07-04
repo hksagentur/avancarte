@@ -35,3 +35,10 @@ Seit 1974 überbringen unsere Grußkarten Glückwünsche, sagen liebe Worte und 
 Die Motive werden in unserer eigenen [Kreativabteilung](/verlag/) in Zusammenarbeit mit freien Designern entwickelt. Ihre Kunden werden begeistert sein!
 
 Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich für unseren Onlineshop registrieren für die ganze Welt der Karten in einem Portal. Herzlich willkommen!
+
+{% box "Downloads" %}
+- [Die Geschichte des Schreibens (PDF, 230 KB)](/assets/media/geschichte-des-schreibens.pdf)
+- [Die Glückwunschkarte im Wandel der Zeit (PDF, 176 KB)](/assets/media/geschichte-des-schreibens.pdf)
+- [Textvorschläge für Hochzeitskarten (PDF, 462 KB)](/assets/media/geschichte-des-schreibens.pdf)
+- [Textvorschläge für Trauerkarten (PDF, 456 KB)](/assets/media/geschichte-des-schreibens.pdf)
+{% endbox %}
