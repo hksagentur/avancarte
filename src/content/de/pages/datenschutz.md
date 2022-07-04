@@ -9,13 +9,7 @@ Die folgenden Informationen gelten für die Datenverarbeitung nach Maßgabe der 
 
 ### Firmendaten der verantwortlichen Stelle
 
-{{ organization.legalName }}  
-{{ organization.address.streetAddress }}  
-{{ organization.address.postalCode }} {{ organization.address.locality }}  
-
-Tel: {{ organization.telephone }}  
-Fax: {{ organization.fax }}  
-E-Mail: <{{ organization.email }}>
+{% include "organization.njk" %}
 
 Handelsregister {{ organization.localCourt }}, {{ organization.commercialRegisterNumber }}  
 Ust-ID: {{ organization.vatId }}

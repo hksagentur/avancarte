@@ -5,13 +5,7 @@ translationKey: legal-notice
 tags:
   - legal
 ---
-{{ organization.legalName }}  
-{{ organization.address.streetAddress }}  
-{{ organization.address.postalCode }} {{ organization.address.locality }}  
-Germany
-
-Tel: {{ organization.telephone }}  
-Fax: {{ organization.fax }}
+{% include "organization.njk" %}
 
 AvanCarte GmbH  
 Postfach 110442  

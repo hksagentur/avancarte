@@ -1,0 +1,24 @@
+<dl class="c-meta / u-gap-above">
+  <dt class="c-meta__key">
+    {{ "Telephone"|trans }}
+  </dt>
+  <dd class="c-meta__value / p-tel">
+    {{ organization.telephone }}
+  </dd>
+
+  <dt class="c-meta__key">
+    {{ "Fax"|trans }}
+  </dt>
+  <dd class="c-meta__value / p-tel-fax">
+    {{ organization.fax }}
+  </dd>
+
+  <dt class="c-meta__key">
+    {{ "E-Mail"|trans }}
+  </dt>
+  <dd class="c-meta__value">
+    <a href="mailto:{{ organization.email|obfuscate|safe }}" class="u-email">
+      {{ organization.email|obfuscate|safe }}
+    </a>
+  </dd>
+</dl>
