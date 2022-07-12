@@ -61,3 +61,8 @@
   line-height: var(--leading-snug);
   text-transform: uppercase;
 }
+
+.c-section--flush {
+  padding-top: 0;
+  padding-bottom: 0;
+}

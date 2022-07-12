@@ -3,7 +3,7 @@ module.exports = {
   shortName: 'AvanCarte',
   url: process.env.URL || '',
   favicon: '/assets/images/favicon.svg',
-  themeColor: '#004D9E',
+  themeColor: '#353a90',
   backgroundColor: '#ffffff',
   defaultLanguage: 'de',
   images: [
