@@ -48,11 +48,14 @@
 }
 
 .c-section__title {
-  margin-bottom: var(--size-8);
   font-size: var(--scale-3);
   font-size: var(--fluid-lg);
   font-weight: var(--font-semibold);
   line-height: var(--leading-tight);
+
+  &:not(:last-child) {
+    margin-bottom: var(--size-8);
+  }
 }
 
 .c-section__tagline {
