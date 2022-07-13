@@ -46,7 +46,6 @@
 }
 
 .c-post__title {
-  color: var(--color-primary-400);
   font-size: var(--scale-1);
   font-size: var(--fluid-sm);
   font-weight: var(--font-semibold);

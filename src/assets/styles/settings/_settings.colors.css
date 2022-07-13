@@ -41,12 +41,12 @@
   --color-neutral-300: hsl(225deg 4% 74%);
   --color-neutral-500: hsl(221deg 4% 57%);
   --color-neutral-700: hsl(217deg 4% 37%);
-  --color-neutral-800: hsl(213deg 82% 11%);
+  --color-neutral-800: hsl(204deg 8% 24%);
 
   /* Primary Colors
    * --------------------------------------------------------------------- */
 
-  --color-primary-50: hsl(237deg 29% 83%);
+  --color-primary-50: hsl(237deg 29% 95%);
   --color-primary-100: hsl(237deg 29% 71%);
   --color-primary-300: hsl(237deg 31% 48%);
   --color-primary-400: hsl(237deg 46% 39%);
@@ -69,6 +69,7 @@
    * --------------------------------------------------------------------- */
 
   --color-text: var(--color-neutral-800);
+  --color-canvas: var(--color-neutral-50);
   --color-accent: var(--color-secondary-400);
   --color-outline: var(--color-primary-400);
   --color-muted: var(--color-neutral-500);

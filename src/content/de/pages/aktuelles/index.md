@@ -1,6 +1,6 @@
 ---
 layout: archive-post
-title: Aktuell bei AvanCarte
+title: Aktuell
 cover: /assets/media/adobestock-99649200.jpg
 menu: Aktuelles
 order: 5

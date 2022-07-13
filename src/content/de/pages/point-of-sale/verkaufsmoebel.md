@@ -1,5 +1,5 @@
 ---
-title: Verkaufsmöbel
+title: Möbel für jede Fläche
 cover: /assets/media/adobestock-99649200.jpg
 menu: Verkaufsmöbel
 parent: point-of-sale

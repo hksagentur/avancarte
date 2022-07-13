@@ -1,5 +1,5 @@
 ---
-title: Damit die Platzierung zum Eye-Catcher wird
+title: Shop-Lösungen nach Maß
 tagline: Merchandising
 cover: /assets/media/adobestock-99649200.jpg
 menu: Merchandising

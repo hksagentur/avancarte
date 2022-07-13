@@ -1,5 +1,5 @@
 {% set employees = employees|default(collections.employee|default([])) %}
-{% set modifier = cycler("u-bg-merino", "u-bg-light") %}
+{% set modifier = cycler("u-bg-merino", "u-bg-concrete") %}
 
 {% if employees|length %}
   {% for key, items in employees|groupby("data.group")|dictsort %}

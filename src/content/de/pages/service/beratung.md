@@ -1,6 +1,5 @@
 ---
-title: Jeder Standort ist besonders – wir stellen uns darauf ein!
-tagline: Beratung
+title: Beratung
 cover: /assets/media/adobestock-99649200.jpg
 menu: Beratung
 parent: service

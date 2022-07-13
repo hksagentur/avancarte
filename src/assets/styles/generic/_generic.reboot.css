@@ -21,7 +21,7 @@ html {
   font-family: var(--font-sans);
   line-height: var(--leading-normal);
   letter-spacing: var(--tracking-wide);
-  background-color: var(--color-light);
+  background-color: var(--color-canvas);
 }
 
 * {
@@ -38,6 +38,12 @@ html,
 body,
 [role="document"] {
   height: 100%;
+}
+
+body {
+  max-width: 88rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Flow Content

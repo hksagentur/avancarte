@@ -27,6 +27,7 @@
 .c-section {
   padding-top: var(--size-24);
   padding-bottom: var(--size-24);
+  background-color: var(--color-light);
 }
 
 .c-section__title,
