@@ -38,6 +38,18 @@
   appearance: none;
 }
 
+.c-button--primary {
+  --button-text-color: var(--color-primary-400);
+}
+
+.c-button--secondary {
+  --button-text-color: var(--color-secondary-400);
+}
+
+.c-button--light {
+  --button-text-color: var(--color-light);
+}
+
 .c-button--lg {
   font-size: 0.875em;
 }

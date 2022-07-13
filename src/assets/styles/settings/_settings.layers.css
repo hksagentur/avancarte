@@ -19,4 +19,6 @@
   --layer-dropdown: 30;
   --layer-header: 20;
   --layer-footer: 10;
+  --layer-above: 1;
+  --layer-default: 0;
 }

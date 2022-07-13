@@ -4,7 +4,7 @@
 {% set hasMeta = event.data.location or event.data.stand %}
 
 <article class="c-event{{ ' c-event--meta-missing' if not hasMeta }} / h-event">
-  <header class="c-event__header / u-divide-y">
+  <header class="c-event__header / u-border-dashed">
     <h4 class="c-event__title / p-name">
       {{ event.data.title }}
     </h4>

@@ -20,10 +20,10 @@
 
 .c-tile {
   --tile-text-color: var(--color-neutral-50);
-  --tile-accent-color: var(--color-accent);
-  --tile-active-color: var(--color-primary-400);
+  --tile-accent-color: var(--color-neutral-50);
+  --tile-active-color: var(--color-accent);
   --tile-background-color: var(--color-primary-800);
-  --kink-effect-color: var(--color-light-opaque);
+  --kink-effect-color: var(--color-secondary-400);
 
   display: inline-flex;
   flex-direction: column-reverse;
@@ -32,11 +32,13 @@
   padding: var(--size-8);
   color: var(--tile-text-color);
   background-color: var(--tile-background-color);
-  transition: background var(--duration-snappy) var(--easing-standard);
+  transition: background-color var(--duration-snappy) linear;
   aspect-ratio: 1 / 1;
 
   &:hover,
   &:focus {
+    --kink-effect-color: var(--color-secondary-700);
+
     background-color: var(--tile-active-color);
   }
 }

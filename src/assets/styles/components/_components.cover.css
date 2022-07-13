@@ -28,7 +28,7 @@
   --cover-text-color: var(--color-text);
   --cover-accent-color: var(--color-accent);
   --cover-content-color: var(--color-concrete);
-  --cover-background-color: var(--dominant-color, var(--color-merino));
+  --cover-background-color: var(--dominant-color, var(--color-light));
 
   position: relative;
   width: 100%;
@@ -57,7 +57,7 @@
   font-weight: var(--font-semibold);
   line-height: var(--leading-tight);
 
-  &.u-divide-y {
+  &.u-border-dashed {
     padding-bottom: var(--size-4);
   }
 }
@@ -93,16 +93,16 @@
 
 @media (--md-up) {
   .c-cover {
-    --cover-content-width: calc(74rem - var(--cover-content-gutter));
-    --cover-content-gutter: var(--size-2);
+    --cover-content-width: var(--container-width, 74rem);
+    --cover-content-gutter: var(--container-margin, var(--size-2));
 
     display: grid;
     grid-template-rows: [full-start] 4fr [content-start] 5fr [content-end] 3fr [full-end];
     grid-template-columns:
       [full-start]
-      calc(50vw - (0.5 * var(--cover-content-width)))
-      [content-start] repeat(2, 1fr) [content-end marginalia-start] repeat(3, 1fr) [marginalia-end]
-      calc(50vw - (0.5 * var(--cover-content-width)))
+      minmax(0, 1fr)
+      [content-start] minmax(auto, calc(var(--cover-content-width) - var(--cover-content-gutter))) [content-end]
+      minmax(0, 1fr)
       [full-end];
     column-gap: var(--cover-content-gutter);
     aspect-ratio: 21 / 9;
@@ -118,5 +118,6 @@
 
   .c-cover__content {
     grid-area: content;
+    max-width: 35%;
   }
 }

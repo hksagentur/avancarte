@@ -8,12 +8,20 @@
  * Add a horizontal or vertical border between elements.
  */
 
-.u-divide-y {
+.u-border-dashed {
   border-bottom: 1px dashed var(--color-divider);
   border-image-source: url("../images/border-dashed.svg");
-  border-image-slice: 24;
-  border-image-width: 0 0 24px;
+  border-image-slice: 20;
+  border-image-width: 0 0 20px;
   border-image-repeat: repeat;
+}
+
+.u-border-primary {
+  border-top: 0.5rem solid var(--color-primary-400);
+}
+
+.u-border-secondary {
+  border-top: 0.5rem solid var(--color-secondary-400);
 }
 
 /**

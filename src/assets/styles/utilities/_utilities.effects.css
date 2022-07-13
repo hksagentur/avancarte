@@ -35,5 +35,6 @@
     width: var(--kink-effect-width);
     height: var(--kink-effect-height);
     background-color: var(--kink-effect-color, var(--color-dark-opaque));
+    transition: background-color var(--duration-snappy) linear;
   }
 }

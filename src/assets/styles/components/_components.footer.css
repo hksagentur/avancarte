@@ -27,13 +27,13 @@
  */
 
 .c-footer {
-  --footer-text-color: var(--color-neutral-300);
-  --footer-background-color: var(--color-neutral-800);
+  --footer-text-color: var(--color-text);
+  --footer-background-color: var(--color-light);
   --footer-column-threshold: 37rem;
   --footer-column-gutter: var(--size-2);
 
-  padding-top: var(--size-8);
-  padding-bottom: var(--size-8);
+  padding-top: var(--size-16);
+  padding-bottom: var(--size-16);
   color: var(--footer-text-color);
   background-color: var(--footer-background-color);
 }
@@ -45,6 +45,13 @@
 }
 
 .c-footer__item {
+  border-left: 1px dashed var(--color-divider);
+  padding: var(--size-1) var(--size-2);
+  border-image-source: url("../images/border-dashed.svg");
+  border-image-slice: 20;
+  border-image-width: 0 0 0 20px;
+  border-image-repeat: repeat;
+
   flex-basis: calc((var(--footer-column-threshold) - 100%) * 999);
   flex-grow: 1;
 }

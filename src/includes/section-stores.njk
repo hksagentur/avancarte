@@ -1,14 +1,15 @@
 {% set stores = sections[lang].stores|default([]) %}
+{% set modifier = cycler("u-bg-shade", "u-bg-primary") %}
 
 {% if stores|length %}
-  <section class="c-section c-section--stores">
+  <section class="c-section c-section--flush c-section--stores">
     <h2 class="s-section__title / u-sr-only">
       {{ "Online-Shop"|trans }}
     </h2>
 
-    <div class="o-container / o-grid o-grid--columns-2">
+    <div class="o-grid o-grid--flush o-grid--columns-2">
       {% for item in stores %}
-        <article class="c-story c-story--center">
+        <article class="c-story c-story--highlight / u-text-light {{ modifier.next() }}">
           <h3 class="c-story__title">
             {{ item.title }}
           </h3>
@@ -18,7 +19,7 @@
           </div>
 
           {% if item.more %}
-            <a href="{{ item.more.url|url }}" class="c-button c-button--primary">
+            <a href="{{ item.more.url|url }}" class="c-button c-button--light">
               {{ item.more.label }}
 
               {% if item.icon %}
