@@ -54,12 +54,12 @@
   background-color: var(--color-dark);
 }
 
-.u-bg-shade {
-  background-color: var(--color-primary-800);
-}
-
 .u-bg-tint {
   background-color: var(--color-tint);
+}
+
+.u-bg-shade {
+  background-color: var(--color-primary-800);
 }
 
 .u-bg-primary {
