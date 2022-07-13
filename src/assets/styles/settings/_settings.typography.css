@@ -35,9 +35,9 @@
   /* Fluid Type Scale
    * --------------------------------------------------------------------- */
 
-  --fluid-lg: clamp(var(--scale-3), calc(1rem + 2vw), var(--scale-6));
-  --fluid-md: clamp(var(--scale-1), calc(1rem + 1vw), var(--scale-4));
-  --fluid-sm: clamp(var(--scale-0), calc(1rem + 0.25vw), var(--scale-2));
+  --fluid-lg: clamp(var(--scale-3), 1rem + 2vw, var(--scale-6));
+  --fluid-md: clamp(var(--scale-1), 1rem + 1vw, var(--scale-4));
+  --fluid-sm: clamp(var(--scale-0), 1rem + 0.15vw, var(--scale-2));
 
   /* Font Weights
    * --------------------------------------------------------------------- */

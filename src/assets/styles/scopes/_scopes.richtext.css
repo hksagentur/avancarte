@@ -19,6 +19,8 @@
  */
 
 .s-rich-text {
+  font-size: var(--fluid-sm);
+
   & > :not(:last-child) {
     margin-bottom: var(--size-4);
   }

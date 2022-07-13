@@ -10,9 +10,7 @@ override:includes:
   - jobs
   - contact
 ---
-<p class="u-text-lead">
-  Wir sind ein mittelständisches Unternehmen, das sich seit 50 Jahren kontinuierlich entwickelt und Marktanteile gewinnt. Dies konnte uns nur durch gute Mitarbeiter gelingen, die großenteils seit vielen Jahren bei uns arbeiten.
-</p>
+Wir sind ein mittelständisches Unternehmen, das sich seit 50 Jahren kontinuierlich entwickelt und Marktanteile gewinnt. Dies konnte uns nur durch gute Mitarbeiter gelingen, die großenteils seit vielen Jahren bei uns arbeiten.
 
 Die Geschäftsführer sind Mitinhaber und auch die übrigen Gesellschafter dem familiengeprägten Unternehmen seit vielen Jahren verbunden.
 

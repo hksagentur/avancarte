@@ -31,9 +31,7 @@ override:includes:
   - stores
   - contact
 ---
-<p class="u-text-lead">
-  Wir helfen Menschen mit unseren Artikeln, untereinander ihre perfekte Wertschätzung zu gesell­schaftlichen Anlässen aus­zudrücken und sich gegenseitig mit Worten und Geschenken eine Freude zu bereiten.
-</p>
+Wir helfen Menschen mit unseren Artikeln, untereinander ihre perfekte Wertschätzung zu gesell­schaftlichen Anlässen aus­zudrücken und sich gegenseitig mit Worten und Geschenken eine Freude zu bereiten.
 
 Als eines der führenden Unternehmen im deutschsprachigen Raum für Grußkarten, Geschenkverpackungen und Designservietten bieten wir das ideale Angebot für jeden Wunsch.
 
