@@ -108,6 +108,7 @@
 
   & > svg {
     display: inline-block;
+    max-width: none;
     overflow: visible;
   }
 
