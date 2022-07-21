@@ -5,5 +5,6 @@ lastname: Jeep
 role: Leitung Finanzen
 email: simone.jeep@avancarte.de
 photo: /assets/media/simone-jeep.jpg
-group: 2-Leitung
+group: 6-Buchhaltung
+order: 0
 ---

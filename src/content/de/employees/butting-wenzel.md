@@ -6,4 +6,5 @@ role: Geschäftsführer
 email: wenzel-butting@avancarte.de
 photo: /assets/media/wenzel-butting.jpg
 group: 1-Geschäftsführung
+order: 1
 ---

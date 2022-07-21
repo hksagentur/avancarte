@@ -5,5 +5,6 @@ lastname: Hampel
 role: Kaufmännischer Leiter
 email: kay-uwe.hampel@avancarte.de
 photo: /assets/media/kay-uwe-hampel.jpg
-group: 2-Leitung
+group: 4-Projektabwicklung
+order: 0
 ---

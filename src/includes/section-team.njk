@@ -11,7 +11,7 @@
       </h2>
 
       <div class="o-container / o-grid o-grid--columns-3">
-        {% for employee in items|sort_by("data.lastname") %}
+        {% for employee in items|sort_by("data.lastname")|sort_by("data.order") %}
           {% include "employee.njk" %}
         {% endfor %}
       </div>

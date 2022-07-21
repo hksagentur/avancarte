@@ -5,5 +5,6 @@ lastname: Hussain
 role: Stellvertretung Lagerleitung
 email: amin.hussain@avancarte.de
 photo: /assets/media/amin-hussain.jpg
-group: 2-Leitung
+group: 7-Logistik
+order: 2
 ---

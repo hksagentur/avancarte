@@ -5,4 +5,6 @@ lastname: Schaper
 role: Kundenbetreuung
 email: alexandra.schapert@avancarte.de
 photo: /assets/media/alexandra-schaper.jpg
+group: 3-Verkausinnendienst
+order: 2
 ---
