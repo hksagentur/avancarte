@@ -6,7 +6,7 @@
  * @param {string} [style='light'] The background color of the boxed content.
  * @returns {string}
  */
-function box(content, title='', style='merino') {
+function box(content, title='', style='tint') {
   const markup = `
     <div class="c-box / u-bg-${style}">
       ${title ? `<h3 class="c-box__title">${title}</h3>` : ''}
