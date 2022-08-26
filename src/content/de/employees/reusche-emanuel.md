@@ -2,7 +2,7 @@
 title: Emanuel Reusche
 firstname: Emanuel
 lastname: Reusche
-role: Stellvertretung Lagerleitung
+role: stellvertretender Logistikleiter
 email: emanuel.reusche@avancarte.de
 photo: /assets/media/emanuel-reusche.jpg
 group: 7-Logistik
