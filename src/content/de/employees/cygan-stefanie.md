@@ -5,6 +5,6 @@ lastname: Cygan
 role: Leiterin Eigenproduktion
 email: stefanie.cygan@avancarte.de
 photo: /assets/media/stefanie-cygan.jpg
-group: 5-Einkauf
+group: 5-Produktentwicklung
 order: 0
 ---
