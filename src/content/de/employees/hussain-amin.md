@@ -2,7 +2,7 @@
 title: Amin Hussain
 firstname: Amin
 lastname: Hussain
-role: Stellvertretung Lagerleitung
+role: stellvertretender Logistikleiter
 email: amin.hussain@avancarte.de
 photo: /assets/media/amin-hussain.jpg
 group: 7-Logistik
