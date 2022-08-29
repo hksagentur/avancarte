@@ -8,6 +8,8 @@ translationKey: greeting-cards
 highlights:
   -
     title: Für jeden Anlass
+    image:
+      url: /assets/media/anlass.jpg
     summary: |
       Sie bekommen bei uns Karten zu über 100 Anlässen, perfekt und
       übersichtlich präsentiert in unseren Kartenwänden mit entsprechenden
@@ -19,12 +21,14 @@ highlights:
       katholischen Region: bei uns finden Sie alles!
   -
     title: "Drehen sich schnell: Design­servietten für Dreh­displays"
+    image:
+      url: /assets/media/dreh­displays.jpg
     summary: |
       Kunden kaufen nicht nur nach Bedarf. Oft lassen sie sich von attraktiven Motivserien zum Kauf anregen. Licht- und Soundeffekte, individuelles Design, interessante Materialien, aktuelle Trends und Motive von lustig über künstlerisch bis exklusiv schaffen zusätzliche Impulse:
 
       - Von AvanCarte-Designern konzipiert und gestaltet
       - Mit abgestimmten Drehdisplays für eine optimale Präsentation am POS
-      - Ausgewählte Themen von Comic bis chic und von handgemacht bis 
+      - Ausgewählte Themen von Comic bis chic und von handgemacht bis
         hochveredelt
 override:includes:
   - stores
