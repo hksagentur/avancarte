@@ -14,7 +14,7 @@ slides:
     more:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
-      url: #
+      url: /sortiment/
   -
     title: Die kleinen Dinge genießen, sie machen das Leben wunderbar
     url: #
@@ -26,7 +26,7 @@ slides:
     more:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
-      url: #
+      url: /service/
   -
     title: Alles aus einer Hand, seit 1974
     summary: |
@@ -38,7 +38,7 @@ slides:
     more:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
-      url: #
+      url: /unternehmen/
 override:includes:
   - services
   - bookmarks

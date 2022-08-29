@@ -1,7 +1,7 @@
 ---
 title: Per­fekte Wert­schätzung zu ge­sellschaft­lichen Anlässen
 tagline: Unternehmen
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/adobestock-280799656.jpg
 menu: Unternehmen
 order: 0
 translationKey: company

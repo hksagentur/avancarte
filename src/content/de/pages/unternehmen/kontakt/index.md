@@ -1,7 +1,7 @@
 ---
 layout: form
 title: Fragen? Wir sind für Sie da.
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/adobestock-280799656.jpg
 menu: Kontakt
 parent: unternehmen
 order: 3
