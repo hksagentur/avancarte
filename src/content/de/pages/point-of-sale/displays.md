@@ -4,6 +4,15 @@ tagline: Displays
 cover: /assets/media/adobestock-99649200.jpg
 menu: Displays
 parent: point-of-sale
+contentslides:
+  -
+    image:
+      url: /assets/media/adobestock-99649200b.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/adobestock-280799656.jpg
+      alt: ''
 order: 1
 translationKey: displays
 override:includes:
