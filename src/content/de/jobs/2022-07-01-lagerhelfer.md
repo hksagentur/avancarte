@@ -1,7 +1,7 @@
 ---
 title: Lagerhelfer (m/w/d) in Vollzeit befristet 3-5 Monate
 url: https://www.heyjobs.co/de-de/jobs/97c331df-24d5-483f-99fb-31f27bc63101
-download: /assets/media/lagerhelfer.pdf
+download: /assets/media/2022-08_Lagerist_Fachkraft_fuer_Lagerlogistik_Quereinsteiger.pdf
 ---
 Wir suchen ab sofort 2 Lagerhelfer befristet für ca. 3 Monate in unserem Unternehmen. Es handelt sich um eine Vollzeitstelle (40 Std. wöchentlich).
 
