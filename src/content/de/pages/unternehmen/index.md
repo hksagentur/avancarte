@@ -8,6 +8,7 @@ translationKey: company
 highlights:
   -
     title: Unser Vertrieb
+    image: /assets/media/verkaufssituation.jpg
     summary: |
       Unser Vertrieb erfolgt über unsere eigene Außendienstorganisation mit
       über 50 Bezirksleitern und Servicekräften in ganz Deutschland.
@@ -16,6 +17,7 @@ highlights:
       unseren [Online-Shop](https://www.avancarte-shop.de/) zu bestellen.
   -
     title: Unsere Kunden
+    image: /assets/media/kunden.jpg
     summary: |
       Wir beliefern in Deutschland den Einzelhandel in den verschiedensten
       Branchen. Dazu gehören zum Beispiel PBS-Facheinzelhandel, Buchhandel,
@@ -24,6 +26,7 @@ highlights:
       Postagenturen.
   -
     title: Der Export
+    image: /assets/media/export.jpg
     summary: |
       Der Export erfolgt insbesondere in alle deutschsprachigen Nachbarländer.
       Der Vertrieb läuft dort jeweils über ausgesuchte Distributoren.
