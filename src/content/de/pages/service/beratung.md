@@ -1,6 +1,6 @@
 ---
 title: Beratung
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/adobestock-99649200b.jpg
 menu: Beratung
 parent: service
 order: 0
