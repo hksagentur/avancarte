@@ -24,32 +24,36 @@ highlights:
       passen auf, dass Sie nichts übersehen.
   -
     tagline: easyCarte System®
+    image:
+      url: /assets/media/EasyCarte.jpg
     title: Die einfache Vielfalt
     summary: |
       Stellen Sie sich vor, Sie müssen sich um nichts kümmern. Die Ware läuft
       „wie von selbst“. Unmöglich? Mit unserem easyCarteSystem ist das ganz
       einfach!
 
-      Aufgrund einer umfassenden Standortanalyse ermitteln wir ein 
-      maßgeschneidertes Waren- und Präsentationskonzept für Ihr Geschäft. Auf 
+      Aufgrund einer umfassenden Standortanalyse ermitteln wir ein
+      maßgeschneidertes Waren- und Präsentationskonzept für Ihr Geschäft. Auf
       dieser Grundlage richten wir das easyCarteSystem bei Ihnen ein.
 
       Ihre Vorteile:
 
-      - immer die passende Ware in der richtigen Menge 
-      - niedriger Warenbestand und hoher Warenumschlag 
-      - erhebliche Arbeits- und Kostenreduzierung 
-      - kein aufwändiges Aussuchen aus Kollektionen mehr 
+      - immer die passende Ware in der richtigen Menge
+      - niedriger Warenbestand und hoher Warenumschlag
+      - erhebliche Arbeits- und Kostenreduzierung
+      - kein aufwändiges Aussuchen aus Kollektionen mehr
       - laufende Kontrolle durch unsere IT und unsere Kundenberater
   -
     tagline: Fullservice
+    image:
+      url: /assets/media/EasyCarte.jpg
     title: Sie stellen die Fläche – wir machen den Rest
     summary: |
       Auf der Basis des easyCarte System® übernehmen wir das Rackjobbing. Wir
       bestellen und verräumen die Ware und Sie kassieren nur noch. Ihre
       Warenpräsentation zieht durch unser Visual Merchandising alle Blicke auf
-      sich. Ihre Kunden werden bei Grußkarten, Geschenkverpackung und 
-      Designservietten garantiert das Richtige für sich finden. Unser großes 
+      sich. Ihre Kunden werden bei Grußkarten, Geschenkverpackung und
+      Designservietten garantiert das Richtige für sich finden. Unser großes
       Außendienstteam garantiert eine hohe Besuchsfrequenz.
 
       Erfahren Sie mehr über unsere **Einrichtungsberatung** und unser **Visual

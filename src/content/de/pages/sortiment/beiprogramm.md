@@ -1,5 +1,5 @@
 ---
-title: Umsätze ganz nebenbei mit AvanCarte 
+title: Umsätze ganz nebenbei mit AvanCarte
 tagline: Beiprogramm
 cover: /assets/media/adobestock-99649200.jpg
 menu: Beiprogramm
@@ -9,6 +9,8 @@ translationKey: gift-items
 highlights:
   -
     title: Geschenkartikel - kleine Geschenke für freudige Momente
+    image:
+      url: /assets/media/geschenkverpackungen.jpg
     summary: |
       Mit unseren Geschenkartikel-Sortimenten bieten Sie Ihren Kunden günstige
       Gelegenheiten zum Mitnehmen. Niedlich oder praktisch, kindgerecht oder
@@ -23,7 +25,9 @@ highlights:
       Ihren Alltag zum Beispiel mit Abbildungen zu Tieren, Emojis oder
       Glückssymbolen.
   -
-    title: Partyartikel – bereiten Sie mit bunter Dekoration ihr schönes Fest vor 
+    title: Partyartikel – bereiten Sie mit bunter Dekoration ihr schönes Fest vor
+    image:
+      url: /assets/media/partyartikel.jpg
     summary: |
       Von Kerzen, Luftschlangen und Konfetti bis hin zu bunten Luftballons
       finden Sie hier alles, was Sie für ein gelungenes Fest benötigen.
