@@ -46,7 +46,7 @@ highlights:
   -
     tagline: Fullservice
     image:
-      url: /assets/media/EasyCarte.jpg
+      url: /assets/media/fullservice.jpg
     title: Sie stellen die Fläche – wir machen den Rest
     summary: |
       Auf der Basis des easyCarte System® übernehmen wir das Rackjobbing. Wir
