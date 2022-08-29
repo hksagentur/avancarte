@@ -6,8 +6,11 @@ menu: Displays
 parent: point-of-sale
 order: 1
 translationKey: displays
+override:includes:
+  - stores
+  - contact
 ---
-Jeder kennt Drehdisplays für Kartenserien. Vor allem unsere ellipsenförmigen Drahtdisplays gefallen jedem. Ob BigSquare, Midi, B6 oder DIN Lang: für alle Formate gibt es die richtigen Displays für eine perfekte Präsentation, die Ihre Kunden an die Drehständer lockt. 
+Jeder kennt Drehdisplays für Kartenserien. Vor allem unsere ellipsenförmigen Drahtdisplays gefallen jedem. Ob BigSquare, Midi, B6 oder DIN Lang: für alle Formate gibt es die richtigen Displays für eine perfekte Präsentation, die Ihre Kunden an die Drehständer lockt.
 
 Aber auch für alle anderen Warengruppen stellen wir Displays zur Verfügung, die zum Impulskauf einladen.
 

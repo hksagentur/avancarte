@@ -5,6 +5,9 @@ menu: Beratung
 parent: service
 order: 0
 translationKey: consulting
+override:includes:
+  - stores
+  - contact
 ---
 Ein Grundriss des Geschäfts oder eine Handskizze steht am Anfang: Die Positionierung der Platzierung ist für den Erfolg entscheidend. Sichtachsen und Kundenlauf sind zu beachten. Wettbewerb, Lage, Sortimentsmix und Ausrichtung sind wichtige Einflussgrößen. Die konfessionelle Ausrichtung und geografische Position wirken auf die Anlässe ein.
 
