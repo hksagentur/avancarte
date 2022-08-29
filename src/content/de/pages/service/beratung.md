@@ -3,6 +3,35 @@ title: Beratung
 cover: /assets/media/adobestock-99649200b.jpg
 menu: Beratung
 parent: service
+contentslides:
+  -
+    image:
+      url: /assets/media/beratung_1.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/beratung_2.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/beratung_3.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/beratung_4.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/skizze_1.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/skizze_2.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/skizze_3.jpg
+      alt: ''
 order: 0
 translationKey: consulting
 override:includes:
