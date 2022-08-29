@@ -7,11 +7,43 @@ parent: point-of-sale
 contentslides:
   -
     image:
-      url: /assets/media/adobestock-99649200b.jpg
+      url: /assets/media/allgemein-1.jpg
       alt: ''
   -
     image:
-      url: /assets/media/adobestock-280799656.jpg
+      url: /assets/media/allgemein-2.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/allgemein-3.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/allgemein-4.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/allgemein-5.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/allgemein-6.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/allgemein-7.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/displays.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/displaythemen.jpg
+      alt: ''
+  -
+    image:
+      url: /assets/media/weihnachten.jpg
       alt: ''
 order: 1
 translationKey: displays
