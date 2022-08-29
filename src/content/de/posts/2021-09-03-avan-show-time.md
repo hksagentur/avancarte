@@ -1,5 +1,6 @@
 ---
 title: AvanShowTime
+cover: /assets/media/showtime.jpg
 attachments:
   -
     title: AvanShowTime
