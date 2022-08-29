@@ -71,8 +71,12 @@
   padding-bottom: 0;
 }
 
-main .c-carouse {
-  .c-section {
-    padding-bottom: var(--size-24);
+main .c-carousel {
+  padding-bottom: var(--size-24);
+
+  @media (min-width: 48em)
+    .c-cover {
+      aspect-ratio: 1.75/1;
+    }
   }
 }
