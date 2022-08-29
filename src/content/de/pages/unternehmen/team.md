@@ -7,5 +7,6 @@ order: 0
 translationKey: team
 override:includes:
   - team
+  - stores
   - contact
 ---

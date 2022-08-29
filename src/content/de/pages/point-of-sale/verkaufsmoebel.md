@@ -5,6 +5,9 @@ menu: Verkaufsmöbel
 parent: point-of-sale
 order: 0
 translationKey: furniture
+override:includes:
+  - stores
+  - contact
 ---
 Einrichtungsprojekte sind unsere Spezialität. Lernen Sie hierzu unseren Beratungsservice kennen. Jährlich führen wir hunderte von Einrichtungsprojekten durch.
 

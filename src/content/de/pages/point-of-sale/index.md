@@ -5,6 +5,9 @@ cover: /assets/media/adobestock-99649200.jpg
 menu: Point Of Sale
 order: 3
 translationKey: point-of-sale
+override:includes:
+  - stores
+  - contact
 ---
 Wir beliefern Sie nicht nur mit Ware, sondern sorgen auch dafür, dass sie in Ihrem Geschäft ins richtige Licht gerückt wird. Dabei gehen wir auf Ihren Standort individuell ein.
 

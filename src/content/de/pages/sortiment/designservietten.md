@@ -6,6 +6,9 @@ menu: Designservietten
 parent: sortiment
 order: 2
 translationKey: napkins
+override:includes:
+  - stores
+  - contact
 ---
 Heißen Sie Ihre Gäste bei Tisch willkommen mit herzlichen oder lustigen Sprüchen, zur Jahreszeit passenden Blumen, dem Anlass entsprechenden Motive oder den zu Ihrer Dekoration passenden Farben. Dies alles finden Sie auf unseren Servietten. Taschentücher und sogar bedrucktes Toilettenpapier runden zudem unser Sortiment an bedruckten Tissuepapieren ab.
 
