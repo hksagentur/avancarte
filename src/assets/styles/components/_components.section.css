@@ -70,3 +70,9 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+
+main .c-carouse {
+  .c-section {
+    padding-bottom: var(--size-24);
+  }
+}
