@@ -1,5 +1,6 @@
 ---
 title: Endlich Schule!
+cover: /assets/media/schule_display.jpg
 attachments:
   -
     title: Endlich Schule!

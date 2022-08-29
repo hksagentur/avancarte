@@ -1,5 +1,6 @@
 ---
 title: Umwelt - Naturdisplay
+cover: /assets/media/natur_display.jpg
 attachments:
   -
     title: Back to Nature
