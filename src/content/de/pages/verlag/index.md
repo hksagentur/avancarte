@@ -1,7 +1,7 @@
 ---
 title: Das Beste, was der Markt zu bieten hat 
 tagline: Verlag
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/verlag.jpg
 menu: Verlag
 order: 2
 translationKey: publisher

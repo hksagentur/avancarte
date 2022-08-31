@@ -9,6 +9,8 @@ highlights:
   -
     tagline: Online
     title: 24/7 Verfügbarkeit – jederzeit von überall
+    image:
+      url: /assets/media/online.jpg
     summary: |
       Egal ob Sie Grußkarten, Geschenkverpackungen, Designservietten oder unser
       Beiprogramm benötigen. Nutzen Sie unseren Onlineshop rund um die Uhr. Er
