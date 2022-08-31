@@ -9,7 +9,7 @@ slides:
       Unsere Sortimente machen schöne Momente noch schöner - und sagen in Wort
       und Bild, was Ihre Kunden zum Ausdruck bringen wollen.
     image:
-      url: /assets/media/adobestock-99649200.jpg
+      url: /assets/media/sortiment.jpg
       alt: ''
     more:
       label: Mehr erfahren

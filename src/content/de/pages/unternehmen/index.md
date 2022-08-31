@@ -44,3 +44,7 @@ Als eines der führenden Unternehmen im deutschsprachigen Raum für Grußkarten,
 Partyartikel, Sticker und Geschenkartikel ergänzen unser Sortiment in passender Weise.
 
 Die optimale Präsentation der Ware am Point of Sale ist für uns als Flächenspezialist ebenso wichtig wie die Ware selbst. Hierfür bieten wir die richtigen Warenträger und die individuelle Beratung. Passend zu jedem Kaufverhalten unterstützen wir unsere Kunden sowohl im stationären Einzelhandel, als auch im Online-Handel.
+
+{% box "Downloads" %}
+- [Die Geschichte der AvanCarte (PDF, 152 KB)](/assets/media/geschichte.pdf)
+{% endbox %}
