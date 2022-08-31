@@ -1,7 +1,7 @@
 ---
 layout: archive-post
 title: Aktuell
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/aktuelles.jpg
 menu: Aktuelles
 order: 5
 translationKey: posts
