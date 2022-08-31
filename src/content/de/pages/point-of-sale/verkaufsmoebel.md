@@ -1,6 +1,6 @@
 ---
 title: Möbel für jede Fläche
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/pos.jpg
 menu: Verkaufsmöbel
 parent: point-of-sale
 contentslides:

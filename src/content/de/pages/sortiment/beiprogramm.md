@@ -1,7 +1,7 @@
 ---
 title: Umsätze ganz nebenbei mit AvanCarte
 tagline: Beiprogramm
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/sortiment.jpg
 menu: Beiprogramm
 parent: sortiment
 order: 3

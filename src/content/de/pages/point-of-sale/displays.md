@@ -1,7 +1,7 @@
 ---
 title: Umsatz der sich dreht!
 tagline: Displays
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/pos.jpg
 menu: Displays
 parent: point-of-sale
 contentslides:

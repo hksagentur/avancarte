@@ -1,6 +1,6 @@
 ---
 title: Grußkarten
-cover: /assets/media/adobestock-99649200.jpg
+cover: /assets/media/sortiment.jpg
 menu: Grußkarten
 parent: sortiment
 order: 0

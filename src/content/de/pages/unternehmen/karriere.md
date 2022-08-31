@@ -1,7 +1,7 @@
 ---
 title: Starten Sie gemeinsam mit uns in Ihre berufliche Zukunft!
 tagline: Karriere
-cover: /assets/media/adobestock-280799656.jpg
+cover: /assets/media/jobs.jpg
 menu: Karriere
 parent: unternehmen
 order: 1
