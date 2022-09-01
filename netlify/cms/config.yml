@@ -140,10 +140,12 @@ collections:
         name: body
         label: Inhalt
         widget: markdown
+        required: false
       -
         name: url
         label: Website
         widget: string
+        required: false
       -
         name: download
         label: PDF
@@ -156,15 +158,6 @@ collections:
             name: url
             label: Datei
             widget: file
-          -
-            name: title
-            label: Titel
-            widget: string
-          -
-            name: summary
-            label: Beschreibung
-            widget: text
-            required: false
   -
     name: settings
     label: Einstellungen
