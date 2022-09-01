@@ -14,7 +14,7 @@
   <footer class="u-space-between u-gap-above">
     {% if job.data.download %}
       <a
-        href="{{ job.data.download|url }}"
+        href="{{ job.data.download.url|url }}"
         class="c-button"
         aria-label="{{ 'Download PDF for “:title”'|trans({title: job.data.title}) }}"
         download

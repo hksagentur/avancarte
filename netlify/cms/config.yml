@@ -122,7 +122,6 @@ collections:
     label: Stellenangebote
     label_singular: Stellenangebot
     folder: src/content/de/jobs
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: '/unternehmen/karriere/{{slug}}'
     create: true
     delete: true
