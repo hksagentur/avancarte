@@ -145,12 +145,12 @@ collections:
         label: Website
         widget: string
       -
-        name: attachments
-        label: Anhänge
+        name: download
+        label: PDF
         widget: list
         required: false
         summary: '{{fields.title}} ({{fields.url}})'
-        max: 5
+        max: 1
         fields:
           -
             name: url
