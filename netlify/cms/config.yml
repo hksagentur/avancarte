@@ -149,15 +149,7 @@ collections:
       -
         name: download
         label: PDF
-        widget: list
-        required: false
-        summary: '{{fields.title}} ({{fields.url}})'
-        max: 2
-        fields:
-          -
-            name: url
-            label: Datei
-            widget: file
+        widget: file
   -
     name: settings
     label: Einstellungen
