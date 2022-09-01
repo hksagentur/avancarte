@@ -5,9 +5,9 @@
 
   <p>
     {% if job.data.description %}
-      {{ job.data.description|striptags|truncate(64) }}
+      {{ job.data.description|striptags|truncate(80) }}
     {% else %}
-      {{ job.templateContent|striptags|truncate(64) }}
+      {{ job.templateContent|striptags|truncate(80) }}
     {% endif %}
   </p>
 
