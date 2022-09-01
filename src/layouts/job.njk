@@ -4,16 +4,9 @@
   <div class="s-rich-text / o-container o-container--prose">
     {{ content|safe }}
 
-    {% if download|length %}
-      <a href="{{ download.url|url }}" download>
-        {{ ":title (:type, :size)"|trans({
-          title: 'PDF herunterladen',
-          type: download.url|file_extension|upper,
-          size: download.url|file_size
-        }) }}
-      </a>
-    {% endif %}
+    {% block download %}
+      {% include "job-download.njk" %}
+    {% endblock %}
 
   </div>
 {% endblock %}
-
