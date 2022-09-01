@@ -1,0 +1,9 @@
+{% if download %}  asefasefasf
+    <a href="{{ download|url }}" download>
+      {{ ":title (:type, :size)"|trans({
+        title: 'PDF herunterladen',
+        type: download|file_extension|upper,
+        size: download|file_size
+      }) }}
+    </a>
+  {% endif %}
