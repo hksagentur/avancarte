@@ -1,7 +1,7 @@
 ---
 title: Shop-Lösungen nach Maß
 tagline: Merchandising
-cover: /assets/media/adobestock-99649200b.jpg
+cover: /assets/media/service.jpg
 menu: Merchandising
 parent: service
 order: 1

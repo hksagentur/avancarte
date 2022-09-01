@@ -1,6 +1,6 @@
 ---
 title: Beratung
-cover: /assets/media/adobestock-99649200b.jpg
+cover: /assets/media/service.jpg
 menu: Beratung
 parent: service
 contentslides:
