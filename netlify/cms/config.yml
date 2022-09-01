@@ -118,6 +118,54 @@ collections:
         widget: string
         required: false
   -
+    name: job
+    label: Stellenangebote
+    label_singular: Stellenangebot
+    folder: src/content/de/jobs
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: '/unternehmen/karriere/{{slug}}'
+    create: true
+    delete: true
+    fields:
+      -
+        name: title
+        label: Titel
+        widget: string
+      -
+        name: description
+        label: Beschreibung
+        widget: text
+        required: false
+      -
+        name: body
+        label: Inhalt
+        widget: markdown
+      -
+        name: url
+        label: Website
+        widget: string
+      -
+        name: attachments
+        label: Anhänge
+        widget: list
+        required: false
+        summary: '{{fields.title}} ({{fields.url}})'
+        max: 5
+        fields:
+          -
+            name: url
+            label: Datei
+            widget: file
+          -
+            name: title
+            label: Titel
+            widget: string
+          -
+            name: summary
+            label: Beschreibung
+            widget: text
+            required: false
+  -
     name: settings
     label: Einstellungen
     files:
