@@ -1,11 +1,11 @@
 ---
-title: Lagerist (w/m/d) – Fachkraft für Lagerlogistik oder gern auch
-  Quereinsteiger (w/m/d)
+title: Lagerist (w/m/d)
 description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
   nächstmöglichen Zeitpunkt einen engagierten Lageristen (w/m/d).
-download:
-  - url: /assets/media/2022-08_Lagerist_Fachkraft_fuer_Lagerlogistik_Quereinsteiger.pdf
+download: /assets/media/2022-08_Lagerist_Fachkraft_fuer_Lagerlogistik_Quereinsteiger.pdf
 ---
+## Lagerist (w/m/d) – Fachkraft für Lagerlogistik oder gern auch Quereinsteiger (w/m/d)
+
 AvanCarte – mit uns haben Sie gute Karten! Wir sind eines der führenden Verlags- und Handelsunternehmen für stilvolle Grußkarten, Geschenkverpackungen und Motivservietten in Deutschland. Unsere Kollektion zählt an Vielfalt und Umfang zu den Spitzenangeboten in der Branche. Unser Vertrieb betreut den Einzelhandel, Fachhandel und marktführende Filialisten.
 
 **Zur Verstärkung unseres Teams in Bremen suchen wir zum nächstmöglichen Zeitpunkt einen engagierten Lageristen (w/m/d).**
