@@ -3,7 +3,7 @@ module.exports = {
   tags: [
     'job'
   ],
-  permalink: false,
+  permalink: true,
   draft: false,
   sitemap: false
 };
