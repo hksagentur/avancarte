@@ -12,12 +12,11 @@ Zur Verstärkung unseres Teams in Bremen suchen wir zum nächstmöglichen Zeitpu
 
 Was Sie bei uns tun
 
-* Als Lagermitarbeiter (w/m/d) unterstützen Sie uns bei allgemeinen Lagertätigkeiten.
-  Im Wareneingang prüfen Sie die Lieferungen, kennzeichnen die Ware und lagern sie ein.
+* Als Lagermitarbeiter (w/m/d) unterstützen Sie uns bei allgemeinen Lagertätigkeiten.Im Wareneingang prüfen Sie die Lieferungen, kennzeichnen die Ware und lagern sie ein.
   Für Kundenaufträge kommissionieren Sie die Produkte und machen sie versandfertig.
-  Sie wissen, was wir auf Lager haben und unseren Kunden anbieten können – Sie kontrollieren unsere Warenbestände, melden Überhänge oder bestellen nach.
-*
-*
+
+
+
 *
 
 Wir freuen uns auf Sie, freuen Sie sich auf ...
