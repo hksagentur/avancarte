@@ -4,6 +4,7 @@ module.exports = {
     'job'
   ],
   permalink: '/unternehmen/karriere/{{ page.fileSlug }}/',
+  cover: '/assets/media/jobs.jpg',
   draft: false,
   sitemap: true
 };
