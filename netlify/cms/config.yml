@@ -150,7 +150,7 @@ collections:
         widget: list
         required: false
         summary: '{{fields.title}} ({{fields.url}})'
-        max: 1
+        max: 2
         fields:
           -
             name: url
