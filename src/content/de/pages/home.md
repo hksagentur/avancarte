@@ -21,7 +21,7 @@ slides:
     summary: |
       Bei uns bleiben keine Wünsche offen.
     image:
-      url: /assets/media/adobestock-99649200b.jpg
+      url: /assets/media/service.jpg
       alt: ''
     more:
       label: Mehr erfahren

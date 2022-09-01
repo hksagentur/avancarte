@@ -54,6 +54,10 @@
   white-space: nowrap;
 }
 
+.c-site-nav__submenu-item a {
+  display: block;
+}
+
 .c-site-nav__menu-link {
   font-weight: var(--font-semibold);
 }

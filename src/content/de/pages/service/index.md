@@ -1,7 +1,7 @@
 ---
 title: Sie bestimmen den Grad der Zusammenarbeit
 tagline: Service
-cover: /assets/media/adobestock-99649200b.jpg
+cover: /assets/media/service.jpg
 menu: Service
 order: 4
 translationKey: service
