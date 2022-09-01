@@ -4,7 +4,11 @@
   </h3>
 
   <p>
-    {{ job.templateContent|striptags|truncate(64) }}
+    {% if job.data.description %}
+      {{ job.data.description|striptags|truncate(64) }}
+    {% else %}
+      {{ job.templateContent|striptags|truncate(64) }}
+    {% endif %}
   </p>
 
   <footer class="u-space-between u-gap-above">
@@ -22,6 +26,14 @@
     {% if job.data.url %}
       <a
         href="{{ job.data.url|url }}"
+        class="c-more"
+        aria-label="{{ 'View details for “:title”'|trans({title: job.data.title}) }}"
+      >
+        {{ "View Details"|trans }}
+      </a>
+    {% else %}
+      <a
+        href="{{ job.url|url }}"
         class="c-more"
         aria-label="{{ 'View details for “:title”'|trans({title: job.data.title}) }}"
       >
