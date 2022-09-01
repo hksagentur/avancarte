@@ -3,7 +3,7 @@ module.exports = {
   tags: [
     'job'
   ],
-  permalink: true,
+  permalink: '/unternehmen/karriere/{{ page.fileSlug }}/',
   draft: false,
-  sitemap: false
+  sitemap: true
 };
