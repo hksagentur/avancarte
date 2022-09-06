@@ -2,7 +2,7 @@
 layout: archive-event
 title: Messetermine
 menu: Termine
-cover: /assets/media/adobestock-280799656.jpg
+cover: /assets/media/termine.jpg
 parent: unternehmen
 order: 2
 translationKey: events
