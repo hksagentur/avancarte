@@ -1,7 +1,7 @@
-{% if download %}  asefasefasf
-    <a href="{{ download|url }}" download>
+{% if download %}
+    <a class="c-button" href="{{ download|url }}" download>
       {{ ":title (:type, :size)"|trans({
-        title: 'PDF herunterladen',
+        title: 'Beschreibung als PDF herunterladen',
         type: download|file_extension|upper,
         size: download|file_size
       }) }}

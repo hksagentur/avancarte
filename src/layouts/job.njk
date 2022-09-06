@@ -1,12 +1,39 @@
-{% extends "./page.njk" %}
+{% extends "./base.njk" %}
 
-{% block content %}
-  <div class="s-rich-text / o-container o-container--prose">
-    {{ content|safe }}
-
-    {% block download %}
-      {% include "job-download.njk" %}
+{% block main %}
+  <div class="c-section c-section--intro">
+    {% block tagline %}
+      {%- if tagline %}
+        <div class="c-section__tagline">
+          {{ tagline }}
+        </div>
+      {%- endif %}
     {% endblock %}
 
+    {% block heading %}
+      {%- if cover.title and not slides %}
+        <h2 class="c-section__title">
+          {{ title }}
+        </h2>
+      {%- else %}
+        <h1 class="c-section__title / p-name">
+          {{ title }}
+        </h1>
+      {%- endif %}
+    {% endblock %}
+
+    {% block content %}
+
+        <div class="s-rich-text / o-container o-container--prose">
+          {{ content|safe }}
+
+          {% block download %}
+            {% include "job-download.njk" %}
+          {% endblock %}
+        </div>
+
+    {% endblock %}
   </div>
+
+
 {% endblock %}
