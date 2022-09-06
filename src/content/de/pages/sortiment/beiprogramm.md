@@ -19,6 +19,8 @@ highlights:
       und generieren ganz nebenbei Umsatz.
   -
     title: Sticker – kleiner Kleber, die Freude machen oder Ordnung schaffen
+    image:
+      url: /assets/media/sticker.jpg
     summary: |
       Nutzen Sie unsere Sticker und Aufkleber, um mit Zahlen, Buchstaben oder
       Beschriftungen: Ordnung in Ihre Umgebung zu bringen oder verschönern Sie

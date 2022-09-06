@@ -1,6 +1,6 @@
 ---
 title: Grußkarten
-cover: /assets/media/sortiment.jpg
+cover: /assets/media/grusskarten-header.jpg
 menu: Grußkarten
 parent: sortiment
 order: 0

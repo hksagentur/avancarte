@@ -20,6 +20,8 @@ highlights:
   -
     tagline: Kollektionsverkauf
     title: Attraktives Programm und begeisterte Käufer
+    image:
+      url: /assets/media/verkaufssituation.jpg
     summary: |
       Unser großes Außendienstteam ist schnell vor Ort und führt Sie durch
       unsere Kollektion. Treffen Sie selbst Ihre individuelle Auswahl. Wir
