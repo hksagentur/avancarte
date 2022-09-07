@@ -1,6 +1,6 @@
 ---
-title: Alles Gute für Ihr Geschäft!
-tagline: Verlags-, Handles- und Serviceunternehmen
+title: Bestellen Sie schöne Grüße!
+tagline: Verlag-, Handels- und Serviceunternehmen für Grußkarten, Geschenkverpackungen und Designservietten
 permalink: /
 slides:
   -
@@ -46,8 +46,9 @@ override:includes:
   - stores
   - contact
 ---
-Seit 1974 bietet AvanCarte dem Einzelhandel einen Komplettservice im Bereich Grußkarten, Geschenkverpackungen und Designservietten an. Wir sind eines der führenden Verlags-, Handels- und Serviceunternehmen der Branche.
+Grußkarten unterstreichen in Wort und Bild, was wir einem Menschen sagen möchten. Wir beglückwünschen. Wir muntern auf und bringen zum Lachen. Wir sprechen unsere Anteilnahme aus. Eine gute Grußkarte macht einen schönen Moment noch schöner – und ein intensives Gefühl noch intensiver.
 
-Unsere Sortimente machen schöne Momente noch schöner – und sagen in Wort und Bild, was Ihre Kunden zum Ausdruck bringen wollen.
+AvanCarte ist Ihr Partner für Sortimente, die Ihre Kunden inspirieren und überzeugen werden. Seit 1974 bedienen wir den Einzelhandel mit einem Komplettservice in den Bereichen Grußkarten, Geschenkverpackungen und Designservietten. Sie profitieren von der Erfahrung eines der führenden Verlags-, Handels- und Serviceunternehmen der Branche. 
 
-Schöne Produkte, individuelle Kollektionen, gute Umsatzmöglichkeiten: Mit AvanCarte haben Sie gute Karten für Ihren Erfolg.
+Hochwertige Produkte, aktuelle Trends und individuelle Kollektionen für vielfältige Umsatzmöglichkeiten: Mit AvanCarte haben Sie gute Karten für Ihren Erfolg.
+

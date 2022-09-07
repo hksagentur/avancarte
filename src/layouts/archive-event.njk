@@ -8,6 +8,11 @@
           {{ title }}
         </h2>
       {%- else %}
+        {%- if tagline %}
+          <div class="c-section__tagline">
+            {{ tagline }}
+          </div>
+        {%- endif %}
         <h1 class="c-section__title / p-name">
           {{ title }}
         </h1>
@@ -16,6 +21,11 @@
 
     {% block content %}
       <div class="o-container">
+        <div class="s-rich-text / o-container o-container--prose">
+          {{ content|safe }}
+        </div>
+      </div>
+      <div class="o-container u-gap-above">
         <div class="o-grid o-grid--columns-3">
           {%- for event in collections.event|tagged_with(lang)|upcoming %}
             {% include "event.njk" %}

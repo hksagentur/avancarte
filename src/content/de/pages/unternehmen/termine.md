@@ -1,6 +1,7 @@
 ---
 layout: archive-event
-title: Messetermine
+title: Wir lassen uns gern in die Karten gucken
+tagline: AvanCarte – Termine und Messe 
 menu: Termine
 cover: /assets/media/termine.jpg
 parent: unternehmen
@@ -10,3 +11,4 @@ override:includes:
   - stores
   - contact
 ---
+Zum Beispiel auf den Messen und Branchentreffen, auf denen wir vertreten sind.
