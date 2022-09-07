@@ -8,6 +8,11 @@
           {{ title }}
         </h2>
       {%- else %}
+      {%- if tagline %}
+          <div class="c-section__tagline">
+            {{ tagline }}
+          </div>
+        {%- endif %}
         <h1 class="c-section__title / p-name">
           {{ title }}
         </h1>

@@ -1,6 +1,6 @@
 ---
-title: Ganz schön sauber!
-tagline: Designservietten
+title: Fast zu schön zum Mundabtupfen
+tagline: Geschenkverpackungen für den Einzelhandel
 cover: /assets/media/sortiment.jpg
 menu: Designservietten
 parent: sortiment
@@ -10,6 +10,7 @@ override:includes:
   - stores
   - contact
 ---
-Heißen Sie Ihre Gäste bei Tisch willkommen mit herzlichen oder lustigen Sprüchen, zur Jahreszeit passenden Blumen, dem Anlass entsprechenden Motive oder den zu Ihrer Dekoration passenden Farben. Dies alles finden Sie auf unseren Servietten. Taschentücher und sogar bedrucktes Toilettenpapier runden zudem unser Sortiment an bedruckten Tissuepapieren ab.
+Heißen Sie Ihre Gäste bei Tisch willkommen – mit überraschend gestalteten Servietten. Herzliche oder lustige Sprüche, zur Jahreszeit passenden Blumendesigns, dem Anlass entsprechende Motive oder Farben, die zur Dekoration passen: All das finden Sie auf unseren Designservietten. Taschentücher und sogar bedrucktes Toilettenpapier runden unser Sortiment an bedruckten Tissuepapieren ab.
 
 Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich für unseren [Onlineshop](https://www.avancarte-shop.de/) registrieren. Herzlich willkommen!
+

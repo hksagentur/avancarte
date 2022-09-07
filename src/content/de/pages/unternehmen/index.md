@@ -1,6 +1,6 @@
 ---
-title: Per­fekte Wert­schätzung zu ge­sellschaft­lichen Anlässen
-tagline: Unternehmen
+title: Fünf Jahrzehnte Freundlichkeit
+tagline: Alles rundum Sympathie
 cover: /assets/media/adobestock-280799656.jpg
 menu: Unternehmen
 order: 0
@@ -11,39 +11,32 @@ highlights:
     image:
       url: /assets/media/verkaufssituation.jpg
     summary: |
-      Unser Vertrieb erfolgt über unsere eigene Außendienstorganisation mit
-      über 50 Bezirksleitern und Servicekräften in ganz Deutschland.
-
-      Außerdem haben unsere Kunden rund um die Uhr die Möglichkeit, über
-      unseren [Online-Shop](https://www.avancarte-shop.de/) zu bestellen.
+        Unser Vertrieb erfolgt über unsere eigene [Außendienstorganisation](/unternehmen/team/) mit über 50 Bezirksleiter*innen und Servicekräften in ganz Deutschland, die Sie vor Ort besuchen. Unsere Kunden bestellen außerdem rund um die Uhr über unseren [Online-Shop](https://www.avancarte-shop.de/).
   -
     title: Unsere Kunden
     image:
       url: /assets/media/kunden.jpg
     summary: |
-      Wir beliefern in Deutschland den Einzelhandel in den verschiedensten
-      Branchen. Dazu gehören zum Beispiel PBS-Facheinzelhandel, Buchhandel,
-      Geschenkboutiquen, Fachhandel der Kauf- und Warenhäuser, Tabak-
-      Zeitschriften-Geschäfte, Gartencenter, Lebensmitteleinzelhandel und
-      Postagenturen.
+      Wir beliefern in Deutschland den Einzelhandel in den verschiedensten Branchen. Dazu gehören u. a. PBS-Facheinzelhandel, Buchhandel, Geschenkboutiquen, Fachhandel der Kauf- und Warenhäuser, Tabak- und Zeitschriftengeschäfte, Gartencenter, Lebensmitteleinzelhandel und Postagenturen.
   -
     title: Der Export
     image:
       url: /assets/media/export.jpg
     summary: |
-      Der Export erfolgt insbesondere in alle deutschsprachigen Nachbarländer.
-      Der Vertrieb läuft dort jeweils über ausgesuchte Distributoren.
+      Wir exportieren unsere Waren in alle deutschsprachigen Nachbarländer. Der Vertrieb erfolgt dort jeweils über ausgesuchte Distributoren.
 override:includes:
   - stores
   - contact
 ---
-Wir helfen Menschen mit unseren Artikeln, untereinander ihre perfekte Wertschätzung zu gesell­schaftlichen Anlässen aus­zudrücken und sich gegenseitig mit Worten und Geschenken eine Freude zu bereiten.
+**Unsere Mission**<br>
+Wir helfen seit 50 Jahren mit unseren Produkten, dass Menschen untereinander ihre Sympathie, ihre Wertschätzung und ihr Mitgefühl zum Ausdruck bringen. Wir alle denken aneinander zu Anlässen wie einem Geburtstag, einer Hochzeit oder eines Todesfalls aber auch spontan, wenn uns jemand in den Sinn kommt. Durch niedergeschriebene Worte auf einer Karte, ein schön verpacktes Geschenk oder eine ansprechende [Designserviette](/sortiment/designservietten/) beim gemeinsamen Abendessen bringen wir unsere Gefühle zum Ausdruck und machen anderen eine Freude.
 
-Als eines der führenden Unternehmen im deutschsprachigen Raum für Grußkarten, Geschenkverpackungen und Designservietten bieten wir das ideale Angebot für jeden Wunsch.
+**Spezialist für Grußkarten, Geschenkverpackung und Designservietten**<br>
+Als einer der führenden Anbieter für [Grußkarten](/sortiment/grusskarten/) treten wir an, um in Deutschland und der gesamten DACH-Region den Einzelhandel mit Grußkarten sowie [Geschenkverpackungen](/sortiment/geschenkverpackungen/) und Designservietten auszustatten. [Partyartikel, Sticker und Geschenkartikel](/sortiment/beiprogramm/) ergänzen unser Sortiment in passender Weise. Aber nicht nur das: Mit unseren Kollektionen erwerben unsere Partner 50 Jahre Know-how und Erfahrung, die den Unterschied macht. Wir erkennen die Trends, wir haben die richtigen Produkte, die die Kund*innen unserer Partner überzeugen. Mit unserer Unterstützung werden Grußkarten am Point of Sale erfolgreich gespielt.
 
-Partyartikel, Sticker und Geschenkartikel ergänzen unser Sortiment in passender Weise.
+**Experte am Point of Sale**<br>
+Genauso wichtig wie die Ware selbst ist ihre optimale Präsentation auf der [Verkaufsfläche](/point-of-sale/). Deshalb unterstützen wir unsere Kunden mit passenden [Warenträgern](/point-of-sale/displays/) und [Store-Möbeln](/point-of-sale/verkaufsmoebel/), die sich flexibel auf das jeweilige Geschäft anpassen lassen. Mit unserem [Know-how als Flächenspezialist](/service/) werden wir zu einem wichtigen Partner für optimierte Warenpräsentation in Geschäften aller Art. 
 
-Die optimale Präsentation der Ware am Point of Sale ist für uns als Flächenspezialist ebenso wichtig wie die Ware selbst. Hierfür bieten wir die richtigen Warenträger und die individuelle Beratung. Passend zu jedem Kaufverhalten unterstützen wir unsere Kunden sowohl im stationären Einzelhandel, als auch im Online-Handel.
 
 {% box "Downloads" %}
 - [Die Geschichte der AvanCarte (PDF, 152 KB)](/assets/media/geschichte.pdf)
