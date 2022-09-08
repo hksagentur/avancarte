@@ -10,7 +10,7 @@ highlights:
   -
     title: Geschenkartikel – kleine Geschenke für freudige Momente
     image:
-      url: /assets/media/geschenkverpackungen.jpg
+      url: /assets/media/geschenkartkel.jpg
     summary: |
       Mit unseren Geschenkartikel-Sortimenten inspirieren Sie Ihre Kund\*innen, spontan zuzugreifen. Niedlich oder praktisch, kindgerecht oder erwachsen, als Beigabe zum Geburtstagsgeschenk oder als kleine Aufmerksamkeit zwischendurch: Die AvanCarte-Geschenkartikel machen Spaß und generieren Umsatz – ganz nebenbei.
   -

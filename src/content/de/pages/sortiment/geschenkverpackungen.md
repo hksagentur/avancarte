@@ -1,7 +1,7 @@
 ---
 title: Vorfreude zum Mitnehmen
 tagline: Geschenkverpackungen für den Einzelhandel
-cover: /assets/media/sortiment.jpg
+cover: /assets/media/geschenkverpackung-header.jpg
 menu: Geschenkverpackungen
 parent: sortiment
 order: 1
