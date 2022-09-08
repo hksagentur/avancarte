@@ -1,7 +1,7 @@
 ---
 title: Fast zu schön zum Mundabtupfen
 tagline: Geschenkverpackungen für den Einzelhandel
-cover: /assets/media/sortiment.jpg
+cover: /assets/media/designservietten.jpg
 menu: Designservietten
 parent: sortiment
 order: 2
