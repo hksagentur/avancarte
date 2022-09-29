@@ -7,43 +7,39 @@ parent: point-of-sale
 contentslides:
   -
     image:
-      url: /assets/media/ecke.jpg
+      url: /assets/media/01_Kohler_01.jpg
       alt: ''
   -
     image:
-      url: /assets/media/edeka_04.jpg
+      url: /assets/media/02_Edeka_Essen_01.jpg
       alt: ''
   -
     image:
-      url: /assets/media/fenster.jpg
+      url: /assets/media/03_b3934.jpg
       alt: ''
   -
     image:
-      url: /assets/media/geschenkverpackung.jpg
+      url: /assets/media/04_Michelbrink_Wesel_16.jpg
       alt: ''
   -
     image:
-      url: /assets/media/gruesse.jpg
+      url: /assets/media/05_Sämann_Vaihingen_29.jpg
       alt: ''
   -
     image:
-      url: /assets/media/holz_02.jpg
+      url: /assets/media/06_Edeka_Zurheide_Essen_04.jpg
       alt: ''
   -
     image:
-      url: /assets/media/karten.jpg
+      url: /assets/media/07_MGL0110.jpg
       alt: ''
   -
     image:
-      url: /assets/media/papeterie.jpg
+      url: /assets/media/09-34 - AvanCarte-34.jpg
       alt: ''
   -
     image:
-      url: /assets/media/wand_01.jpg
-      alt: ''
-  -
-    image:
-      url: /assets/media/wand.jpg
+      url: /assets/media/10_Hundrieser_Velbert_08.jpg
       alt: ''
 order: 0
 translationKey: furniture
