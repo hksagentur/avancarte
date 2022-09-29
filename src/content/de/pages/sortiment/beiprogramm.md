@@ -1,7 +1,7 @@
 ---
 title: „Das nehm‘ ich gleich mal mit“
 tagline: Geschenkartikel, Sticker und Partyartikel für den Einzelhandel
-cover: /assets/media/sortiment.jpg
+cover: /assets/media/beiprogramm.jpg
 menu: Beiprogramm
 parent: sortiment
 order: 3
