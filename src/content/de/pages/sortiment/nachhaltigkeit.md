@@ -1,7 +1,7 @@
 ---
 title: Ein Gruß an die Natur
 tagline: Nachhaltig produzierte Grußkarten und Geschenkverpackungen
-cover: /assets/media/sortiment.jpg
+cover: /assets/media/nachhaltigkeit-header.jpg
 menu: Nachhaltigkeit
 parent: sortiment
 contentslides:
