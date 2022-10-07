@@ -2,7 +2,7 @@
 title: " AvanTresChic"
 description: Mit dem stilvollen Très Chic Kartenprogramm schaffen Sie einen
   glanzvollen Moment in Ihrem Geschäft.
-cover: /assets/media/dsc_0205_kopie.jpg
+cover: /assets/media/avantreschic.jpg
 attachments:
   - url: /assets/media/treschic.pdf
     title: " AvanTresChic"
