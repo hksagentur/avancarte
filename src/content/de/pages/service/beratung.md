@@ -1,7 +1,7 @@
 ---
 title: Strategisch gut aufgestellt
 tagline: Beratung für Sortimente und Warenpräsentation
-cover: /assets/media/service.jpg
+cover: /assets/media/service-header.jpg
 menu: Beratung
 parent: service
 contentslides:
