@@ -1,7 +1,7 @@
 ---
 title: Eine einzelne Bestellung. Oder lieber ein ganzer Store?
 tagline: Zusammenarbeit nach Maß
-cover: /assets/media/service.jpg
+cover: /assets/media/service-header.jpg
 menu: Service
 order: 4
 translationKey: service

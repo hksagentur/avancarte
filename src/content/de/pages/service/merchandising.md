@@ -1,7 +1,7 @@
 ---
 title: „Das sieht richtig schön aus“
 tagline: Visuelles Marketing für Ihr Geschäft
-cover: /assets/media/service.jpg
+cover: /assets/media/service-header.jpg
 menu: Merchandising
 parent: service
 contentslides:
