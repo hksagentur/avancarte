@@ -33,7 +33,7 @@ slides:
       AvanCarte bietet dem Einzelhandel einen Komplettservice im Bereich
       Grußkarten und Geschenkverpackungen an.
     image:
-      url: /assets/media/adobestock-280799656.jpg
+      url: /assets/media/service-header.jpg
       alt: ''
     more:
       label: Mehr erfahren
