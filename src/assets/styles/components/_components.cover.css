@@ -118,6 +118,6 @@
 
   .c-cover__content {
     grid-area: content;
-    max-width: 35%;
+    max-width: 250px;
   }
 }
