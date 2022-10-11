@@ -23,7 +23,7 @@ contentslides:
       alt: ''
   -
     image:
-      url: /assets/media/05_Sämann_Vaihingen_29.jpg
+      url: /assets/media/05_Saemann_Vaihingen_29.jpg
       alt: ''
   -
     image:
@@ -35,7 +35,7 @@ contentslides:
       alt: ''
   -
     image:
-      url: /assets/media/09-34 - AvanCarte-34.jpg
+      url: /assets/media/09-34-AvanCarte-34.jpg
       alt: ''
   -
     image:
