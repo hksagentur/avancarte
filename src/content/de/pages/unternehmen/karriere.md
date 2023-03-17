@@ -16,7 +16,7 @@ Denn was wir erreichen, erreichen wir nur dank unserer Mitarbeiter\*innen, die o
 
 Entsprechend sind flache Hierarchien und kurze Wege für uns typisch. Zu Entscheidungen kommen wir über einen offenen Meinungsaustausch. Ideen teilen, Anregungen geben, sich gegenseitig zuhören – das ist die Basis für die Weiterentwicklung unseres Unternehmens.
 
-Wenn Sie zu uns kommen, bekommen Sie eine gute und solide Einarbeitung. Die einzige unkluge Frage ist die, die nicht gestellt wird!
+Wenn Sie zu uns kommen, bekommen Sie eine gute und solide Einarbeitung. Alle Fragen sind erlaubt. Es gibt keine dummen Fragen!
 
 Wenn Sie Lust haben, sich zu engagieren und mit anderen zusammen daran arbeiten möchten, Kunden zufriedenzustellen und unternehmerische Ziele zu erreichen, möchten wir Sie gern kennenlernen.
 Haben wir Ihr Interesse geweckt? Dann bewerben Sie sich auf eine der offenen Stellen oder einfach initiativ mit Anschreiben, tabellarischem Lebenslauf und Kopien der Zeugnisse. Bitte schicken Sie Ihre Unterlagen an: [bewerbung@avancarte.de ](mailto:bewerbung@avancarte.de)

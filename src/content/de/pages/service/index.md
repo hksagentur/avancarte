@@ -8,7 +8,7 @@ translationKey: service
 highlights:
   -
     tagline: Online
-    title: 24/7 Verfügbarkeit – jederzeit von überall
+    title: Unser Online-Shop-jederzeit von überall verfügbar
     image:
       url: /assets/media/online.jpg
     summary: |

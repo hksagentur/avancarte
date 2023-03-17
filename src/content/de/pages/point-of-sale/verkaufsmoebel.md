@@ -31,10 +31,6 @@ contentslides:
       alt: ''
   -
     image:
-      url: /assets/media/07_MGL0110.jpg
-      alt: ''
-  -
-    image:
       url: /assets/media/09-34-AvanCarte-34.jpg
       alt: ''
   -

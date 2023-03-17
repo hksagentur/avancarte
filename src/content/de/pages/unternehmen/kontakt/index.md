@@ -4,7 +4,7 @@ title: Sie haben Fragen? Wir sind für Sie da!
 cover: /assets/media/aktuelles.jpg
 menu: Kontakt
 parent: unternehmen
-order: 3
+order: 4
 translationKey: contact
 override:includes:
   - form

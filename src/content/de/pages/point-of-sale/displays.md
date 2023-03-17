@@ -2,7 +2,7 @@
 title: Ein Zuhause für Schnelldreher
 tagline: Displays für Verkaufsflächen
 cover: /assets/media/pos.jpg
-menu: Displays
+menu: Displays und Serien
 parent: point-of-sale
 contentslides:
   -
