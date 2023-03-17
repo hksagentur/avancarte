@@ -6,7 +6,7 @@ menu: Sortiment
 order: 1
 translationKey: product-lines
 ---
-Bei AvanCarte dreht sich alles um ein Ziel: Wir wollen ein Lächeln ins Gesicht zaubern. Was wir Ihnen anbieten, macht schöne Momente noch schöner, bereitet Freude und bringt zum Lachen. Alles Gute für Ihre Kund*innen!
+Bei AvanCarte dreht sich alles um ein Ziel: Wir wollen ein Lächeln ins Gesicht zaubern. Was wir Ihnen anbieten, macht schöne Momente noch schöner, bereitet Freude und bringt zum Lachen. 
 
 - Grußkarten für alle Anlässe
 - Grußkarten nach verkaufsstarken Motivserien

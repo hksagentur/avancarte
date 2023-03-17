@@ -28,7 +28,7 @@ override:includes:
   - stores
   - contact
 ---
-**Unsere Mission**<br>
+**Unser Ziel**<br>
 Wir helfen seit 50 Jahren mit unseren Produkten, dass Menschen untereinander ihre Sympathie, ihre Wertschätzung und ihr Mitgefühl zum Ausdruck bringen. Wir alle denken aneinander zu Anlässen wie einem Geburtstag, einer Hochzeit oder eines Todesfalls aber auch spontan, wenn uns jemand in den Sinn kommt. Durch niedergeschriebene Worte auf einer Karte, ein schön verpacktes Geschenk oder eine ansprechende [Designserviette](/sortiment/designservietten/) beim gemeinsamen Abendessen bringen wir unsere Gefühle zum Ausdruck und machen anderen eine Freude.
 
 **Spezialist für Grußkarten, Geschenkverpackung und Designservietten**<br>

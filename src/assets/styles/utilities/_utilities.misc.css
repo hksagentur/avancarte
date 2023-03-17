@@ -63,6 +63,17 @@
   }
 }
 
+.u-object-contain {
+  width: 100%;
+  max-width: none;
+
+  @supports (object-fit: contain) {
+    height: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+  }
+}
+
 /**
  * Aspect Ratio
  *

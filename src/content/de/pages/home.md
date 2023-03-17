@@ -15,30 +15,6 @@ slides:
       label: Mehr erfahren
       alt: Mehr über „%s“ erfahren
       url: /sortiment/
-  -
-    title: Die kleinen Dinge genießen, sie machen das Leben wunderbar
-    url: #
-    summary: |
-      Bei uns bleiben keine Wünsche offen.
-    image:
-      url: /assets/media/service.jpg
-      alt: ''
-    more:
-      label: Mehr erfahren
-      alt: Mehr über „%s“ erfahren
-      url: /service/
-  -
-    title: Alles aus einer Hand, seit 1974
-    summary: |
-      AvanCarte bietet dem Einzelhandel einen Komplettservice im Bereich
-      Grußkarten und Geschenkverpackungen an.
-    image:
-      url: /assets/media/service-header.jpg
-      alt: ''
-    more:
-      label: Mehr erfahren
-      alt: Mehr über „%s“ erfahren
-      url: /unternehmen/
 override:includes:
   - services
   - bookmarks
