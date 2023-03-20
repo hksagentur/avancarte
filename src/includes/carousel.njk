@@ -3,6 +3,12 @@
     {{ "Currently on AvanCarte"|trans }}
   </h2>
 
+
+{% for item in slides %}
+  {% length = loop.length %}
+{% endfor %}
+
+{{length}}
   <div class="c-carousel__inner / swiper" data-component="carousel">
     {% block navigation %}
       <button type="button" class="c-carousel__pause-button / swiper-button-pause" aria-controls="carousel">

@@ -1,7 +1,7 @@
 ---
 title: Fünf Jahrzehnte Freundlichkeit
 tagline: Alles rundum Sympathie
-cover: /assets/media/adobestock-280799656.jpg
+cover: /assets/media/termine.jpg
 menu: Unternehmen
 order: 0
 translationKey: company
@@ -35,8 +35,10 @@ Wir helfen seit 50 Jahren mit unseren Produkten, dass Menschen untereinander ihr
 Als einer der führenden Anbieter für [Grußkarten](/sortiment/grusskarten/) treten wir an, um in Deutschland und der gesamten DACH-Region den Einzelhandel mit Grußkarten sowie [Geschenkverpackungen](/sortiment/geschenkverpackungen/) und Designservietten auszustatten. [Partyartikel, Sticker und Geschenkartikel](/sortiment/beiprogramm/) ergänzen unser Sortiment in passender Weise. Aber nicht nur das: Mit unseren Kollektionen erwerben unsere Partner 50 Jahre Know-how und Erfahrung, die den Unterschied macht. Wir erkennen die Trends, wir haben die richtigen Produkte, die die Kund*innen unserer Partner überzeugen. Mit unserer Unterstützung werden Grußkarten am Point of Sale erfolgreich gespielt.
 
 **Experte am Point of Sale**<br>
-Genauso wichtig wie die Ware selbst ist ihre optimale Präsentation auf der [Verkaufsfläche](/point-of-sale/). Deshalb unterstützen wir unsere Kunden mit passenden [Warenträgern](/point-of-sale/displays/) und [Store-Möbeln](/point-of-sale/verkaufsmoebel/), die sich flexibel auf das jeweilige Geschäft anpassen lassen. Mit unserem [Know-how als Flächenspezialist](/service/) werden wir zu einem wichtigen Partner für optimierte Warenpräsentation in Geschäften aller Art. 
+Genauso wichtig wie die Ware selbst ist ihre optimale Präsentation auf der [Verkaufsfläche](/point-of-sale/). Deshalb unterstützen wir unsere Kunden mit passenden [Warenträgern](/point-of-sale/displays/) und [Store-Möbeln](/point-of-sale/verkaufsmoebel/), die sich flexibel auf das jeweilige Geschäft anpassen lassen. Mit unserem [Know-how als Flächenspezialist](/service/) werden wir zu einem wichtigen Partner für optimierte Warenpräsentation in Geschäften aller Art.
 
+**Experten für Grußkarten und Warenpräsentation**<br>
+Unser [Team](/unternehmen/team/) steht Ihnen für alle Themen rund um unsere Sortimente zur Verfügung. Sie bekommen eine über mehrere Jahrzehnte gesammelte Erfahrung, die sich in unserer Beratung und in unseren Sortimenten widerspiegelt. Und Sie bekommen Spezialist*innen, die sich mit Ihrer Branche und den Erfordernissen an Ihrem Point of Sale genau auskennen.
 
 {% box "Downloads" %}
 - [Die Geschichte der AvanCarte (PDF, 152 KB)](/assets/media/geschichte.pdf)

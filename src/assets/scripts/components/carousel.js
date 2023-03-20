@@ -32,6 +32,7 @@ export const Carousel = {
         pauseOnMouseEnter: false,
         delay: delay
       },
+      watchOverflow: true,
       navigation: {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next'
