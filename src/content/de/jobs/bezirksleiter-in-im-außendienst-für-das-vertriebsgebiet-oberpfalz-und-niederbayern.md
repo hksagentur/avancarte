@@ -1,14 +1,13 @@
 ---
 title: Bezirksleiter*in im Außendienst für das Vertriebsgebiet Oberpfalz und
   Niederbayern
-description: AvanCarte – mit uns haben Sie gute Karten! Als eines der führenden
-  Verlags- und Handelsunternehmen für Grußkarten, Geschenkverpackungen und
-  Motivservietten zählt unsere vielfältige Kollektion zu den Spitzenangeboten
-  der Branche. Werden Sie Teil unseres Teams als Bezirksleiter*in im Außendienst
+description: Werden Sie Teil unseres Teams als Bezirksleiter*in im Außendienst
   für das Vertriebsgebiet Oberpfalz und Niederbayern (unter anderem Regensburg,
   Landshut, Passau, Straubing, Deggendorf, Cham und Schwandorf).
 download: /assets/media/bezirksleiter-gebiet-25.pdf
 ---
+AvanCarte – mit uns haben Sie gute Karten! Als eines der führenden Verlags- und Handelsunternehmen für Grußkarten, Geschenkverpackungen und Motivservietten zählt unsere vielfältige Kollektion zu den Spitzenangeboten der Branche. Werden Sie Teil unseres Teams als Bezirksleiter*in im Außendienst für das Vertriebsgebiet Oberpfalz und Niederbayern (unter anderem Regensburg, Landshut, Passau, Straubing, Deggendorf, Cham und Schwandorf).
+
 **Wir ...**\
 ... suchen eine\*n engagierte\*n Außendienstmitarbeiter\*in, der\*die unsere attraktive Produktpalette anbietet.\
 ... sorgen für einen guten Start: Sie übernehmen einen guten Kundenstamm und gewinnen auch gern Neukunden dazu.\
@@ -25,3 +24,11 @@ download: /assets/media/bezirksleiter-gebiet-25.pdf
 ... eine umfassende fachliche Einarbeitung.\
 ... ein attraktives, leistungsabhängiges Einkommen.\
 ... einen neutralen Firmenwagen – auch zur privaten Nutzung.
+
+### Interessiert?
+
+Dann freut sich Frau Maja Seuffert auf Ihre Fragen vorab: 0421/ 43 443 -22 – oder Ihre aussagefähige Direktbewerbung an:\
+\
+**AvanCarte GmbH**\
+Frau Maja Seuffert • Insterburger Straße 16/18 • 28207 Bremen\
+bewerbung@avancarte.de • www.avancarte.de • 0421 43 443 - 22
