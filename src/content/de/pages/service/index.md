@@ -12,14 +12,14 @@ highlights:
     image:
       url: /assets/media/online.jpg
     summary: |
-      Egal ob Sie Grußkarten, Geschenkverpackungen, Designservietten oder unser Beiprogramm bestellen möchten: Unser Online-Shop hat immer für Sie geöffnet. Intuitive Bedienung, übersichtliche Struktur – mit nur wenigen Klicks ist Ihre Bestellung versandfertig.<br><br>Einfach hier anmelden, dann passiert alles andere von selbst. Wir übermitteln Ihnen Ihr Passwort, und schon haben Sie Zutritt zu der AvanCarte-Welt der Grußkarten, Geschenkartikel und -verpackungen. Lassen Sie sich inspirieren!
+      Egal ob Sie Grußkarten, Geschenkverpackungen, Designservietten oder unser Beiprogramm bestellen möchten: Unser [Online-Shop](http://shop.avancarte.de/) hat immer für Sie geöffnet. Intuitive Bedienung, übersichtliche Struktur – mit nur wenigen Klicks ist Ihre Bestellung versandfertig.<br><br>Einfach [hier anmelden](http://shop.avancarte.de/), dann passiert alles andere von selbst. Wir übermitteln Ihnen Ihr Passwort, und schon haben Sie Zutritt zu der AvanCarte-Welt der Grußkarten, Geschenkartikel und -verpackungen. Lassen Sie sich inspirieren!
   -
     tagline: Kollektionsverkauf
     title: Attraktives Programm und begeisterte Käufer
     image:
       url: /assets/media/verkaufssituation.jpg
     summary: |
-      Unser großes Außendienstteam ist schnell vor Ort und führt Sie durch unsere Kollektion. Treffen Sie selbst Ihre individuelle Auswahl. Wir passen auf, dass Sie nichts übersehen.
+      Unser großes [Außendienstteam](/unternehmen/team/) ist schnell vor Ort und führt Sie durch unsere Kollektion. Treffen Sie selbst Ihre individuelle Auswahl. Wir passen auf, dass Sie nichts übersehen.
   -
     tagline: easyCarte System®
     image:
