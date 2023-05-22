@@ -30,6 +30,10 @@
   background-color: var(--color-light);
 }
 
+.c-section--intro {
+  background-color: var(--beige);
+}
+
 .c-section__title,
 .c-section__heading {
   font-weight: var(--font-semibold);
