@@ -19,6 +19,12 @@ highlights:
     summary: |
       Wir beliefern in Deutschland den Einzelhandel in den verschiedensten Branchen. Dazu gehören u. a. PBS-Facheinzelhandel, Buchhandel, Geschenkboutiquen, Fachhandel der Kauf- und Warenhäuser, Tabak- und Zeitschriftengeschäfte, Gartencenter, Lebensmitteleinzelhandel und Postagenturen.
   -
+    title: Unser Team
+    image:
+      url: /assets/media/export.jpg
+    summary: |
+      [Unser Team](/unternehmen/team/) steht Ihnen für alle Themen rund um unsere Sortimente zur Verfügung. Sie bekommen eine über mehrere Jahrzehnte gesammelte Erfahrung, die sich in unserer Beratung und in unseren Sortimenten widerspiegelt. Und Sie bekommen Spezialist*innen, die sich mit Ihrer Branche und den Erfordernissen an Ihrem[ Point of Sale](/point-of-sale/) genau auskennen.
+  -
     title: Der Export
     image:
       url: /assets/media/export.jpg
