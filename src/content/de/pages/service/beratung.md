@@ -1,7 +1,7 @@
 ---
 title: Strategisch gut aufgestellt
 tagline: Beratung für Sortimente und Warenpräsentation
-cover: /assets/media/service-header.jpg
+cover: /assets/media/service-beratung-header.jpg
 menu: Beratung
 parent: service
 contentslides:
@@ -39,9 +39,9 @@ override:includes:
   - stores
   - contact
 ---
-Wenn Sie möchten, stehen wir Ihnen mit einer umfassenden Beratung zur Seite. Am Anfang steht der Grundriss: Sobald wir die räumliche Aufteilung Ihres Geschäftes kennen, machen wir uns an die Arbeit – auch eine einfache Handskizze genügt. Jetzt geht es darum, die Waren an die richtige Stelle zu stellen, denn für Ihren Erfolg ist die Positionierung entscheidend. Wir beachten Sichtachsen und Kundenlauf und greifen auf ein fundiertes Wissen für ein erfolgreiches Flächenmarketing zurück. 
+Wenn Sie möchten, stehen wir Ihnen mit einer umfassenden Beratung zur Seite. Am Anfang steht der Grundriss: Sobald wir die räumliche Aufteilung Ihres Geschäftes kennen, machen wir uns an die Arbeit – auch eine einfache Handskizze genügt. Jetzt geht es darum, die Waren an die richtige Stelle zu stellen, denn für Ihren Erfolg ist die Positionierung entscheidend. Wir beachten Sichtachsen und Kundenlauf und greifen auf ein fundiertes Wissen für ein erfolgreiches Flächenmarketing zurück.
 
-Für die optimale Lösung sind Ihr Sortimentsmix, Ihre Kundenstruktur, die Lage Ihres Geschäftes sowie die Ausrichtung Ihres Angebots wichtige Einflussgrößen. Und natürlich haben wir die Details Ihrer Zielgruppen im Blick – zum Beispiel, ob die Menschen in Ihrer Region eher katholisch oder evangelisch sind bzw. weiteren Konfessionen angehören. Ein weiteres Beispiel: Im Norden feiert man eher die Petersilienhochzeit und im Süden eher den Namenstag. Bei all dem spielt aber eines eine zentrale Rolle: Ihre Erfahrung mit Ihrem Geschäft, Ihren Kunden und Ihren Sortimenten. 
+Für die optimale Lösung sind Ihr Sortimentsmix, Ihre Kundenstruktur, die Lage Ihres Geschäftes sowie die Ausrichtung Ihres Angebots wichtige Einflussgrößen. Und natürlich haben wir die Details Ihrer Zielgruppen im Blick – zum Beispiel, ob die Menschen in Ihrer Region eher katholisch oder evangelisch sind bzw. weiteren Konfessionen angehören. Ein weiteres Beispiel: Im Norden feiert man eher die Petersilienhochzeit und im Süden eher den Namenstag. Bei all dem spielt aber eines eine zentrale Rolle: Ihre Erfahrung mit Ihrem Geschäft, Ihren Kunden und Ihren Sortimenten.
 
 Ist all das erörtert, erarbeiten wir für Sie einen Vorschlag für die Waren und deren Präsentation. Auf der Grundlage einer langjährigen Planungserfahrung und seinem spezifischen Wissen über Ihre Region erstellen wir konkrete Vorschläge für den Sortimentsmix sowie die Warenträger und deren Platzierung. Sie bekommen auf Wunsch visuelle Simulationen, die Ihnen einen genauen Eindruck geben, wie Ihr Point of Sale aussehen könnte.
 
