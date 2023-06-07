@@ -8,9 +8,6 @@ contentslides:
     - image:
         url: /assets/media/nachhaltigkeit.jpg
         alt: ''
-    - image:
-        url: /assets/media/nachhaltigkeit-2.jpg
-        alt: ''
 order: 4
 translationKey: sustainability
 ---

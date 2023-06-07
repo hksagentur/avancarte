@@ -35,8 +35,7 @@ Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich f
 
 {% box "Downloads" %}
 - [Die Geschichte des Schreibens (PDF, 230 KB)](/assets/media/geschichte-des-schreibens.pdf)
-- [Die Glückwunschkarte im Wandel der Zeit (PDF, 176 KB)](/assets/media/geschichte-des-schreibens.pdf)
-- [Textvorschläge für Hochzeitskarten (PDF, 462 KB)](/assets/media/geschichte-des-schreibens.pdf)
+- [Die Glückwunschkarte im Wandel der Zeit (PDF, 176 KB)](/assets/media/wandel-der-zeit.pdf)
 - [Namen der Hochzeitstage (PDF, 186 KB)](/assets/media/hochzeitstage.pdf)
-- [Textvorschläge für Trauerkarten (PDF, 456 KB)](/assets/media/geschichte-des-schreibens.pdf)
+- [Textvorschläge für Trauerkarten (PDF, 456 KB)](/assets/media/textvorschlaege-trauerkarten.pdf)
 {% endbox %}
