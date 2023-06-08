@@ -4,6 +4,7 @@ description: >-
   Zeigen Sie Ihren Liebsten, dass Sie an sie denken! \
 
   Dezente Motive mit kleinen, niedlichen Metall-Anhängern (Kleeblatt, Herz, Engel) versehen.
+cover: /assets/media/avanguardians.jpg
 attachments:
   - url: /assets/media/avanguardians.pdf
     title: AvanGuardians
