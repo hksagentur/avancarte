@@ -1,5 +1,5 @@
 ---
-title: "Das beste Drehständer-Programm "
+title: "Preis für das beste Drehständer-Programm "
 description: Wir freuen uns über den Preis, den unsere Serie AvanRainbow für das
   beste Drehständerprogramm bei der diesjährigen Verleihung der Goldenen
   Grußkarte erhalten hat.
