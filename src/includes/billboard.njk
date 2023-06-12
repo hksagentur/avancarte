@@ -4,6 +4,9 @@
 
 {% set words = item.summary|wordcount %}
 
+{% set imageUrl = item.image.url|default(image)|default("/assets/media/adobestock-99649200.jpg") %}
+{% set imageAlt = item.image.alt|default("") %}
+
 <div class="c-billboard{{ ' c-billboard--flip@md' if odd }} / u-bg-concrete">
   <div class="c-story{{ ' / u-border-secondary' if first }}">
     {% if item.tagline %}
@@ -32,10 +35,12 @@
   </div>
 
   <div class="c-poster{{ ' / u-border-primary' if first }}">
-    <img
-      class="c-poster__image / u-object-cover"
-      src="{{ item.image.url|default(image)|default('/assets/media/adobestock-99649200.jpg') }}"
-      alt="{{ item.image.alt }}"
-    >
+    {%
+      image imageUrl,
+        alt=imageAlt,
+        preset="billboard",
+        loading="lazy",
+        classes=["c-poster__image", "u-object-cover"]
+    %}
   </div>
 </div>

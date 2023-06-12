@@ -47,13 +47,13 @@
             >
               {% if item.image %}
                 <div class="c-cover__media">
-                  <img
-                    class="c-cover__media-image / u-object-cover"
-                    src="{{ item.image.url }}"
-                    alt="{{ item.image.alt }}"
-                    loading="{{ 'lazy' if loop.first else 'eager' }}"
-                    fetchpriority="{{ 'high' if loop.first else 'low' }}"
-                  >
+                  {%
+                    image item.image.url,
+                      alt=item.image.alt,
+                      preset="cover",
+                      loading="lazy",
+                      classes=["c-cover__media-image", "u-object-cover"]
+                  %}
                 </div>
               {% endif %}
 

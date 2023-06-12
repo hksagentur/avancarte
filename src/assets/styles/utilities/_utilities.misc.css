@@ -52,6 +52,10 @@
  * of its parent container.
  */
 
+.u-full-width {
+  width: 100%;
+}
+
 .u-object-cover {
   width: 100%;
   max-width: none;

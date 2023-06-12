@@ -1,17 +1,21 @@
-<div class="c-cover{{ ' c-cover--compact' if not cover.title }}">
+{% set coverUrl = cover.url|default(cover) %}
+{% set coverTitle = cover.title|default("") %}
+{% set coverAlt = cover.alt|default("") %}
+
+<div class="c-cover{{ ' c-cover--compact' if not coverTitle }}">
   <div class="c-cover__media">
-    <img
-      class="c-cover__media-image / u-object-cover"
-      src="{{ cover.url|default(cover) }}"
-      alt="{{ cover.alt }}"
-      loading="lazy"
-      fetchpriority="high"
-    >
+    {%
+      image coverUrl,
+        alt=coverAlt,
+        preset="cover",
+        loading="lazy",
+        classes=["c-cover__media-image", "u-object-cover"]
+    %}
   </div>
-  {% if cover.title %}
+  {% if coverTitle %}
     <div class="c-cover__content / u-bg-concrete / u-effect-kink">
       <h1 class="c-cover__title / p-name">
-        {{ cover.title }}
+        {{ coverTitle }}
       </h1>
     </div>
   {% endif %}

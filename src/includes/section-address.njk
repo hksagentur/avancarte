@@ -8,10 +8,12 @@
   </div>
 
   <div class="c-poster">
-    <img
-      class="c-poster__image / u-object-cover"
-      src="/assets/media/placeholder-04.jpg"
-      alt=""
-    >
+    {%
+      image "/assets/media/placeholder-04.jpg",
+        alt="",
+        preset="billboard",
+        loading="lazy",
+        classes=["c-poster__image", "u-object-cover"]
+    %}
   </div>
 </section>

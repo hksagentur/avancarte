@@ -1,3 +1,6 @@
+{% set imageUrl = post.data.cover.url|default(post.data.cover) %}
+{% set imageUrl = post.data.cover.url|default(post.data.cover) %}
+
 <article class="c-post / h-entry" data-component="card">
   <h4 class="c-post__title / p-name">
     {{ post.data.title }}
@@ -16,10 +19,12 @@
   </a>
 
   <div class="c-post__thumbnail">
-    <img
-      class="c-post__thumbnail-image / u-object-cover"
-      src="{{ post.data.cover.url|default(post.data.cover) }}"
-      alt="{{ post.data.cover.alt }}"
-    >
+    {%
+      image imageUrl,
+        alt=imageAlt,
+        preset="post",
+        loading="lazy",
+        classes=["c-post__thumbnail-image", "u-object-cover"]
+    %}
   </div>
 </article>

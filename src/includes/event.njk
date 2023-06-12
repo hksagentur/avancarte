@@ -1,6 +1,9 @@
 {% set startDate = event.data.startDate|default(event.date) %}
 {% set endDate = event.data.endDate|default(startDate) %}
 
+{% set imageUrl = event.data.image.url|default(event.data.image) %}
+{% set imageUrl = event.data.image.url|default(event.data.image) %}
+
 {% set hasMeta = event.data.location or event.data.stand %}
 
 <article class="c-event{{ ' c-event--meta-missing' if not hasMeta }} / h-event">
@@ -58,12 +61,14 @@
   {% endif %}
 
   <div class="c-event__figure">
-    {% if event.data.image %}
-      <img
-        class="c-event__thumbnail / u-object-cover"
-        src="{{ event.data.image.url|default(event.data.image) }}"
-        alt="{{ event.data.image.alt }}"
-      >
+    {% if imageUrl %}
+      {%
+        image imageUrl,
+          alt=imageAlt,
+          preset="event",
+          loading="lazy",
+          classes=["c-event__thumbnail", "u-object-cover"]
+      %}
     {% else %}
       <svg
         class="c-event__placeholder"

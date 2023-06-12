@@ -7,15 +7,75 @@ const path = require('node:path');
  * @type {Object<string, object>}
  */
 const ImagePresets = {
-  hero: {
+  billboard: {
     widths: [
-      1920,
-      1680,
-      1280,
-      768,
-      380
+      'auto',
+      2368,
+      1579,
+      1184,
+      592,
+      395
     ],
     sizes: [
+      '(min-width: 768px) 50vw',
+      '(min-width: 1184px) 592px',
+      '100vw'
+    ]
+  },
+  cover: {
+    widths: [
+      'auto',
+      2368,
+      1579,
+      1184,
+      592,
+      395
+    ],
+    sizes: [
+      '(min-width: 1184px) 1184px',
+      '100vw'
+    ]
+  },
+  employee: {
+    widths: [
+      'auto',
+      1360,
+      680,
+      340
+    ],
+    sizes: [
+      '(min-width: 560px) 50vw',
+      '(min-width: 864px) 33vw',
+      '(min-width: 1184px) 340px',
+      '100vw'
+    ]
+  },
+  event: {
+    widths: [
+      'auto',
+      1360,
+      680,
+      340
+    ],
+    sizes: [
+      '(min-width: 560px) 50vw',
+      '(min-width: 864px) 33vw',
+      '(min-width: 1184px) 340px',
+      '100vw'
+    ]
+  },
+  post: {
+    widths: [
+      'auto',
+      1360,
+      680,
+      340
+    ],
+    sizes: [
+      '(min-width: 560px) 50vw',
+      '(min-width: 848px) 33vw',
+      '(min-width: 1136px) 25vw',
+      '(min-width: 1184px) 270px',
       '100vw'
     ]
   }

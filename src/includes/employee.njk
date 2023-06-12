@@ -1,9 +1,11 @@
 <article class="c-box / h-card">
-  <img
-    src="{{ employee.data.photo|url }}"
-    class="u-photo / u-gap-below / u-image-3:2"
-    alt=""
-  >
+  {%
+    image employee.data.photo,
+      alt="",
+      preset="employee",
+      loading="lazy",
+      classes=["u-photo", "u-gap-below", "u-full-width", "u-image-3:2"]
+  %}
 
   <h3>
     <a href="mailto:{{ employee.data.email|obfuscate|safe }}" class="p-name / u-email">
