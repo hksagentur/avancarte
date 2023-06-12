@@ -4,12 +4,15 @@ tagline: Nachhaltig produzierte Grußkarten und Geschenkverpackungen
 cover: /assets/media/nachhaltigkeit-header.jpg
 menu: Nachhaltigkeit
 parent: sortiment
-contentslides:
-    - image:
-        url: /assets/media/nachhaltigkeit.jpg
-        alt: ''
+slideshow:
+  -
+    url: /assets/media/nachhaltigkeit.jpg
+    alt: ''
 order: 4
 translationKey: sustainability
+override:includes:
+  - stores
+  - contact
 ---
 Wir unterstützen die Natur, indem wir auf eine nachhaltige Produktion achten. Der Anteil entsprechender Produkte in unserem Sortiment wächst beständig.
 

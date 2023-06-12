@@ -23,15 +23,19 @@
     {% endblock %}
 
     {% block content %}
-
         <div class="s-rich-text / o-container o-container--prose">
           {{ content|safe }}
         </div>
-
     {% endblock %}
   </div>
 
-  {% for item in highlights %}
-    {% include "billboard.njk" %}
-  {% endfor %}
+  {% if slideshow|length %}
+    {% include "slideshow.njk" %}
+  {% endif %}
+
+  {% if highlights|length %}
+    {% for item in highlights %}
+      {% include "billboard.njk" %}
+    {% endfor %}
+  {% endif %}
 {% endblock %}

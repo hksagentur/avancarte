@@ -4,10 +4,10 @@ tagline: Visuelles Marketing für Ihr Geschäft
 cover: /assets/media/service-header.jpg
 menu: Merchandising
 parent: service
-contentslides:
-    - image:
-        url: /assets/media/merchendising.jpg
-        alt: ''
+slideshow:
+  -
+    url: /assets/media/merchendising.jpg
+    alt: ''
 order: 1
 translationKey: merchandising
 override:includes:

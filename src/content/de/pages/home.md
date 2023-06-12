@@ -3,19 +3,6 @@ title: Bestellen Sie schöne Grüße!
 tagline: Verlag-, Handels- und Serviceunternehmen für Grußkarten, Geschenkverpackungen und Designservietten
 cover: /assets/media/home.jpg
 permalink: /
-slides:
-  -
-    title: Kleine Geste, mit großer Bedeutung
-    summary: |
-      Unsere Sortimente machen schöne Momente noch schöner - und sagen in Wort
-      und Bild, was Ihre Kunden zum Ausdruck bringen wollen.
-    image:
-      url: /assets/media/sortiment.jpg
-      alt: ''
-    more:
-      label: Mehr erfahren
-      alt: Mehr über „%s“ erfahren
-      url: /sortiment/
 override:includes:
   - services
   - bookmarks

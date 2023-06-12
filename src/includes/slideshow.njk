@@ -1,6 +1,6 @@
-<section class="c-carousel" aria-roledescription="{{ 'Carousel'|trans }}" aria-labelledby="carousel-label">
+<section class="c-carousel" aria-roledescription="{{ 'Image Slideshow'|trans }}" aria-labelledby="carousel-label">
   <h2 id="carousel-label" class="c-carousel__title" hidden>
-    {{ "Currently on AvanCarte"|trans }}
+    {{ "Image Slideshow"|trans }}
   </h2>
 
   <div class="c-carousel__inner / swiper" data-component="carousel">
@@ -28,29 +28,26 @@
 
     {% block items %}
       <div id="carousel" class="c-carousel__items / swiper-wrapper">
-        {% for item in contentslides %}
+        {% for item in slideshow %}
           {% block item %}
-            <article
+            <div
               class="c-carousel__item / c-cover / swiper-slide"
               aria-roledescription="{{ 'Slide'|trans }}"
               aria-label="{{ ':x of :total: :title'|trans({x: loop.index, total: loop.length, title: item.title}) }}"
               aria-current="{{ 'true' if loop.first else 'false' }}"
               aria-posinset="{{ loop.index }}"
               aria-setsize="{{ loop.length }}"
-              role="group"
             >
-              {% if item.image %}
-                <div class="c-cover__media">
-                  <img
-                    class="c-cover__media-image / u-object-cover"
-                    src="{{ item.image.url }}"
-                    alt="{{ item.image.alt }}"
-                    loading="{{ 'lazy' if loop.first else 'eager' }}"
-                    fetchpriority="{{ 'high' if loop.first else 'low' }}"
-                  >
-                </div>
-              {% endif %}
-            </article>
+              <div class="c-cover__media">
+                {%
+                  image item.url,
+                    alt=item.alt,
+                    preset="cover",
+                    loading="lazy",
+                    classes=["c-cover__media-image", "u-object-cover"]
+                %}
+              </div>
+            </div>
           {% endblock %}
         {% endfor %}
       </div>

@@ -53,12 +53,6 @@
       {{ content|safe }}
     {%- endblock %}
 
-    {%- block contentcarousel %}
-      {%- if contentslides|length %}
-          {% include "contentcarousel.njk" %}
-      {%- endif %}
-    {%- endblock %}
-
     {%- for template in includes %}
       {% include "section-" + template + ".njk" ignore missing %}
     {%- endfor %}
