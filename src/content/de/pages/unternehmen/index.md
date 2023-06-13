@@ -21,7 +21,7 @@ highlights:
   -
     title: Unser Team
     image:
-      url: /assets/media/export.jpg
+      url: /assets/media/team.jpg
     summary: |
       [Unser Team](/unternehmen/team/) steht Ihnen für alle Themen rund um unsere Sortimente zur Verfügung. Sie bekommen eine über mehrere Jahrzehnte gesammelte Erfahrung, die sich in unserer Beratung und in unseren Sortimenten widerspiegelt. Und Sie bekommen Spezialist*innen, die sich mit Ihrer Branche und den Erfordernissen an Ihrem[ Point of Sale](/point-of-sale/) genau auskennen.
   -
