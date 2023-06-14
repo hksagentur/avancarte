@@ -25,7 +25,7 @@ highlights:
     image:
       url: /assets/media/designservietten.jpg
     summary: |
-      Heißen Sie Ihre Gäste bei Tisch willkommen – mit überraschend gestalteten Servietten. Herzliche oder lustige Sprüche, zur Jahreszeit passenden Blumendesigns, dem Anlass entsprechende Motive oder Farben, die zur Dekoration passen.<br>
+      Heißen Sie Ihre Gäste bei Tisch willkommen – mit vielfältig gestalteten Servietten. Herzliche oder lustige Sprüche, zur Jahreszeit passende Blumendesigns, dem Anlass entsprechende Motive oder Farben, die zur Dekoration passen.<br>
       <a class="c-more" href="/sortiment/designservietten/">mehr erfahren</a>
   -
     title: Begleitprogramm

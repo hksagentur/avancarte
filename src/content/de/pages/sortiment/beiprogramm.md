@@ -14,7 +14,7 @@ highlights:
     summary: |
       Mit unseren Geschenkartikel-Sortimenten inspirieren Sie Ihre Kund\*innen, spontan zuzugreifen. Niedlich oder praktisch, kindgerecht oder erwachsen, als Beigabe zum Geburtstagsgeschenk oder als kleine Aufmerksamkeit zwischendurch: Die AvanCarte-Geschenkartikel machen Spaß und generieren Umsatz – ganz nebenbei.
   -
-    title: Sticker – selbstklebende Zettel, die Ordnung schaffen und Freude machen
+    title: Sticker – selbstklebende Etiketten, die Ordnung schaffen und Freude machen
     image:
       url: /assets/media/sticker.jpg
     summary: |
@@ -24,7 +24,7 @@ highlights:
     image:
       url: /assets/media/partyartikel.jpg
     summary: |
-      Von Kerzen, Luftschlangen und Konfetti bis hin zu bunten Luftballons finden Sie bzw. Ihren Kunden bei AvanCarte alles, was Sie für ein gelungenes Fest benötigen.
+      Von Kerzen, Luftschlangen und Konfetti bis hin zu bunten Luftballons finden Sie bzw. Ihren Kund*innen bei AvanCarte alles, was Sie für ein gelungenes Fest benötigen.
 override:includes:
   - stores
   - contact
