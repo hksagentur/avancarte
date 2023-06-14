@@ -11,7 +11,7 @@ highlights:
     image:
       url: /assets/media/verkaufssituation.jpg
     summary: |
-        Unser Vertrieb erfolgt über unsere eigene [Außendienstorganisation](/unternehmen/team/) mit über 50 Bezirksleiter*innen und Servicekräften in ganz Deutschland, die Sie vor Ort besuchen. Unsere Kunden bestellen außerdem rund um die Uhr über unseren [Online-Shop](https://www.avancarte-shop.de/).
+        Unser Vertrieb erfolgt über unsere eigene [Außendienstorganisation](/unternehmen/team/) mit über 50 Bezirksleiter*innen und Servicekräften in ganz Deutschland, die Sie vor Ort besuchen. Unsere Kunden bestellen außerdem rund um die Uhr über unseren [Online-Shop](https://shop.avancarte.de/).
   -
     title: Unsere Kunden
     image:
