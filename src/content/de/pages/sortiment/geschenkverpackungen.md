@@ -12,4 +12,4 @@ override:includes:
 ---
 Mit AvanCarte-Geschenkverpackungen präsentieren Sie Ihren Kund*innen ein breites Sortiment aus farbenfrohen, hochwertig gestalteten Papieren, Bändern, Taschen und Schachteln, die einen besonderen Moment perfekt machen. Stöbern Sie – und lassen Sie sich überraschen.
 
-Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich für unseren [Onlineshop](https://www.avancarte-shop.de/) registrieren. Herzlich willkommen!
+Sie möchten unser ganzes Angebot sehen oder direkt bestellen? Lassen Sie sich für unseren [Onlineshop](https://shop.avancarte.de/) registrieren. Herzlich willkommen!

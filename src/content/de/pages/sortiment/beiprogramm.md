@@ -18,13 +18,13 @@ highlights:
     image:
       url: /assets/media/sticker.jpg
     summary: |
-      NVersorgen Sie Ihre Kund\*innen mit unseren Stickern und Aufklebern, um mit Zahlen, Buchstaben oder Beschriftungen Ordnung in ihre Umgebung zu bringen. Für die kleine Freude zwischendurch bieten wir unsere Sticker-Kollektionen zudem mit Abbildungen von Tieren, Emojis oder Glückssymbolen an.
+      Versorgen Sie Ihre Kund\*innen mit unseren Stickern und Aufklebern, um mit Zahlen, Buchstaben oder Beschriftungen Ordnung in ihre Umgebung zu bringen. Für die kleine Freude zwischendurch bieten wir unsere Sticker-Kollektionen zudem mit Abbildungen von Tieren, Emojis oder Glückssymbolen an.
   -
     title: Partyartikel – bereiten Sie mit bunter Dekoration Ihr schönes Fest vor
     image:
       url: /assets/media/partyartikel.jpg
     summary: |
-      Von Kerzen, Luftschlangen und Konfetti bis hin zu bunten Luftballons finden Sie bzw. Ihren Kund*innen bei AvanCarte alles, was Sie für ein gelungenes Fest benötigen.
+      Von Kerzen, Luftschlangen und Konfetti bis hin zu bunten Luftballons finden Sie bzw. Ihre Kund*innen bei AvanCarte alles, was Sie für ein gelungenes Fest benötigen.
 override:includes:
   - stores
   - contact
