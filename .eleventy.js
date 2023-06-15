@@ -26,6 +26,7 @@ module.exports = function (eleventy) {
   eleventy.addPassthroughCopy('src/assets/fonts');
   eleventy.addPassthroughCopy('src/assets/images');
   eleventy.addPassthroughCopy('src/assets/media');
+  eleventy.addPassthroughCopy({ 'src/assets/favicon':'/'});
 
   eleventy.addPassthroughCopy({'netlify/cms': 'admin'});
 
