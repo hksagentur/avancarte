@@ -11,7 +11,7 @@ highlights:
     image:
       url: /assets/media/grusskarten-header.jpg
     summary: |
-        Seit 1974 überbringen unsere Grußkarten Glückwünsche, sagen liebe Worte und leisten Beistand. Praktisch jeder Anlass, viele Stile und Formate: Wählen Sie aus Tausenden von Karten die Richtigen für Ihre Kollektion aus. Wir helfen Ihnen dabei!<br>
+        Seit 1974 überbringen unsere Grußkarten Glückwünsche, sagen liebe Worte und leisten Beistand. Praktisch jeder Anlass, viele Stile und Formate: Wählen Sie aus Tausenden von Karten die richtigen für Ihre Kollektion aus. Wir helfen Ihnen dabei!<br>
         <a class="c-more" href="/sortiment/grusskarten/">mehr erfahren</a>
   -
     title: Geschenkverpackungen
