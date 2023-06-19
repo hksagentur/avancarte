@@ -40,12 +40,6 @@ body,
   height: 100%;
 }
 
-body {
-  max-width: 88rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Flow Content
  * ----------------------------------------------------------------------- */
 
