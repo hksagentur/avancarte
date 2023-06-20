@@ -4,9 +4,9 @@ tagline: Verlag-, Handels- und Serviceunternehmen für Grußkarten, Geschenkverp
 cover: /assets/media/home.jpg
 permalink: /
 override:includes:
-  - services
-  - bookmarks
   - newsroom
+  - bookmarks
+  - services
   - stores
   - contact
 ---

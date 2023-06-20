@@ -29,6 +29,18 @@
     {% endblock %}
   </div>
 
+  {% if teasers|length %}
+    {% for item in teasers %}
+      {% include "billboard.njk" %}
+    {% endfor %}
+  {% endif %}
+
+  {% if postcontent|length %}
+    {% for item in postcontent %}
+      {% include "postcontent.njk" %}
+    {% endfor %}
+  {% endif %}
+
   {% if slideshow|length %}
     {% include "slideshow.njk" %}
   {% endif %}
