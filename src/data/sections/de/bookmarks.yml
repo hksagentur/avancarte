@@ -3,9 +3,9 @@
   icon: pen-station
   url: '/sortiment/'
 -
-  title: Verlag
+  title: Vertrieb
   icon: telecommunicator
-  url: '/unternehmen/verlag/'
+  url: '/unternehmen/team/'
 -
   title: Merchandising
   icon: postcard

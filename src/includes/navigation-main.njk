@@ -2,7 +2,6 @@
 
 {% macro menu(items, id="site-navigation", depth=0) %}
   {% set isSubmenu = (depth > 0) %}
-
   {% if items|length %}
     <ul id="{{ id }}" class="{{ 'c-site-nav__submenu' if isSubmenu else 'c-site-nav__menu' }}" data-component="disclosure-menu">
       {% for item in items %}
