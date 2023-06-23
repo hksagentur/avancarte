@@ -3,6 +3,9 @@ name: Deutsch
 title: DE
 url: '/'
 locale: de_DE
+dateFormat:
+  short: dd.LL.
+  long: dd.LL.yyyy
 translations:
   '- Select -': '- Auswählen -'
   ':x of :total: :title': ':x von :total: :title'

@@ -1,5 +1,8 @@
 {% extends "./base.njk" %}
 
+{% set formatShort = languages[lang].dateFormat.short|default("LL/dd") %}
+{% set formatLong = languages[lang].dateFormat.long|default("LL/dd/yyyy") %}
+
 {% block main %}
   <div class="c-section c-section--intro / u-bg-concrete">
     {% block heading %}

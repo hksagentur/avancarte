@@ -3,3 +3,6 @@ name: English
 title: EN
 url: '/en/'
 locale: en_EN
+dateFormat:
+  short: LL/dd
+  long: LL/dd/yyyy

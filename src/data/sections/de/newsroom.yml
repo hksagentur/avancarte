@@ -5,8 +5,6 @@ posts:
     url: '/aktuelles/'
 events:
   limit: 3
-  formatShort: dd.LL.
-  formatLong: dd.LL.yyyy
   more:
     label: 'Alle Termine anzeigen'
     url: '/unternehmen/termine/'

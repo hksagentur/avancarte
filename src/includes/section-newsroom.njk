@@ -1,10 +1,10 @@
 {% set newsroom = sections[lang].newsroom %}
 
-{% set formatShort = newsroom.events.formatShort|default("LL/dd") %}
-{% set formatLong = newsroom.events.formatLong|default("LL/dd/yyyy") %}
-
 {% set posts = posts|default(collections.post|default([])|tagged_with(lang)|reverse)|take(newsroom.posts.limit) %}
 {% set events = events|default(collections.event|default([])|tagged_with(lang)|upcoming)|take(newsroom.events.limit) %}
+
+{% set formatShort = languages[lang].dateFormat.short|default("LL/dd") %}
+{% set formatLong = languages[lang].dateFormat.long|default("LL/dd/yyyy") %}
 
 {% if posts|length or events|length %}
   <section class="c-section c-section--newsroom / u-bg-concrete">
