@@ -3,7 +3,11 @@ module.exports = {
   tags: [
     'event'
   ],
-  permalink: false,
   draft: false,
-  sitemap: false
+  sitemap: false,
+  eleventyComputed: {
+    permalink() {
+      return false;
+    }
+  },
 };

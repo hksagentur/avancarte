@@ -1,7 +1,6 @@
 module.exports = {
   title: '',
   description: '',
-  permalink: '{% if parent %}/{{ parent }}{% endif %}/{{ page.fileSlug }}/',
   lang: 'de',
   locale: 'de_DE',
   draft: false,
@@ -24,6 +23,24 @@ module.exports = {
           order: order,
         };
       }
+    },
+    eleventyExcludeFromCollections({draft, eleventyExcludeFromCollections}) {
+      if (draft && !process.env.DRAFTS) {
+        return true;
+      }
+
+      return eleventyExcludeFromCollections === true;
+    },
+    permalink({page, parent, draft}) {
+      if (draft && !process.env.DRAFTS) {
+        return false;
+      }
+
+      if (parent) {
+        return `/${parent}/${page.fileSlug}/`;
+      }
+
+      return `/${page.fileSlug}/`;
     },
     language({languages, lang}) {
       return languages?.[lang];

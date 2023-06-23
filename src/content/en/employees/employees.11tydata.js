@@ -3,11 +3,13 @@ module.exports = {
   tags: [
     'employee'
   ],
-  permalink: false,
   draft: false,
   sitemap: false,
   group: '9-Professional',
   eleventyComputed: {
+    permalink() {
+      return false;
+    },
     groupName({group}) {
       return group?.split('-').pop();
     },

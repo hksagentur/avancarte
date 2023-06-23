@@ -6,7 +6,7 @@
 
   {%- block title %}
     <title>
-      {{ tagline }} | {{ site.name }}
+      {{ tagline|default(title) }} | {{ site.name }}
     </title>
   {%- endblock -%}
 

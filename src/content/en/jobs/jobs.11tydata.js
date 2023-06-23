@@ -5,5 +5,14 @@ module.exports = {
   ],
   permalink: false,
   draft: false,
-  sitemap: false
+  sitemap: false,
+  eleventyComputed: {
+    permalink({page, lang, draft}) {
+      if (draft && !process.env.DRAFTS) {
+        return false;
+      }
+
+      return `/${lang}/company/jobs/${page.fileSlug}/`;
+    },
+  },
 };

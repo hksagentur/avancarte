@@ -3,8 +3,16 @@ module.exports = {
   tags: [
     'job'
   ],
-  permalink: '/unternehmen/karriere/{{ page.fileSlug }}/',
   cover: '/assets/media/jobs.jpg',
   draft: false,
-  sitemap: true
+  sitemap: true,
+  eleventyComputed: {
+    permalink({page, draft}) {
+      if (draft && !process.env.DRAFTS) {
+        return false;
+      }
+
+      return `/unternehmen/karriere/${page.fileSlug}/`;
+    },
+  },
 };
