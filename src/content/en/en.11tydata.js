@@ -5,9 +5,13 @@ module.exports = {
     'en'
   ],
   eleventyComputed: {
-    permalink({page, lang, parent, draft}) {
+    permalink({page, lang, draft, parent, permalink}) {
       if (draft && !process.env.DRAFTS) {
         return false;
+      }
+
+      if (permalink) {
+        return permalink;
       }
 
       if (parent) {

@@ -6,7 +6,7 @@ menu: Nachhaltigkeit
 parent: sortiment
 slideshow:
   -
-    url: /assets/media/nachhaltigkeit.jpg
+    url: /assets/media/nachhaltigkeit-3.jpg
     alt: ''
 order: 4
 translationKey: sustainability
