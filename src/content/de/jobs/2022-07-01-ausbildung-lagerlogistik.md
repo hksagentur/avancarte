@@ -1,5 +1,6 @@
 ---
 title: Ausbildung 2023 Fachkraft für Lagerlogistik (m/w/d)
+draft: true
 url: https://www.ausbildung.de/unternehmen/avancarte-gmbh/stellen/ausbildung-fachkraft-fuer-lagerlogistik-m-w-d/b0dc9829-a7ba-4364-88d3-7bb856d8c271/
 download: /assets/media/2022-08_Azubi_Fachkraft_fuer_Lagerlogistik.pdf
 tags:
@@ -63,8 +64,6 @@ In der Berufsschule wird Ihnen das theoretische Wissen vermittelt. Der praktisch
 … flache Hierarchien und offene Ohren für Ihre Ideen
 
 … kostenlose Getränke im Betrieb
-
-… Vergünstigungen beim gegenüberliegenden Fitnessstudio
 
 … Firmenevents und Messebesuche
 
