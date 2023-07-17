@@ -1,6 +1,6 @@
 ---
 title: Lagerist (w/m/d)
-draft: true
+draft: false
 description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
   nächstmöglichen Zeitpunkt einen engagierten Lageristen (w/m/d).
 download: /assets/media/anzeige-lagerist-vom-12.0.72023.pdf
