@@ -1,6 +1,9 @@
 ---
 title: Kaufmännischer Mitarbeiter im Einkauf (w/m/d) – Backoffice / Innendienst
 draft: true
+description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
+  nächstmöglichen Zeitpunkt eine\*n kommunikationsstarke\*n kaufmännische\*n
+  Mitarbeiter\*in im Einkauf.
 download: /assets/media/10252_avancarte_kaufmaennischer-mitarbeiter-im-einkauf-w-m-d-backoffice-innendienst_bremen.pdf
 ---
 **AvanCarte – mit uns haben Sie gute Karten!**\
