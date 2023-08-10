@@ -10,19 +10,19 @@ Seit 50 Jahren zaubern wir mit unseren Produkten den Menschen ein Lächeln ins G
 
 ### Wir ...
 
-... suchen eine\*n engagierte\*n Außendienstmitarbeiter\*in, der\*die uns vertrieblich unterstützt und in Fachgeschäften unsere attraktive Produktpalette anbietet.\
-... sorgen dafür, dass Sie einen guten Start haben: Als Nachfolgebesetzung übernehmen Sie einen bereits vorhandenen Kundenkreis und gewinnen auch gern Neukunden dazu. \
-... freuen uns auf eine\*n ambitionierte\*n Vertriebsmitarbeiter\*in, der\*die den regelmäßigen Kundenkontakt schätzt und es vermag, Verkaufsgespräche erfolgreich zum Abschluss zu bringen.
+* suchen eine\*n engagierte\*n Außendienstmitarbeiter\*in, der\*die uns vertrieblich unterstützt und in Fachgeschäften unsere attraktive Produktpalette anbietet.
+* sorgen dafür, dass Sie einen guten Start haben: Als Nachfolgebesetzung übernehmen Sie einen bereits vorhandenen Kundenkreis und gewinnen auch gern Neukunden dazu. 
+* freuen uns auf eine\*n ambitionierte\*n Vertriebsmitarbeiter\*in, der\*die den regelmäßigen Kundenkontakt schätzt und es vermag, Verkaufsgespräche erfolgreich zum Abschluss zu bringen.
 
 ### Sie ...
 
-... haben idealerweise bereits Berufserfahrung in der Kundenberatung bzw. im Vertrieb oder trauen sich den persönlichen Kundenkontakt zu.\
-... können begeistern, sind kontaktfreudig und neugierig auf andere Menschen.\
-... bauen Vertrauen auf und überzeugen Kunden zuverlässig, professionell, selbstbewusst und durch Ihr Fachwissen von einem guten Angebot.\
-... sind erfolgsorientiert und suchen ein langfristiges Beschäftigungsverhältnis.\
-... engagieren sich überdurchschnittlich und sind in der Lage, bei freier Termin- und Zeitgestaltung selbstständig und effizient zu arbeiten.\
-... bringen eine gültige Fahrerlaubnis mit.\
-... wohnen im Vertriebsgebiet und verstehen Land und Leute.
+* haben idealerweise bereits Berufserfahrung in der Kundenberatung bzw. im Vertrieb oder trauen sich den persönlichen Kundenkontakt zu.
+* können begeistern, sind kontaktfreudig und neugierig auf andere Menschen.
+* bauen Vertrauen auf und überzeugen Kunden zuverlässig, professionell, selbstbewusst und durch Ihr Fachwissen von einem guten Angebot.
+* sind erfolgsorientiert und suchen ein langfristiges Beschäftigungsverhältnis.
+* engagieren sich überdurchschnittlich und sind in der Lage, bei freier Termin- und Zeitgestaltung selbstständig und effizient zu arbeiten.
+* bringen eine gültige Fahrerlaubnis mit.
+* wohnen im Vertriebsgebiet und verstehen Land und Leute.
 
 ### Wir bieten Ihnen ...
 
