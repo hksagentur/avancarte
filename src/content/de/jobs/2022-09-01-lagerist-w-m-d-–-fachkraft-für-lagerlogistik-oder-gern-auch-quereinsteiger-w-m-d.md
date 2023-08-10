@@ -34,4 +34,4 @@ Dann freut sich Herr Andreas Block auf Ihre Fragen vorab: [0421/ 43 443 -41](tel
 
 AvanCarte GmbH
 Herr Andreas Block • Insterburger Straße 16/18 • 28207 Bremen
-[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de • 0421 43 443 - 22
+[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de
