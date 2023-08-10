@@ -5,9 +5,8 @@ draft: false
 description: ""
 download: /assets/media/10243_avancarte_bezirksleiter-w-m-d-im-aussendienst_regensburg-landshut-passau-straubing-deggendorf-cham-schwandorf.pdf
 ---
-### Bezirksleiter (w/m/d) im Außendienst Regensburg / Landshut / Passau / Straubing / Deggendorf / Cham / Schwandorf
-
-AvanCarte GmbH  – mit uns haben Sie gute Karten! Seit 50 Jahren zaubern wir mit unseren Produkten den Menschen ein Lächeln ins Gesicht. Als eines der führenden Verlags- und Handelsunternehmen für Grußkarten, Geschenkverpackungen und Motivservietten zählt unsere vielfältige Kollektion zu den Spitzenangeboten der Branche. Werden Sie Teil unseres Teams als **Bezirksleiter*in** im **Außendienst** für das Vertriebsgebiet **Oberpfalz** und **Niederbayern** (unter anderem Regensburg, Landshut, Passau, Straubing, Deggendorf, Cham und Schwandorf).
+**AvanCarte GmbH**  – mit uns haben Sie gute Karten!\
+Seit 50 Jahren zaubern wir mit unseren Produkten den Menschen ein Lächeln ins Gesicht. Als eines der führenden Verlags- und Handelsunternehmen für Grußkarten, Geschenkverpackungen und Motivservietten zählt unsere vielfältige Kollektion zu den Spitzenangeboten der Branche. Werden Sie Teil unseres Teams als **Bezirksleiter*in** im **Außendienst** für das Vertriebsgebiet **Oberpfalz** und **Niederbayern** (unter anderem Regensburg, Landshut, Passau, Straubing, Deggendorf, Cham und Schwandorf).
 
 ### Wir ...
 
