@@ -34,8 +34,9 @@ Seit 50 Jahren zaubern wir mit unseren Produkten den Menschen ein Lächeln ins G
 
 ### Interessiert?
 
-Dann freut sich Herr Niclas Warnke auf Ihre Fragen vorab: [0421/ 43 443 -29](tel:04214344329) – oder Ihre aussagefähigen Bewerbungsunterlagen per E-Mail an: [bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>)
+Dann freut sich Herr Niclas Warnke auf Ihre Fragen vorab: [0421/ 43 443 -29](tel:04214344329)\
+oder Ihre aussagefähigen Bewerbungsunterlagen per E-Mail an: [bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>)
 
 **AvanCarte GmbH**
 Niclas Warnke • Insterburger Straße 16/18 • 28207 Bremen
-bewerbung@avancarte.de • www.avancarte.de • 0421 / 43 443-0
+[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de • 0421 / 43 443-0
