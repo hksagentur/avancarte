@@ -19,12 +19,12 @@ Ihr Aufgabenbereich ist so bunt und vielfältig wie unsere Produkte: Sie sind ve
 
 ### Das bringen Sie mit ...
 
-... Sie haben Ihre kaufmännische Ausbildung – gern zum\*zur Kaufmann\*frau für Büromanagement oder Kaufmann*frau im Einzelhandel – gerade erst abgeschlossen oder bereits erste Berufserfahrung im Verkauf, in der Auftragsabwicklung oder Projekt- und Büroorganisation gesammelt.
-... Im Tagesgeschäft benötigen Sie neben Ihrem kaufmännischen Know-how auch sichere Office-Kenntnisse.\
-... Sie haben Freude am Kommunizieren und der Kontakt zu Geschäftspartnern fällt Ihnen leicht.\
-... Als Teamplayer zeigen Sie sich im Umgang mit Kolleg*innen hilfsbereit und einsatzstark.\
-... Eigenständig und verantwortungsbewusst verfolgen Sie Ihre Aufgaben und überzeugen dabei mit Engagement und Flexibilität.\
-... Sie besitzen eine schnelle Auffassungsgabe und können sich auch in komplexe Geschäftsprozesse eindenken – es macht Ihnen Spaß, Neues dazuzulernen, denn Sie wachsen gern mit Ihren Aufgaben.
+* Sie haben Ihre kaufmännische Ausbildung – gern zum\*zur Kaufmann\*frau für Büromanagement oder Kaufmann*frau im Einzelhandel – gerade erst abgeschlossen oder bereits erste Berufserfahrung im Verkauf, in der Auftragsabwicklung oder Projekt- und Büroorganisation gesammelt.*
+* *Im Tagesgeschäft benötigen Sie neben Ihrem kaufmännischen Know-how auch sichere Office-Kenntnisse.*
+* *Sie haben Freude am Kommunizieren und der Kontakt zu Geschäftspartnern fällt Ihnen leicht.*
+* *Als Teamplayer zeigen Sie sich im Umgang mit Kolleg*innen hilfsbereit und einsatzstark.
+* Eigenständig und verantwortungsbewusst verfolgen Sie Ihre Aufgaben und überzeugen dabei mit Engagement und Flexibilität.
+* Sie besitzen eine schnelle Auffassungsgabe und können sich auch in komplexe Geschäftsprozesse eindenken – es macht Ihnen Spaß, Neues dazuzulernen, denn Sie wachsen gern mit Ihren Aufgaben.
 
 ### Wir freuen uns auf Sie, freuen Sie sich auf ...
 
