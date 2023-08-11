@@ -53,4 +53,4 @@ oder Ihre aussagefähigen Bewerbungsunterlagen per E-Mail an: [bewerbung@avancar
 
 AvanCarte GmbH
 Herr Henry Garbrecht • Insterburger Straße 16/18 • 28207 Bremen
-[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • (<www.avancarte.de>) • 0421 43 443 - 0
+[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de • 0421 43 443 - 0
