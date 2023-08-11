@@ -4,6 +4,7 @@ draft: false
 description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
   nächstmöglichen Zeitpunkt eine\*n kommunikationsstarke\*n kaufmännische\*n
   Mitarbeiter\*in im Einkauf.
+url: ""
 download: /assets/media/10252_avancarte_kaufmaennischer-mitarbeiter-im-einkauf-w-m-d-backoffice-innendienst_bremen.pdf
 ---
 **AvanCarte – mit uns haben Sie gute Karten!**\
@@ -34,16 +35,16 @@ Partyartikel im System.
 
 ### Wir freuen uns auf Sie, freuen Sie sich auf ...
 
-... eine umfassende Einarbeitung in Ihr zukünftiges Aufgabengebiet.
-... ein sehr wertschätzendes Betriebsklima in einem engagierten und zuverlässigen Team.
-... eine attraktiv vergütete, unbefristete Festanstellung inkl. Weihnachtsgeld und Boni.
-... keine Schichtarbeit, freitags früher Feierabend und 31 Tage Urlaub (29 Tage + 24. und 31.12.).
-... Firmenevents, kostenlose Getränke im Betrieb und Personalrabatt auf unsere Artikel.
-... die Sicherheit eines langjährig erfolgreichen, modernen Unternehmens.
-... interessante eigene Aufgabenfelder mit Verantwortung und Entscheidungsfreiheiten.\
-.﻿.. die Möglichkeit zur Arbeit im Homeoffice.\
-.﻿.. eine zentrale Lage mit guter Anbindung (Bus, Bahn und Autobahn).\
-.﻿.. ein familiengeführtes Unternehmen mit flachen Hierarchien und offenen Ohren für Ihre Ideen.
+* eine umfassende Einarbeitung in Ihr zukünftiges Aufgabengebiet.
+* ein sehr wertschätzendes Betriebsklima in einem engagierten und zuverlässigen Team.
+* eine attraktiv vergütete, unbefristete Festanstellung inkl. Weihnachtsgeld und Boni.
+* keine Schichtarbeit, freitags früher Feierabend und 31 Tage Urlaub (29 Tage + 24. und 31.12.).
+* Firmenevents, kostenlose Getränke im Betrieb und Personalrabatt auf unsere Artikel.
+* die Sicherheit eines langjährig erfolgreichen, modernen Unternehmens.
+* interessante eigene Aufgabenfelder mit Verantwortung und Entscheidungsfreiheiten.
+* die Möglichkeit zur Arbeit im Homeoffice.
+* eine zentrale Lage mit guter Anbindung (Bus, Bahn und Autobahn).
+* ein familiengeführtes Unternehmen mit flachen Hierarchien und offenen Ohren für Ihre Ideen.
 
 ### Interessiert?
 
@@ -52,4 +53,4 @@ oder Ihre aussagefähigen Bewerbungsunterlagen per E-Mail an: [bewerbung@avancar
 
 AvanCarte GmbH
 Herr Henry Garbrecht • Insterburger Straße 16/18 • 28207 Bremen
-[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de • 0421 43 443 - 0
+[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • (<www.avancarte.de>) • 0421 43 443 - 0
