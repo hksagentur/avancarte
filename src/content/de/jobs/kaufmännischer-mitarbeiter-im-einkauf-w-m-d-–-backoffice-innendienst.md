@@ -29,7 +29,7 @@ Partyartikel im System.
   Kaufmann*frau im Einzelhandel oder ähnlich qualifiziert) abgeschlossen oder bereits Berufserfahrung.
 * Im Tagesgeschäft benötigen Sie neben Ihrem kaufmännischen Know-how auch sichere Office-Kenntnisse.
 * Sie haben Freude am Kommunizieren und der Kontakt zu Geschäftspartnern fällt Ihnen leicht.
-* Als Teamplayer zeigen Sie sich im Umgang mit Kolleginnen hilfsbereit und einsatzstark.
+* Als Teamplayer zeigen Sie sich im Umgang mit Kolleg\*innen hilfsbereit und einsatzstark.
 * Eigenständig und verantwortungsbewusst verfolgen Sie Ihre Aufgaben und überzeugen dabei mit Engagement und Flexibilität.
 * Sie besitzen eine schnelle Auffassungsgabe und können sich auch in komplexe Geschäftsprozesse eindenken – es macht Ihnen Spaß, Neues dazuzulernen, denn Sie wachsen gern mit Ihren Aufgaben.
 
