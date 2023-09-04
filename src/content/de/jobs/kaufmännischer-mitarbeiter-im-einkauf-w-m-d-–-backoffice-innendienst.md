@@ -1,6 +1,6 @@
 ---
 title: Kaufmännischer Mitarbeiter im Einkauf (w/m/d) – Backoffice / Innendienst
-draft: false
+draft: true
 description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
   nächstmöglichen Zeitpunkt eine\*n kommunikationsstarke\*n kaufmännische\*n
   Mitarbeiter\*in im Einkauf.
