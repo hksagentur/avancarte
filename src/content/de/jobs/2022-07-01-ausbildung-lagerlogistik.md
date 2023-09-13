@@ -13,7 +13,7 @@ Seien auch Sie mit dabei, unseren Kunden ein Lächeln ins Gesicht zu zaubern.
 
 An unserem Standort Bremen bieten wir qualifizierte und praxisorientierte Ausbildungsplätze und suchen Sie für eine Ausbildung zur **Fachkraft für Lagerlogistik** (m/w/d).
 
-Ausbildungsbeginn: 1. August 2023
+Ausbildungsbeginn: 1. August 2024
 
 Ausbildungsdauer: 3 Jahre
 
