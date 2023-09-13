@@ -5,9 +5,7 @@ url: https://www.ausbildung.de/unternehmen/avancarte-gmbh/stellen/ausbildung-fac
 download: /assets/media/azubi_fachkraft_fuer_lagerlogistik_gh.pdf
 tags:
   - apprenticeship
-description: An unserem Standort Bremen bieten wir qualifizierte und
-  praxisorientierte Ausbildungsplätze und suchen Sie für eine Ausbildung zur
-  Fachkraft für Lagerlogistik (m/w/d).
+description: Qualifizierte und praxisorientierte Ausbildung in Bremen
 ---
 AvanCarte GmbH – mit uns haben Sie gute Karten! Seit 1974 machen wir mit unseren stilvollen Glückwunsch- und Grußkarten sowie Geschenkverpackungen schöne Momente noch schöner.
 
