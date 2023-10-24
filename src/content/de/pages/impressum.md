@@ -7,12 +7,8 @@ tags:
 ---
 {% include "organization.njk" %}
 
-AvanCarte GmbH  
-Postfach 110442  
-28084 Bremen
-
-Verantwortlich für den Inhalt dieser Webseiten Geschäftsführer: {{ organization.managers|join(', ') }}  
-Handelsregister {{ organization.localCourt }}, {{ organization.commercialRegisterNumber }}  
+Verantwortlich für den Inhalt dieser Webseiten Geschäftsführer: {{ organization.managers|join(', ') }}
+Handelsregister {{ organization.localCourt }}, {{ organization.commercialRegisterNumber }}
 UST-ID: {{ organization.vatId }}
 
 Alle Bildrechte und Informationen liegen bei der {{ organization.legalName }}. Wir genehmigen Ihnen ausschließlich die Veröffentlichungen unserer Produktbilder, auf denen keine Personen abgebildet sind.
