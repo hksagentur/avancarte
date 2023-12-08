@@ -6,8 +6,6 @@ description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
   Buchhaltung.
 download: /assets/media/10734_avancarte_kaufmaennischer-mitarbeiter-w-m-d-buchhaltung_bremen.pdf
 ---
-
-
 **Kaufmännischer Mitarbeiter (w/m/d) – Buchhaltung**
 
 **AvanCarte – mit uns haben Sie gute Karten!**
@@ -25,8 +23,6 @@ Damit Sie bestens auf Ihr neues Aufgabengebiet vorbereitet sind, erhalten Sie vo
 * Sie sind verantwortlich für den Fuhrpark des Unternehmens
 * Sie assistieren unserer Finanzleiterin beim Überwachen der Konten und Zahlungseingänge, Zahlungsverkehr, Abwickeln der Eingangspost, Buchen von Eingangsrechnungen, Erstellen des Monatsabschlusses und weitere tägliche Aufgaben
 
- 
-
 **Das bringen Sie mit**
 
 * Reisekostenabrechnung
@@ -39,18 +35,16 @@ Damit Sie bestens auf Ihr neues Aufgabengebiet vorbereitet sind, erhalten Sie vo
 
 **Wir freuen uns auf Sie, freuen Sie sich auf ...**
 
-... eine umfassende Einarbeitung in Ihr zukünftiges Aufgabengebiet.\
-... ein sehr wertschätzendes Betriebsklima in einem engagierten und zuverlässigen Team.\
-... eine attraktiv vergütete, unbefristete Festanstellung, inkl. Weihnachtsgeld und Boni.\
-... keine Schichtarbeit, freitags früher Feierabend und 31 Tage Urlaub (29 Tage + 24. und 31.12.)\
-... Firmenevents, kostenlose Getränke im Betrieb und Personalrabatt auf unsere Artikel.\
-... die Sicherheit eines langjährig erfolgreichen, modernen Unternehmens.\
-... interessante eigene Aufgabenfelder mit Verantwortung und Entscheidungsfreiheiten.\
-... die Möglichkeit zur Arbeit im Homeoffice.\
-... eine zentrale Lage mit guter Anbindung (Bus, Bahn und Autobahn).\
-... ein familiengeführtes Unternehmen mit flachen Hierarchien und offenen Ohren für Ihre Ideen.
-
- 
+* eine umfassende Einarbeitung in Ihr zukünftiges Aufgabengebiet.
+* ein sehr wertschätzendes Betriebsklima in einem engagierten und zuverlässigen Team.
+* eine attraktiv vergütete, unbefristete Festanstellung, inkl. Weihnachtsgeld und Boni.
+* keine Schichtarbeit, freitags früher Feierabend und 31 Tage Urlaub (29 Tage + 24. und 31.12.)
+* Firmenevents, kostenlose Getränke im Betrieb und Personalrabatt auf unsere Artikel.
+* die Sicherheit eines langjährig erfolgreichen, modernen Unternehmens.
+* interessante eigene Aufgabenfelder mit Verantwortung und Entscheidungsfreiheiten.
+* die Möglichkeit zur Arbeit im Homeoffice.
+* eine zentrale Lage mit guter Anbindung (Bus, Bahn und Autobahn).
+* ein familiengeführtes Unternehmen mit flachen Hierarchien und offenen Ohren für Ihre Ideen.
 
 **Interessiert?**
 
