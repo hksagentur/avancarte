@@ -1,8 +1,9 @@
 ---
 title: Lagerist (w/m/d)
+draft: false
 description: Zur Verstärkung unseres Teams in Bremen suchen wir zum
   nächstmöglichen Zeitpunkt einen engagierten Lageristen (w/m/d).
-download: /assets/media/2022-08_Lagerist_Fachkraft_fuer_Lagerlogistik_Quereinsteiger.pdf
+download: /assets/media/anzeige-lagerist-vom-12.0.72023.pdf
 ---
 ## Lagerist (w/m/d) – Fachkraft für Lagerlogistik oder gern auch Quereinsteiger (w/m/d)
 
@@ -24,7 +25,6 @@ AvanCarte – mit uns haben Sie gute Karten! Wir sind eines der führenden Verla
 ... eine attraktiv vergütete, unbefristete Festanstellung.
 ... die Sicherheit eines langjährig erfolgreichen, modernen Unternehmens.
 ... interessante eigene Aufgabenfelder.
-... die Vergünstigungen beim gegenüberliegenden Fitnessstudio.
 ... eine zentrale Lage mit guter Anbindung (Bus, Bahn und Autobahn).
 ... ein familiengeführtes Unternehmen mit flachen Hierarchien und offenen Ohren für Ihre Ideen.
 
@@ -34,4 +34,4 @@ Dann freut sich Herr Andreas Block auf Ihre Fragen vorab: [0421/ 43 443 -41](tel
 
 AvanCarte GmbH
 Herr Andreas Block • Insterburger Straße 16/18 • 28207 Bremen
-[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de • 0421 43 443 - 22
+[bewerbung@avancarte.de](<mailto: bewerbung@avancarte.de>) • www.avancarte.de
