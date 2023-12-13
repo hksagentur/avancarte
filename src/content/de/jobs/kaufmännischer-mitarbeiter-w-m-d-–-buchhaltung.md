@@ -25,7 +25,6 @@ Damit Sie bestens auf Ihr neues Aufgabengebiet vorbereitet sind, erhalten Sie vo
 
 **Das bringen Sie mit**
 
-* Reisekostenabrechnung
 * Sie sind Buchhalter\*in oder haben eine kaufmännische Ausbildung (z.B. zum\*zur Kaufmann\*frau für Büromanagement oder Kaufmann\*frau im Groß- und Außenhandel oder ähnlich qualifiziert) abgeschlossen und haben bereits Berufserfahrung im Finanz- und Rechnungswesen.
 * Im Tagesgeschäft benötigen Sie neben Ihrem kaufmännischen Know-how auch sichere DATEV- und Office- Kenntnisse.
 * Sie haben Freude am Kommunizieren und der Kontakt zu Geschäftspartnern fällt Ihnen leicht.
