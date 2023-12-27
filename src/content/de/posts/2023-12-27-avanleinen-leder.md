@@ -5,6 +5,9 @@ description: Bieten Sie Ihren Kunden die Möglichkeit eine ausgefallene Karte zu
   verschenken. Jedes Exemplar wurde mit Leinen oder mit veganem Leder in creme
   und schwarz veredelt.
 cover: /assets/media/leinen_leder.jpg
+attachments:
+  - url: /assets/media/leinen_leder.pdf
+    title: AvanLeinen&Leder
 ---
 **Hochwertige Grußkarten mit neuer edler Haptik**
 
