@@ -1,12 +1,11 @@
 ---
-title: Ausbildung 2023 Fachkraft für Lagerlogistik (m/w/d)
+title: Ausbildung 2024 Fachkraft für Lagerlogistik (m/w/d)
+draft: false
 url: https://www.ausbildung.de/unternehmen/avancarte-gmbh/stellen/ausbildung-fachkraft-fuer-lagerlogistik-m-w-d/b0dc9829-a7ba-4364-88d3-7bb856d8c271/
-download: /assets/media/2022-08_Azubi_Fachkraft_fuer_Lagerlogistik.pdf
+download: /assets/media/azubi_fachkraft_fuer_lagerlogistik_gh.pdf
 tags:
   - apprenticeship
-description: An unserem Standort Bremen bieten wir qualifizierte und
-  praxisorientierte Ausbildungsplätze und suchen Sie für eine Ausbildung zur
-  Fachkraft für Lagerlogistik (m/w/d).
+description: Qualifizierte und praxisorientierte Ausbildung in Bremen
 ---
 AvanCarte GmbH – mit uns haben Sie gute Karten! Seit 1974 machen wir mit unseren stilvollen Glückwunsch- und Grußkarten sowie Geschenkverpackungen schöne Momente noch schöner.
 
@@ -14,7 +13,7 @@ Seien auch Sie mit dabei, unseren Kunden ein Lächeln ins Gesicht zu zaubern.
 
 An unserem Standort Bremen bieten wir qualifizierte und praxisorientierte Ausbildungsplätze und suchen Sie für eine Ausbildung zur **Fachkraft für Lagerlogistik** (m/w/d).
 
-Ausbildungsbeginn: 1. August 2023
+Ausbildungsbeginn: 1. August 2024
 
 Ausbildungsdauer: 3 Jahre
 
@@ -63,8 +62,6 @@ In der Berufsschule wird Ihnen das theoretische Wissen vermittelt. Der praktisch
 … flache Hierarchien und offene Ohren für Ihre Ideen
 
 … kostenlose Getränke im Betrieb
-
-… Vergünstigungen beim gegenüberliegenden Fitnessstudio
 
 … Firmenevents und Messebesuche
 
