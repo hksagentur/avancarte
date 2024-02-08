@@ -189,23 +189,19 @@ collections:
         name: role
         label: Rolle
         widget: string
-        required: false
       -
         name: email
         label: E-Mail
         widget: string
-        required: false
       -
         name: photo
         label: Foto
         widget: image
-        required: false
         allow_multiple: false
       -
         name: group
         label: Gruppierung
         widget: string
-        required: false
       -
         name: order
         label: Sortierung
