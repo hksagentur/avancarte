@@ -1,5 +1,5 @@
 ---
-title: Regalservice für den Handel
+title: Regalservice für den Handel (m/w/d)
 draft: false
 description: westliches Münsterland (Borken, Wesel)
 download: /assets/media/10963_avc_2024-02_regalservice_verschiedene-orte.pdf
