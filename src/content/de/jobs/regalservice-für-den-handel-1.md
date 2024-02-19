@@ -1,5 +1,5 @@
 ---
-title: Regalservice für den Handel
+title: Regalservice für den Handel (m/w/d)
 draft: false
 description: |-
   in der Region Rheinland / bergisches Land
