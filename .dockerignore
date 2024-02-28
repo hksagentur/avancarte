@@ -1,7 +1,8 @@
-docker/
 node_modules/
 .dockerignore
 .git
 .gitignore
 .npmrc
+.env*
+!.env.example
 npm-debug.log

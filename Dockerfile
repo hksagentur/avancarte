@@ -7,6 +7,9 @@ ARG NODE_ENV="production"
 ARG UID=1000
 ARG GID=1000
 
+ENV NODE_VERSION="16.14.2"
+ENV NODE_ENV="${NODE_ENV}"
+
 RUN <<-EOR
 	set -e
 	groupmod -g "${GID}" node
@@ -17,11 +20,12 @@ USER node
 WORKDIR /app
 
 COPY --chown=node:node package.json package-lock.json ./
-RUN npm ci && npm cache clean --force
-ENV PATH="/app/node_modules/.bin:${PATH}"
 
-ENV NODE_VERSION="16.14.2"
-ENV NODE_ENV="${NODE_ENV}"
+RUN <<-EOR
+	set -e
+	npm clean-install
+	npm cache clean --force
+EOR
 
 COPY --chown=node:node . .
 
