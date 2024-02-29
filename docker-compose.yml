@@ -6,9 +6,10 @@ services:
     build:
       context: "."
       args:
-        - NODE_ENV="${NODE_ENV:-production}"
-        - UID=${UID:-1000}
-        - GID=${GID:-1000}
+        - "NODE_VERSION=${NODE_VERSION:-16.14.2}"
+        - "NODE_ENV=${NODE_ENV:-production}"
+        - "UID=${UID:-1000}"
+        - "GID=${GID:-1000}"
     restart: "unless-stopped"
     stop_grace_period: "3s"
     env_file: ".env"
