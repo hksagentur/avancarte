@@ -8,10 +8,10 @@ FROM node:${NODE_VERSION}-${DEBIAN_RELEASE}-slim
 LABEL maintainer="Daniel Weidner <d.weidner@hks-agentur.de>"
 
 LABEL org.label-schema.schema-version="1.0"
-LABEL org.label-schema.name="eleventy"
-LABEL org.label-schema.description="Run 11ty a simpler static site generator in node"
+LABEL org.label-schema.name="node"
+LABEL org.label-schema.description="A minimal node development environment with npm"
 LABEL org.label-schema.vendor="H&K+S Agentur für Werbung"
-LABEL org.label-schema.docker.cmd="docker run -d -p 3000:3000 -v .:/app -v node_modules:/app/node_modules eleventy"
+LABEL org.label-schema.docker.cmd="docker run -d -v .:/app -v /app/node_modules node"
 
 ARG NODE_VERSION
 ARG NODE_ENV="production"
@@ -23,10 +23,6 @@ ENV NODE_ENV="${NODE_ENV}"
 
 RUN <<-EOR
 	set -e
-	apt-get update
-	apt-get install --yes --no-install-recommends build-essential=12.9
-	apt-get clean
-	rm -rf /var/lib/apt/lists/* use/share/doc /usr/share/man
 	groupmod -g "${GID}" node
 	usermod -u "${UID}" -g "${GID}" node
 EOR
@@ -42,9 +38,4 @@ RUN <<-EOR
 	npm cache clean --force
 EOR
 
-COPY --link --chown=node:node . .
-
-EXPOSE 3000
-EXPOSE 3001
-
-CMD ["npm", "start"]
+CMD ["node"]
