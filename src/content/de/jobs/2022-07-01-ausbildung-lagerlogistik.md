@@ -2,7 +2,7 @@
 title: Ausbildung 2024 Fachkraft für Lagerlogistik (m/w/d)
 draft: false
 url: https://www.ausbildung.de/unternehmen/avancarte-gmbh/stellen/ausbildung-fachkraft-fuer-lagerlogistik-m-w-d/b0dc9829-a7ba-4364-88d3-7bb856d8c271/
-download: /assets/media/azubi_fachkraft_fuer_lagerlogistik_gh.pdf
+download: /assets/media/11109_avancarte_ausbildung-fachkraft-fuer-lagerlogistik-2024_bremen_html.pdf
 tags:
   - apprenticeship
 description: Qualifizierte und praxisorientierte Ausbildung in Bremen
