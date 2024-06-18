@@ -6,5 +6,5 @@ role: Regionalleiter Nord
 email: ralf.hallerstede@avancarte.de
 photo: /assets/media/r-hallerstede.jpg
 group: 2-Verkaufsleitung
-order: 2
+order: 3
 ---
