@@ -101,7 +101,7 @@ Wir bieten Ihnen die dauerhafte Speicherung von Teilen Ihrer persönlichen Daten
 - Faxnummer,
 - E-Mail-Adresse.
 
-Sie haben die Möglichkeit, Ihr Kundenkonto jederzeit löschen zu lassen. Hierzu reicht eine Mail, ein Fax oder ein Telefonat mit uns. Es wird nur das Kundenkonto gelöscht. Die Löschung aller Daten aus Geschäftsprozessen erfolgt automatisch nach Ablauf der für uns geltenden handels- und steuerrechtlichen Aufbewahrungspflichten. Rechtsgrundlage für diese weitere Datenverarbeitung ist Art. 6 Absatz 1 Buchstabe c) DSGVO sowie Art. 6 Abs. 1 Buchstabe f) DSGVO.
+Sie haben die Möglichkeit, Ihr Kundenkonto jederzeit löschen zu lassen. Hierzu reicht eine Mail, ein Fax oder ein Telefonat mit uns. Es wird nur das Kundenkonto gelöscht. Die Löschung aller Daten aus Geschäftsprozessen erfolgt automatisch nach Ablauf der für uns geltenden handels- und steuerrechtlichen Aufbewahrungsfristen. Rechtsgrundlage für diese weitere Datenverarbeitung ist Art. 6 Absatz 1 Buchstabe c) DSGVO sowie Art. 6 Abs. 1 Buchstabe f) DSGVO.
 
 ### Kontaktformular
 
