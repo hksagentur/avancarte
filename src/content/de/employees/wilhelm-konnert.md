@@ -6,5 +6,5 @@ role: Regionalleiter Südwest Servicekunden
 email: wilhelm.konnert@avancarte.de
 photo: /assets/media/wilhelm-konnert.jpg
 group: 2-Verkaufsleitung
-order: 4
+order: 5
 ---
