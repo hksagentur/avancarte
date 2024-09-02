@@ -11,7 +11,7 @@ Die folgenden Informationen gelten für die Datenverarbeitung nach Maßgabe der 
 
 {% include "organization.njk" %}
 
-Handelsregister {{ organization.localCourt }}, {{ organization.commercialRegisterNumber }}  
+Handelsregister {{ organization.localCourt }}, {{ organization.commercialRegisterNumber }}
 Ust-ID: {{ organization.vatId }}
 
 ### Unternehmensleitung (Geschäftsführung)
@@ -20,26 +20,26 @@ Ust-ID: {{ organization.vatId }}
 
 ### Beauftragter für den Datenschutz
 
-Kay-Uwe Hampel  
-Insterburger Str. 16-18  
+Kay-Uwe Hampel
+Insterburger Str. 16-18
 D-28207 Bremen
 
-Tel.: +49 421 43443 24  
+Tel.: +49 421 43443 24
 E-Mail: <kay-uwe.hampel@avancarte.de>
 
 ### IT-Verantwortlicher
 
-Kristian Kükelhahn  
-Insterburger Str. 16-18  
+Kristian Kükelhahn
+Insterburger Str. 16-18
 D-28207 Bremen
 
-Tel.: +49 421 43443 32  
+Tel.: +49 421 43443 32
 E-Mail: <kristian.kuekelhahn@avancarte.de>
 
 ### Zuständige Aufsichtsbehörde
 
-Die Landesbeauftragte für Datenschutz und Informationsfreiheit der Freien Hansestadt Bremen  
-Arndtstr. 1  
+Die Landesbeauftragte für Datenschutz und Informationsfreiheit der Freien Hansestadt Bremen
+Arndtstr. 1
 D-27570 Bremerhaven
 
 Tel.: +49 471 596 2010
@@ -55,8 +55,8 @@ Ihre persönlichen Daten werden bei uns sicher durch Verschlüsselung übertrage
 
 Wenn Sie unsere Website unter www.avancarte.de besuchen, werden Informationen durch den jeweiligen Internetbrowser Ihres jeweiligen Endgerätes an den Server unserer Website gesendet. Wir hosten unsere Website bei:
 
-1&1 IONOS SE  
-Elgendorfer Str. 57  
+1&1 IONOS SE
+Elgendorfer Str. 57
 D-56410 Montabaur
 
 Eine entsprechende Vereinbarung zur Auftragsverarbeitung wurde geschlossen.
@@ -75,8 +75,8 @@ Eine Zusammenführung dieser Dateien mit anderen Datenquellen wird nicht vorgeno
 
 Wenn Sie unseren Shop unter <https://shop.avancarte.de> besuchen, werden Informationen durch den jeweiligen Internetbrowser Ihres jeweiligen Endgerätes an den Server unseres Shops gesendet. Hier verwenden wir kein Analytics-Programm. Wir hosten unseren Shop bei:
 
-Treuorga Datenservice GmbH  
-Uhlandstr. 68  
+Treuorga Datenservice GmbH
+Uhlandstr. 68
 22087 Hamburg
 
 Eine entsprechende Vereinbarung zur Auftragsverarbeitung wurde geschlossen.
@@ -85,6 +85,10 @@ Eine entsprechende Vereinbarung zur Auftragsverarbeitung wurde geschlossen.
 
 Wir verwenden für unsere Website sowie für den Shop sogenannte Cookies, um es uns zu ermöglichen, Ihren Browser beim nächsten Besuch wiederzuerkennen. Bei Cookies handelt es sich um kleine Textdateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seiten oder den Shop besuchen. Cookies richten auf Ihrem Endgerät keinen Schaden an, enthalten keine Viren, Trojaner oder sonstige Schadsoftware. In dem Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Die von uns gesetzten Cookies sind dauerhafte (Session-übergreifende) Cookies, die dazu dienen, unser Angebot nutzerfreundlich, effektiver und sicherer zu machen.
 Sie können die erläuterte Technologie stets durch eine entsprechende Cookie-Einstellung in Ihrem Browser unterbinden.
+
+### QR-Codes - Allgemeine Informationen
+
+Wir verwenden QR-Codes auf Produkten, im Shop oder auf unserer Website, um den Zugang zu Informationen zu erleichtern. Bei QR-Codes handelt es sich um verschlüsselte Informationen in einem quadratischen Kästchen. Mithilfe eines Gerätes, dass über eine Kamera und eine entsprechende App verfügt, kann der Code entschlüsselt und sichtbar gemacht werden. In diesen Codes oder bei ihrer Verwendung werden keine personenbezogenen Daten verarbeitet.
 
 ### Kundenkonto im Shop
 
