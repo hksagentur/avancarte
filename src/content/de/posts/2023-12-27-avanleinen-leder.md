@@ -1,18 +1,26 @@
 ---
-title: "AvanLeinen&Leder "
+title: AvanGreenCarte
 draft: false
-description: Bieten Sie Ihren Kunden die Möglichkeit eine ausgefallene Karte zu
-  verschenken. Jedes Exemplar wurde mit Leinen oder mit veganem Leder in creme
-  und schwarz veredelt.
-cover: /assets/media/leinen_leder.jpg
+description: ""
+cover: /assets/media/greencarte.jpg
 attachments:
-  - url: /assets/media/leinen_leder.pdf
+  - url: /assets/media/greencarte.pdf
     title: AvanLeinen&Leder
 ---
-**Hochwertige Grußkarten mit neuer edler Haptik**
+**Handgeschrieben, liebevoll und mit Rücksicht auf die Natur**
 
-Bieten Sie Ihren Kunden die Möglichkeit eine ausgefallene Karte zu verschenken. Jedes Exemplar wurde mit Leinen oder mit veganem Leder in creme und schwarz veredelt. 
-Die dabei geschmackvoll eingesetzten Heißfolien-Akzente wirken darauf ganz besonders. 
-Diese Grußkarten sind eine Neuheit am Markt!
-Neben der großen Auswahl an Geburtstags-Motiven sind viele weitere Anlässe enthalten und bieten ein breites 
-Angebot für Ihre Zielgruppen.
+Unsere neue Grußkartenserie verbindet auf elegante Weise
+Tradition und Umweltbewusstsein.
+Gedruckt auf hochwertigem Graspapier und veredelt mit
+feiner Heißfolienprägung, fangen diese Karten die Schönheit
+des Moments ein – für jeden Anlass.
+Die schlichte, doch stilvolle Präsentation auf unseren
+ellipseförmigen Drehständern lädt zum Stöbern ein.
+Ganz ohne Cellophanverpackung, stehen diese Karten für
+echte Werte: Nachhaltigkeit, Ehrlichkeit und emotionale
+Tiefe. Ob für besondere Glückwünsche, herzliche Dankessagen
+oder fröhliche Kindergeburtstage – hier finden Sie
+perfekte Motiv, das Freude schenkt.
+Und auch für die stillen Momente im Leben ist gesorgt:
+Einfühlsame Trauerkarten bringen in schweren Zeiten Trost
+und Verbundenheit.
