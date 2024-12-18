@@ -2,7 +2,7 @@
 title: AvanColour your Life
 draft: false
 description: ""
-cover: /assets/media/bild_1.jpg
+cover: /assets/media/neon.jpg
 attachments:
   - url: /assets/media/colour_your_life.pdf
     title: AvanColour your Life
