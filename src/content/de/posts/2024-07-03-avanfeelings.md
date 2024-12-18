@@ -1,21 +1,24 @@
 ---
-title: "AvanFeelings "
+title: AvanKonfetti
 draft: false
-description: Verschenke Freude, Liebe und Nachhaltigkeit
-cover: /assets/media/feelings_kopf.jpg
+description: |-
+  Feiere den Moment –
+  Die Grußkartenserie mit Konfetti-Magie!
+cover: /assets/media/konfetti.jpg
 attachments:
-  - url: /assets/media/avan_feelings.pdf
-    title: "Flyer AvanFeelings "
+  - url: /assets/media/konfetti.pdf
+    title: AvanKonfetti
 ---
-Bunte Fotomotive mit filigran ausgearbeiteter Heißfolie
-verleihen jeder Botschaft eine unverwechselbare Eleganz.
-Gedruckt auf ECO-Karton aus 100% Recyclingfasern,
-schenken diese Grußkarten nicht nur Freude,
-sondern auch ein gutes Gefühl. Denn Nachhaltigkeit liegt
-uns am Herzen, genauso wie die Freude am Schenken.
-Manchmal sagt eine Karte mehr als tausend Worte.
-Ein Lächeln, ein Glückwunsch - hier finden Sie den
-perfekten Gruß zu Ihrem Anlass. Und das Beste daran:
-Die Karten werden unverpackt geliefert -
-ganz ohne Cellophanfolie. Dafür ist jede Karte mit einem
-ablösbaren Preissticker versehen.
+Stellen Sie sich vor, wie ein Lächeln entsteht, sobald die
+Karte geöffnet wird und ein bunter Konfettiregen die Luft
+erhellt. Unsere neue Grußkartenserie zaubert magische
+Überraschungen für Geburtstagskinder jeden Alters. Mit 40
+einzigartigen, farbenfrohen Designs – für den runden Geburtstag,
+den ersten Kindergeburtstag oder einfach den perfekten
+Moment. Diese Karten sind mehr als Glückwünsche
+– sie sind kleine, unvergessliche Feuerwerke der Freude!
+Ob für große oder kleine Geburtstagskinder: An der Lasche
+ziehen, Konfettiregen fliegen lassen und ein Funkeln in den
+Augen schenken. Und für diejenigen die nicht genug bekommen
+können: Konfettikanone neu befüllen und noch
+einmal verwenden.
