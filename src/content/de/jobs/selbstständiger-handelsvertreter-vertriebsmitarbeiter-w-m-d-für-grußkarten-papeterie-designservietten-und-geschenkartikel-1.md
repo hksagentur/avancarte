@@ -1,7 +1,7 @@
 ---
 title: Selbstständiger Handelsvertreter / Vertriebsmitarbeiter (w/m/d) für
   Grußkarten, Papeterie, Designservietten und Geschenkartikel
-draft: false
+draft: true
 description: >-
   Zur Verstärkung unseres Vertriebsteams suchen wir – auf Provisionsbasis –
   eine*n engagierte*n
