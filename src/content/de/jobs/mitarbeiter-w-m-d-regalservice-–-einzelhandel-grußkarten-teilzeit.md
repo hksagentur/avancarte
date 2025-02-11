@@ -2,7 +2,7 @@
 title: Mitarbeiter*in (w/m/d) Regalservice – Einzelhandel Grußkarten (Teilzeit)
 draft: false
 description: |-
-  Zur Verstärkung unseres Vertriebsteams suchen wir eine*n engagierte*n
+  Zur Verstärkung unseres Außendienstteams suchen wir eine*n engagierte*n
   Mitarbeiter*in für den Regalservice.
 download: /assets/media/122874_avancarte_servicekraft_mecklenburg-vorpommern.pdf
 ---
