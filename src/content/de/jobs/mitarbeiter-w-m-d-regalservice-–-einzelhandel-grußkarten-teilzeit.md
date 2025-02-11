@@ -1,5 +1,5 @@
 ---
-title: Mitarbeiter (w/m/d) Regalservice – Einzelhandel Grußkarten (Teilzeit)
+title: Mitarbeiter*in (w/m/d) Regalservice – Einzelhandel Grußkarten (Teilzeit)
 draft: false
 description: |-
   Zur Verstärkung unseres Vertriebsteams suchen wir eine*n engagierte*n
