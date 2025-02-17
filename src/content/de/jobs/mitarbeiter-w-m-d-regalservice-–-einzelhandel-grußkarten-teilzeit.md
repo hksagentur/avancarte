@@ -11,7 +11,7 @@ Kommen Sie als festangestellte\*r **Mitarbeiter\*in Regalservice** in unser Team
 **Wir ...**\
 ... verlegen und handeln Grußkarten, Geschenkverpackungen und Motivservietten.\
 ... suchen Sie als Mitarbeiter\*in, der\*die vor Ort im Einzelhandel unsere Ware einsortiert und Bedarfsmengen ermittelt.\
-... bieten Ihnen eine attraktive Daueranstellung in Teilzeit – ab 80 Std./Monat.
+... bieten Ihnen eine attraktive Daueranstellung in Teilzeit – 80 Std./Monat.
 
 **Sie ...**\
 ... wohnen im Vertriebsgebiet Mecklenburg-Vorpommern und verstehen Land und Leute.\
