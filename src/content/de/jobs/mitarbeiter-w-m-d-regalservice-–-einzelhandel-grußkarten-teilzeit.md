@@ -1,6 +1,6 @@
 ---
 title: Mitarbeiter (w/m/d) Regalservice – Einzelhandel (Teilzeit)
-draft: false
+draft: true
 description: |-
   Zur Verstärkung unseres Außendienstteams suchen wir eine*n engagierte*n
   Mitarbeiter*in für den Regalservice.
