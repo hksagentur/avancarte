@@ -5,7 +5,7 @@ description: ""
 cover: /assets/media/greencarte.jpg
 attachments:
   - url: /assets/media/greencarte.pdf
-    title: AvanLeinen&Leder
+    title: AvanGreenCarte
 ---
 **Handgeschrieben, liebevoll und mit Rücksicht auf die Natur**
 
