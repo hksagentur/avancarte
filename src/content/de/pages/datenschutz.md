@@ -113,7 +113,7 @@ Wir versenden keine Newsletter.
 
 ### Weitere Datenerfassungen
 
-Verbreiteter ist bei uns die Erhebung von persönlichen Daten direkt bei Ihnen (Betroffenen) durch Besuche unseres Außendienstes in Ihrem Geschäft, durch Kontakte auf Messen oder auf dem Fax-, E-Mail- oder telefonischen Weg. Rechtsgrundlage für die weitere Verarbeitung Ihrer erhobenen Daten ist der Artikel 6 Abs. 1 Buchstabe b) DSGVO. Im Übrigen gelten alle weiteren Bestimmungen der DSGVO bzw. des Handels- und Steuerrechts. Unsere ausführliche Datenschutzerklärung finden Sie [hier](/assets/media/datenschutz-v3.pdf).
+Verbreiteter ist bei uns die Erhebung von persönlichen Daten direkt bei Ihnen (Betroffenen) durch Besuche unseres Außendienstes in Ihrem Geschäft, durch Kontakte auf Messen oder auf dem E-Mail- oder telefonischen Weg. Rechtsgrundlage für die weitere Verarbeitung Ihrer erhobenen Daten ist der Artikel 6 Abs. 1 Buchstabe b) DSGVO. Im Übrigen gelten alle weiteren Bestimmungen der DSGVO bzw. des Handels- und Steuerrechts. Unsere ausführliche Datenschutzerklärung finden Sie [hier](/assets/media/datenschutz-v3.pdf).
 
 ### Ihre Rechte bezüglich Ihrer Daten
 
