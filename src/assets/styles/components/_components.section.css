@@ -84,3 +84,12 @@ main .c-carousel {
     aspect-ratio: 1.75/1;
   }
 }
+
+.c-carousel {
+  background-color: var(--beige);
+}
+
+.c-carousel__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
