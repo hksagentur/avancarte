@@ -8,6 +8,24 @@ slideshow:
   -
     url: /assets/media/nachhaltigkeit-3.jpg
     alt: ''
+  -
+    url: /assets/media/NatureMagazin_1.jpg
+    alt: ''
+  -
+    url: /assets/media/NatureMagazin_2.jpg
+    alt: ''
+  -
+    url: /assets/media/NatureMagazin_3.jpg
+    alt: ''
+  -
+    url: /assets/media/NatureMagazin_4.jpg
+    alt: ''
+  -
+    url: /assets/media/NatureMagazin_5.jpg
+    alt: ''
+  -
+    url: /assets/media/NatureMagazin_6.jpg
+    alt: ''
 order: 4
 translationKey: sustainability
 override:includes:

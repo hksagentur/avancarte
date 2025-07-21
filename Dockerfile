@@ -19,9 +19,16 @@ WORKDIR /app
 
 FROM base as development
 
+ARG UID
+ARG GID
+
 ENV NODE_ENV="development"
 
-COPY --link --chown=node:node package*.json ./
+COPY --link --chown=${UID}:${GID} package*.json ./
+
+ENV NODE_ENV="development"
+
+COPY --link --chown=${UID}:${GID} package*.json ./
 
 RUN <<-EOR
 	set -e
