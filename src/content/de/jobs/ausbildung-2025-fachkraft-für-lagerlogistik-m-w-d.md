@@ -1,31 +1,27 @@
 ---
-title: "Ausbildung 2025: Fachkraft für Lagerlogistik (m/w/d)"
+title: "Ausbildung 2026: Fachkraft für Lagerlogistik (m/w/d)"
 draft: false
-download: https://www.ausbildung.de/stellen/ausbildung-fachkraft-fuer-lagerlogistik-m-w-d-bei-avancarte-gmbh-in-bremen-2e7f9310-d08f-4ff5-b918-fcb71e33c481/?utm_source=share_vacancy-mail
+download: /assets/media/azubi_fachkraft_fuer_lagerlogistik_gh_2026.pdf
 ---
 **AvanCarte GmbH** – mit uns haben Sie gute Karten! Seit 1974 machen wir mit unseren stilvollen Glückwunsch- und Grußkarten sowie Geschenkverpackungen schöne Momente noch schöner. Seien auch Sie mit dabei, unseren Kunden ein Lächeln ins Gesicht zu zaubern.
 
+An unserem Standort Bremen bieten wir qualifizierte und praxisorientierte Ausbildungsplätze und suchen Dich für eine Ausbildung zur Fachkraft für Lagerlogistik (m/w/d)
 
-An unserem Standort Bremen bieten wir qualifizierte und praxisorientierte Ausbildungsplätze und suchen Sie für eine Ausbildung zur Fachkraft für Lagerlogistik (m/w/d).
-
-
-Ausbildungsbeginn: 1. August 2025
+Ausbildungsbeginn: 1. August 2026
 Ausbildungsdauer: 3 Jahre
 Berufsschule: Berufsbildende Schule für Einzelhandel und Logistik in Bremen
 
-
 **Das machen Sie bei uns**
 
- In der Berufsschule wird Ihnen das theoretische Wissen vermittelt. Der praktische Teil findet bei uns statt. Bei AvanCarte erhalten Sie nicht nur Einblicke in die Welt der Lagerlogistik, sondern durchlaufen auch andere Abteilungen, in denen Sie ein eigener Arbeitsplatz erwartet. Vom ersten Tag an werden Sie als Teammitglied aktiv eingebunden und arbeiten auch eigenverantwortlich. 
+ In der Berufsschule wird dir das theoretische Wissen vermittelt. Der praktische Teil findet bei uns statt. Bei AvanCarte erhälst du nicht nur Einblicke in die Welt der Lagerlogistik, sondern durchläufst auch andere Abteilungen, in denen dich ein eigener Arbeitsplatz erwartet. Vom ersten Tag an wirst du als Teammitglied aktiv eingebunden und arbeitest auch eigenverantwortlich. 
 
 Der klassische Aufgabenbereich umfasst:
-**... Warenannahme**: Sie kontrollieren eingehende Lieferungen anhand von Papieren auf Vollständigkeit und Richtigkeit.
-**... Warenlagerung:** Alles hat seinen Lagerplatz und Sie sorgen dafür, dass die Ware gut zu finden ist.
-**... Kommissionierung**: Sie bearbeiten Aufträge und stellen für unsere Kunden Pakete mit den richtigen Mengen zusammen.
-**... Versand:** Damit die Ware gut ankommt, verpacken Sie sie transportsicher. Sie beschriften die Pakete ordentlich und legen die dazugehörigen Formulare bei. Erst dann ist alles versandfertig.
+**... Warenannahme**: Du kontrollierst eingehende Lieferungen anhand von Papieren auf Vollständigkeit und Richtigkeit.
+**... Warenlagerung:** Alles hat seinen Lagerplatz und du sorgst dafür, dass die Ware gut zu finden ist.
+**... Kommissionierun**: Du bearbeitest Aufträge und stellst für unsere Kunden Pakete mit den richtigen Mengen zusammen.
+**... Versand:** Damit die Ware gut ankommt, verpackst du sie transportsicher. Du beschriftest die Pakete ordentlich und legst die dazugehörigen Formulare bei. Erst dann ist alles versandfertig.
 
-
-**Das bringen Sie mit**
+**Das bringst Du mit**
 ... mindestens einen guten Hauptschulabschluss
 ... ein gutes Zahlenverständnis sowie logisches Denken
 ... Interesse für wirtschaftliche Zusammenhänge
@@ -33,9 +29,8 @@ Der klassische Aufgabenbereich umfasst:
 ... eine aufgeschlossene Art und Teamgeist
 ... hohes Engagement, Zuverlässigkeit und Sorgfalt
 
-
-**Darauf können Sie sich freuen**
-... eine umfassende Betreuung durch Ihre Ausbilder:in im Betrieb und gezielte Vorbereitung auf die Abschlussprüfung
+**Darauf kannst Du dich freuen** 
+... eine umfassende Betreuung durch deine Ausbilder:in im Betrieb und gezielte Vorbereitung auf die Abschlussprüfung
 ... hohe Übernahmequote nach erfolgreichem Ausbildungsabschluss
 ... eine sichere Anstellung in einem familiengeführten Unternehmen, das seit 1974 erfolgreich am Markt ist
 ... vermögenswirksame Leistungen, Weihnachtsgeld, 29 Tage Urlaub, Heiligabend und Silvester frei
@@ -45,11 +40,11 @@ Der klassische Aufgabenbereich umfasst:
 ... kostenlose Getränke im Betrieb
 ... Firmenevents und Messebesuche
 ... zentrale Lage mit guter Anbindung (Bus, Bahn und Autobahn) und firmeneigener Parkplatz
-... Personalrabatt auf unsere Artikel
-
+... Personalrabatt auf unsere Artike 
 
 **Interessiert?**
-Dann freut sich unsere Ausbildungsleitung Frau Stuckenbrock auf Ihre Fragen vorab: 0421 / 43 443 26 – oder Ihre aussagefähigen Bewerbungsunterlagen (Anschreiben, Lebenslauf, Kopien der letzten zwei Zeugnisse und evtl. Praktikumsbescheinigungen) per E-Mail an: maike.stuckenbrock@avancarte.de
+Dann freut sich unsere Ausbildungsleitung Frau Stuckenbrock auf deine Fragen vorab: 0421 / 43 443 26 – oder deine aussagefähigen Bewerbungsunterlagen (Anschreiben, Lebenslauf, Kopien der letzten zwei Zeugnisse und evtl. Praktikumsbescheinigungen) per E-Mail an: maike.stuckenbrock@avancarte.de
+
 **AvanCarte GmbH**
 Maike Stuckenbrock • Insterburger Straße 16/18 • 28207 Bremen
 info@avancarte.de • www.avancarte.de • 0421 / 43 443-0
