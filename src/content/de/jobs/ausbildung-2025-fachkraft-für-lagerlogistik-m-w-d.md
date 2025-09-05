@@ -1,6 +1,7 @@
 ---
 title: "Ausbildung 2026: Fachkraft für Lagerlogistik (m/w/d)"
 draft: false
+url: https://www.ausbildung.de/stellen/ausbildung-fachkraft-fuer-lagerlogistik-m-w-d-bei-avancarte-gmbh-in-bremen-b0dc9829-a7ba-4364-88d3-7bb856d8c271/
 download: /assets/media/azubi_fachkraft_fuer_lagerlogistik_gh_2026.pdf
 ---
 **AvanCarte GmbH** – mit uns haben Sie gute Karten! Seit 1974 machen wir mit unseren stilvollen Glückwunsch- und Grußkarten sowie Geschenkverpackungen schöne Momente noch schöner. Seien auch Sie mit dabei, unseren Kunden ein Lächeln ins Gesicht zu zaubern.
