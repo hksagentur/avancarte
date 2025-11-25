@@ -1,9 +1,9 @@
 ---
-title: Joey Petr
+title: Joey Petersen
 firstname: Joey
-lastname: Petr
+lastname: Petersen
 role: Projektbetreuer
-email: joey.petr@avancarte.de
+email: joey.petersen@avancarte.de
 photo: /assets/media/joey-petr.jpg
 group: 4-Projektabwicklung
 order: 2
