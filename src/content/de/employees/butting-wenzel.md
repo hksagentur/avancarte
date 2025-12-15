@@ -2,7 +2,7 @@
 title: Dirk Hanke
 firstname: "Dirk "
 lastname: Hanke
-role: Leiter Verkauf und Marketing
+role: Leiter Vertrieb und Marketing
 email: dirk.hanke@avancarte.de
 photo: /assets/media/hanke.jpg
 group: 2-Verkaufsleitung
