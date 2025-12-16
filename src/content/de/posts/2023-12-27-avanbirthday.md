@@ -1,21 +1,21 @@
 ---
-title: AvanColour your Life
+title: "AvanCrazy 3D "
 draft: false
 description: ""
-cover: /assets/media/neon.jpg
+cover: /assets/media/crazy.jpg
 attachments:
-  - url: /assets/media/colour_your_life.pdf
-    title: AvanColour your Life
+  - url: /assets/media/crazy3d.pdf
+    title: AvanCrazy3D
 ---
-**Neonstarke Geburtstagsgrüße, die ins Auge stechen**
+**Grüße mit Wow-Effekt**
 
-Unsere Geburtstagsserie leuchtet im wahrsten Sinne des
-Wortes: Coole Fotomotive treffen auf strahlende
-Neon-Farbakzente, die jede Karte zu einem echten Highlight
-machen. Die leuchtenden Farben sorgen für den Wow-Effekt
-und setzen deine Glückwünsche gekonnt in Szene.
-Mit auffälligen Zahlenmotiven für jeden Geburtstag und
-fröhlichen Designs für Kinder bringt diese Serie frische,
-energiegeladene Grüße, die begeistern und lange in
-Erinnerung bleiben. Neon macht den Unterschied –
-für Karten, die
+
+Sag´s mit Stil und Herz! Unser neues Grußkartenprogramm
+begeistert mit 56 besonderen Motiven im handlichen
+B6-Format. Jedes Design ist ein kleines Kunstwerk mit beeindruckendem
+3D-Eff ekt, der die Motive lebendig werden
+lässt. Ob moderne Fotomotive zum Schmunzeln oder
+liebevoll gestaltete Kindermotive – Hier fi ndet sich für jeden
+Geschmack die perfekte Geburtstagskarte.
+Die Heißfolien-Veredelung sorgt für einen eleganten Glanz
+und macht jede Karte zu einem echten Blickfang.
