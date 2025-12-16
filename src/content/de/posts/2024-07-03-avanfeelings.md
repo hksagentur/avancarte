@@ -1,24 +1,22 @@
 ---
-title: AvanKonfetti
+title: AvanBalloon
 draft: false
-description: |-
-  Feiere den Moment –
-  Die Grußkartenserie mit Konfetti-Magie!
-cover: /assets/media/konfetti.jpg
+description: ""
+cover: /assets/media/balloon.jpg
 attachments:
-  - url: /assets/media/konfetti.pdf
+  - url: /assets/media/avanballoon.pdf
     title: AvanKonfetti
 ---
-Stellen Sie sich vor, wie ein Lächeln entsteht, sobald die
-Karte geöffnet wird und ein bunter Konfettiregen die Luft
-erhellt. Unsere neue Grußkartenserie zaubert magische
-Überraschungen für Geburtstagskinder jeden Alters. Mit 40
-einzigartigen, farbenfrohen Designs – für den runden Geburtstag,
-den ersten Kindergeburtstag oder einfach den perfekten
-Moment. Diese Karten sind mehr als Glückwünsche
-– sie sind kleine, unvergessliche Feuerwerke der Freude!
-Ob für große oder kleine Geburtstagskinder: An der Lasche
-ziehen, Konfettiregen fliegen lassen und ein Funkeln in den
-Augen schenken. Und für diejenigen die nicht genug bekommen
-können: Konfettikanone neu befüllen und noch
-einmal verwenden.
+**Hoch sollst du leben!**
+
+
+Vom 1. Geburtstag bis zum 100. Jubeltag – jede Zahl steht
+für einen einzigartigen Moment im Leben. Unsere liebevoll
+gestalteten Zahlenkarten lassen jedes Alter erstrahlen – ob
+verspielt in Pink, strahlend in Blau oder fröhlich bunt wie
+das Leben selbst. Die Zahlen als schwebende Luftballons
+symbolisieren Leichtigkeit, Freude und das Gefühl, dass
+jeder Geburtstag etwas ganz Besonderes ist.
+Und für die Menschen, die uns das Leben geschenkt haben,
+gibt es natürlich auch herzliche Geburtstagskarten
+– mit ganz viel Liebe für Mama und Papa gestaltet.
