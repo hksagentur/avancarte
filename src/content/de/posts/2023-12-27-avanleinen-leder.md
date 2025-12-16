@@ -1,26 +1,21 @@
 ---
-title: AvanGreenCarte
+title: AvanSwing
 draft: false
 description: ""
-cover: /assets/media/greencarte.jpg
+cover: /assets/media/swing.jpg
 attachments:
-  - url: /assets/media/greencarte.pdf
-    title: AvanGreenCarte
+  - url: /assets/media/avanswing.pdf
+    title: AvanSwing
 ---
-**Handgeschrieben, liebevoll und mit Rücksicht auf die Natur**
+**Mehr als Sie sehen - Botschaften mit Herz**
 
-Unsere neue Grußkartenserie verbindet auf elegante Weise
-Tradition und Umweltbewusstsein.
-Gedruckt auf hochwertigem Graspapier und veredelt mit
-feiner Heißfolienprägung, fangen diese Karten die Schönheit
-des Moments ein – für jeden Anlass.
-Die schlichte, doch stilvolle Präsentation auf unseren
-ellipseförmigen Drehständern lädt zum Stöbern ein.
-Ganz ohne Cellophanverpackung, stehen diese Karten für
-echte Werte: Nachhaltigkeit, Ehrlichkeit und emotionale
-Tiefe. Ob für besondere Glückwünsche, herzliche Dankessagen
-oder fröhliche Kindergeburtstage – hier finden Sie
-perfekte Motiv, das Freude schenkt.
-Und auch für die stillen Momente im Leben ist gesorgt:
-Einfühlsame Trauerkarten bringen in schweren Zeiten Trost
-und Verbundenheit.
+
+„AvanSwing“ verbindet hochwertige Gestaltung mit einer
+einzigartigen Idee: Jede Karte enthält eine liebevoll
+integrierte Applikation mit einer versteckten Botschaft.
+So entsteht ein besonderer Moment des Entdeckens, der in
+Erinnerung bleibt. Mit stilvollen Motiven für alle wichtigen
+Anlässe überzeugen diese Grußkarten durch Vielfalt und
+Herz: Von klassischen Geburtstagskarten für Kinder und Erwachsene
+über Hochzeitskarten bis hin zu Gutscheinkarten.
+Für Botschaften, die wirken und Momente, die bleiben.
