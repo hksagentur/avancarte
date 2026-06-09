@@ -1,6 +1,6 @@
 ---
 title: TRENDS UP WEST
-draft: true
+draft: false
 startDate: 2026-06-27
 endDate: 2026-06-29
 description: ""
