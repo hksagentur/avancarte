@@ -2,8 +2,7 @@
 title: "Ausbildung 2026: Kaufmann / Kauffrau für Groß- und
   Außenhandelsmanagement (m/w/d)"
 draft: false
-url: Ausbildung Kaufmann/-frau für Groß- und Außenhandelsmanagement (m/w/d) bei
-  AvanCarte GmbH in Bremen
+url: ""
 download: /assets/media/azubi_kfmfrau_fuer_groß-außenhandelsmanagement_gh.pdf
 ---
 AvanCarte GmbH – mit uns hast du gute Karten! Seit 1974 machen wir mit unseren stilvollen Glückwunsch- und Grußkarten sowie Geschenkverpackungen schöne Momente noch schöner. Sei auch du mit dabei, unseren Kunden ein Lächeln ins Gesicht zu zaubern.
