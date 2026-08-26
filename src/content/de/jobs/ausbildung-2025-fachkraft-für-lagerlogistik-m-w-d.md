@@ -1,6 +1,6 @@
 ---
 title: "Ausbildung 2026: Fachkraft für Lagerlogistik (m/w/d)"
-draft: false
+draft: true
 url: https://www.ausbildung.de/stellen/ausbildung-fachkraft-fuer-lagerlogistik-m-w-d-bei-avancarte-gmbh-in-bremen-b0dc9829-a7ba-4364-88d3-7bb856d8c271/
 download: /assets/media/azubi_fachkraft_fuer_lagerlogistik_gh_2026.pdf
 ---
