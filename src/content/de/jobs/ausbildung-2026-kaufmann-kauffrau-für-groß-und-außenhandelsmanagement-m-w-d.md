@@ -1,7 +1,7 @@
 ---
 title: "Ausbildung 2026: Kaufmann / Kauffrau für Groß- und
   Außenhandelsmanagement (m/w/d)"
-draft: false
+draft: true
 url: ""
 download: /assets/media/azubi_kfmfrau_fuer_groß-außenhandelsmanagement_gh.pdf
 ---
