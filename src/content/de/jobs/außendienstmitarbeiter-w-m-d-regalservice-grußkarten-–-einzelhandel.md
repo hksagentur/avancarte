@@ -1,6 +1,6 @@
 ---
 title: Außendienstmitarbeiter (w/m/d) Regalservice Grußkarten – Einzelhandel
-draft: true
+draft: false
 description: Zur Verstärkung unseres Außendienstteams in der Region
   (süd-)östlich vom Schwarzwald suchen wir eine*n engagierte*n Mitarbeiter*in
   für den Regalservice.
