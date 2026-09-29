@@ -10,7 +10,7 @@ download: /assets/media/13503_avancarte_aussendienstmitarbeiter-w-m-d-regalservi
 
 Seit 50 Jahren zaubern wir mit unseren Produkten den Menschen ein Lächeln ins Gesicht. Als eines der führenden Verlags- und Handelsunternehmen für Grußkarten, Geschenkverpackungen und Motivservietten zählt unsere vielfältige Kollektion zu den Spitzenangeboten der Branche.
 
-Kommen Sie als festangestellte**r Mitarbeiter**in Regalservicein Vollzeit in unser Team und betreuen Sie dieRegion (süd-)östlich vom Schwarzwald *(idealer Wohnort: Rottweil)*.
+Kommen Sie als **festangestellter Mitarbeiter (w/m/d) Regalservice in Vollzeit** in unser Team und betreuen Sie die **Region (süd-)östlich vom Schwarzwald (idealer Wohnort: Rottweil)**.
 
 ## Was Sie bei uns tun
 
