@@ -1,9 +1,7 @@
 ---
 title: Außendienstmitarbeiter (w/m/d) Regalservice Grußkarten – Einzelhandel
 draft: false
-description: Zur Verstärkung unseres Außendienstteams in der Region
-  (süd-)östlich vom Schwarzwald suchen wir eine*n engagierte*n Mitarbeiter*in
-  für den Regalservice.
+description: "Region (süd-)östlich vom Schwarzwald (idealer Wohnort: Rottweil)"
 download: /assets/media/13503_avancarte_aussendienstmitarbeiter-w-m-d-regalservice-grusskarten-einzelhandel_rottweil.pdf
 ---
 **AvanCarte GmbH … mit uns haben Sie gute Karten!**
