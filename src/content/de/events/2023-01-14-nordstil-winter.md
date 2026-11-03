@@ -1,6 +1,8 @@
 ---
 title: Nordstil Winter
-startDate: 2023-01-14
-endDate: 2023-01-16
+draft: true
+startDate: 2027-01-09
+endDate: 2027-01-11
 location: Hamburg
+stand: Halle B3.EG, Stand A07
 ---
